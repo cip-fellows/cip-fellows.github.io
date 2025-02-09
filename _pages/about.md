@@ -8,7 +8,7 @@ news: false # includes a list of news items
 selected_papers: false # includes a list of papers marked as "selected={true}"
 social: false # includes social icons at the bottom of the page
 ---
-# Program Overview
+## Program Overview
 
 A critical role within scientific research teams is the cyberinfrastructure (CI) professional who has interdisciplinary skills that bridge the science, engineering, and computing specialties. Readily finding such personnel, with the necessary experience needed to navigate CI ecosystems has become a bottleneck for many projects. The Cyberinfrastructure Professional (CIP) Fellows Program is designed to address this need by training and mentoring a team of interdisciplinary Researcher-Facing <a href="https://carcc.org/about/" rel="noopener" target="_blank">(CARCC)</a> CI Professionals with individualized training program in advanced computing and workforce development topics, embedding them into institutional departments, teaching them how to support and facilitate research projects, fostering a long-term CIP community, and defining sustainable career paths specifically for these kinds of professionals.
 
@@ -18,7 +18,7 @@ Eligible candidates include those who have domain science and/or computing backg
 
 **The CIP-Fellows program is seeking candidates who have the appropriate science and/or computing background and the motivation to work with research teams.**
 
-# How It Works
+## How It Works
 
 Our training approach demonstrates a pedagogical method that is part and parcel of how to develop this unique type of CIP workforce. Namely, it is the combination of individual training, being embedded into projects, coupled with ongoing mentoring, that will most effectively develop personnel with the array of needed skills. Once a Fellow is selected, we will design a customized training program with the goal that they can acquire the combination of technical competencies and soft skills needed to work independently with research teams and to facilitate team research. Training topics can include parallel programming concepts, HPC skills, data management, data sciences skills, AI/ML skills, scientific domain applications and libraries, working on different HPC architectures, and workforce development skills.  A core activity will include giving the CIP-Fellows the opportunity to work on science research efforts identified by the NSF <a href="https://support.access-ci.org/matchplus">ACCESS MATCH</a> program. 
 
