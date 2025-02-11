@@ -1,4 +1,4 @@
-name: Build and GH-Page Deploy
+name: Build and Deploy to GH Pages
 
 on:
   push:
@@ -10,33 +10,37 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Checkout
-        uses: actions/checkout@v2
-        with:
-          persist-credentials: false
+      # Check out your source code
+      - name: Checkout source
+        uses: actions/checkout@v3
 
-      - name: Setup Ruby
+      # Set up Ruby (bundler-cache enabled for faster builds)
+      - name: Set up Ruby
         uses: ruby/setup-ruby@v1
         with:
           ruby-version: '3.1.2'
-          
+          bundler-cache: true
+
+      # Install Jupyter (required by jekyll-jupyter-notebook)
       - name: Install Jupyter
         run: pip install jupyter
 
+      # Set up Node.js and install dependencies
+      - name: Set up Node.js
+        uses: actions/setup-node@v3
+        with:
+          node-version: '16'
+      - name: Install Node Modules
+        run: npm install
 
-      - name: Install Bundler
-        run: gem install bundler
+      # Build your Jekyll site (ensuring that the build is not run in safe mode)
+      - name: Build site
+        run: bundle exec jekyll build
+        env:
+          JEKYLL_ENV: production
 
-      - name: Install Gem Dependencies
-        run: bundle install
-
-      - name: Install Node Dependencies
-        run: npm i
-
-      - name: Build
-        run: npm run build
-
-      - name: Deploy to GH Page
+      # Deploy the _site folder to the gh-pages branch
+      - name: Deploy to GH Pages
         uses: JamesIves/github-pages-deploy-action@4.1.1
         with:
           branch: gh-pages
