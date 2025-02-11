@@ -50,11 +50,19 @@ layout: default
 
     <!-- Latest posts -->
     {% if site.latest_posts and site.latest_posts.enabled %}
-      <h2>
-        <a href="{{ '/blog/' | relative_url }}" style="color: inherit">latest posts</a>
-      </h2>
-      {% include latest_posts.liquid %}
-    {% endif %}
+      {% capture posts_output %}
+        {% include latest_posts.liquid %}
+      {% endcapture %}
+      {% assign posts_output = posts_output | strip %}
+      {% if posts_output == "" %}
+        <p>There are no posts to display right now.</p>
+      {% else %}
+        <h2>
+          <a href="{{ '/blog/' | relative_url }}" style="color: inherit">Latest Posts</a>
+        </h2>
+        {{ posts_output }}
+      {% endif %}
+    {% endif %}    
 
     <!-- Selected papers -->
     {% if page.selected_papers %}
