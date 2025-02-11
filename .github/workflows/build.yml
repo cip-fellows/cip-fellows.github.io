@@ -13,9 +13,6 @@ jobs:
       - name: Checkout source
         uses: actions/checkout@v3
 
-      - name: Install Gem Dependencies
-        run: bundle install
-
       - name: Set up Ruby
         uses: ruby/setup-ruby@v1
         with:
@@ -31,6 +28,9 @@ jobs:
           node-version: '16'
       - name: Install Node Modules
         run: npm install
+
+      - name: Install Gem Dependencies
+        run: bundle install
 
       - name: Install Node Dependencies
         run: npm i
