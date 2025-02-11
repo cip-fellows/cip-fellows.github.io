@@ -1,7 +1,6 @@
 source 'https://rubygems.org'
 
 gem 'jekyll'
-gem "webrick"
 
 # Core plugins that directly affect site building
 group :jekyll_plugins do
