@@ -1,1 +1,1 @@
-User-agent: * Disallow: Sitemap: https://cip-fellows.github.io//sitemap.xml
+User-agent: * Disallow: Sitemap: https://cip-fellows.sdsc.edu//sitemap.xml
