@@ -1,1 +1,1 @@
-User-agent: * Disallow: Sitemap: https://cip-fellows.sdsc.edu//sitemap.xml
+User-agent: * Disallow: /video/ Disallow: /ScienceWomen/ Sitemap: https://cip-fellows.sdsc.edu//sitemap.xml
