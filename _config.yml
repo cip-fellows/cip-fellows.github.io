@@ -4,14 +4,12 @@
 
 title: CIP Fellows # the website title (if blank, full name will be used instead)
 contact_note: >
-  You can even add a little note about which of these is the best way to reach you.
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
-  A simple, whitespace theme for academics. Based on [*folio](https://github.com/bogoli/-folio) design.
 footer_text: >
   A joint program between UC San Diego, San Diego State and CSU San Bernardino partners to develop a Cyberinfrastructure Professional workforce. This interdisciplinary training program is supported by National Science Foundation Grant <a href="https://www.nsf.gov/awardsearch/showAward?AWD_ID=2230127&amp;HistoricalAwards=false">#230127</a>.
 keywords: jekyll, jekyll-theme, academic-website, portfolio-website # add your own keywords or leave empty
 lang: en # the language of your site (for example: en, fr, cn, ru, etc.)
-icon: ⚛️ # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
+icon: 🧑‍💻 # gender-neutral technologist emoji
 
 url: https://cip-fellows.sdsc.edu # the base hostname & protocol for your site
 # url: https://cip-fellows.github.io # the base hostname & protocol for your site
@@ -46,9 +44,9 @@ rss_icon: false
 
 navbar_fixed: true
 footer_fixed: true
-search_enabled: false
+search_enabled: true
 socials_in_search: false
-bib_search: true
+bib_search: false
 
 # Dimensions
 max_width: 930px
@@ -93,8 +91,8 @@ pagination:
   enabled: true
 
 related_blog_posts:
-  enabled: false
-  max_related: 5
+  enabled: true
+  max_related: 3
 
 # Giscus comments (RECOMMENDED)
 # Follow instructions on https://giscus.app/ to setup for your repo to fill out the information below.
@@ -112,7 +110,7 @@ giscus:
   lang: en
 
 # Disqus comments (DEPRECATED)
-disqus_shortname: al-folio # put your disqus shortname
+disqus_shortname: # put your disqus shortname
 # https://help.disqus.com/en/articles/1717111-what-s-a-shortname
 
 # External sources.

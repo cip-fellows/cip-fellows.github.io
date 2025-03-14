@@ -1,15 +1,15 @@
 ---
 layout: page
-title: projects
-permalink: /projects/
-description: A growing collection of your cool projects.
-nav: false
-nav_order: 3
-display_categories: [work, fun]
+title: Fellows
+permalink: /fellows/
+description: About the current CIP Fellows and alumni, along with links to their individual pages
+nav: true
+nav_order: 4
+display_categories: [current, alumni]
 horizontal: false
 ---
 
-<!-- pages/projects.md -->
+<!-- pages/fellows.md -->
 <div class="projects">
 {% if site.enable_project_categories and page.display_categories %}
   <!-- Display categorized projects -->

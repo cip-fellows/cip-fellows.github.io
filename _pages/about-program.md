@@ -1,10 +1,10 @@
 ---
 layout: profiles
-permalink: /people/
-title: people
-description: members of the lab or group
-nav: false
-nav_order: 7
+permalink: /program/
+title: Program
+description: About the CIP Fellows Program
+nav: true
+nav_order: 2
 
 profiles:
   # if you want to include more than one profile, just replicate the following block
