@@ -35,7 +35,7 @@ ninja.data = [{
           description: "",
           section: "Navigation",
           handler: () => {
-            window.location.href = "/news-events/";
+            window.location.href = "/news-events/index.html";
           },
         },{id: "news-this-is-a-test-announcement",
           title: 'This is a test announcement.',
