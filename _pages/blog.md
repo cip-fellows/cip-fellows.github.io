@@ -1,9 +1,9 @@
 ---
 layout: default
-permalink: /blog/
-title: blog
-nav: false
-nav_order: 1
+permalink: /news-events/
+title: News & Events
+nav: true
+nav_order: 5
 pagination:
   enabled: true
   collection: posts
