@@ -48,7 +48,7 @@ layout: default
       {% include news.liquid limit=true %}
     {% endif %}
 
-    <!-- Latest posts -->
+    <!-- Latest posts
     {% if site.latest_posts and site.latest_posts.enabled %}
       {% capture posts_output %}
         {% include latest_posts.liquid %}
@@ -63,6 +63,7 @@ layout: default
         {{ posts_output }}
       {% endif %}
     {% endif %}    
+   -->
 
     <!-- Selected papers -->
     {% if page.selected_papers %}
