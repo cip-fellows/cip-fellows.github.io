@@ -37,22 +37,67 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/news-events/index.html";
           },
-        },{id: "news-this-is-a-test-announcement",
-          title: 'This is a test announcement.',
+        },{id: "post-placeholder-post",
+      
+        title: "PLACEHOLDER POST",
+      
+      description: "CyberTraining: Implementation: Small: Developing a Best Practices Training Program in Cyberinfrastructure-Enabled Machine Learning Research",
+      section: "Posts",
+      handler: () => {
+        
+          window.location.href = "/blog/2020/NSF-Awards-the-CIML-Project/";
+        
+      },
+    },{id: "projects-anjali-shinde",
+          title: 'Anjali Shinde',
           description: "",
-          section: "News",},{id: "news-this-is-a-test-announcement",
-          title: 'This is a test announcement.',
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/anjali-shinde/";
+            },},{id: "projects-dung-vu",
+          title: 'Dung Vu',
           description: "",
-          section: "News",},{id: "projects-alumni-1",
-          title: 'Alumni 1',
-          description: "with background image",
           section: "Projects",handler: () => {
-              window.location.href = "/projects/alumni1/";
-            },},{id: "projects-fellow-1",
-          title: 'Fellow 1',
-          description: "with background image",
+              window.location.href = "/projects/dung-vu/";
+            },},{id: "projects-fernando-garzon",
+          title: 'Fernando Garzon',
+          description: "",
           section: "Projects",handler: () => {
-              window.location.href = "/projects/fellow1/";
+              window.location.href = "/projects/fernando-garzon/";
+            },},{id: "projects-henri-li",
+          title: 'Henri Li',
+          description: "",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/henri-li/";
+            },},{id: "projects-hovakin-grabski",
+          title: 'Hovakin Grabski',
+          description: "",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/hovakin-grabski/";
+            },},{id: "projects-kyle-krick",
+          title: 'Kyle Krick',
+          description: "",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/kyle-krick/";
+            },},{id: "projects-nabeel-alzahrani",
+          title: 'Nabeel Alzahrani',
+          description: "",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/nabeel-alzahrani/";
+            },},{id: "projects-paul-hoover",
+          title: 'Paul Hoover',
+          description: "",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/paul-hoover/";
+            },},{id: "projects-victoria-nguyen",
+          title: 'Victoria Nguyen',
+          description: "",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/victoria-nguyen/";
+            },},{id: "projects-youngsu-kim",
+          title: 'Youngsu Kim',
+          description: "",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/youngsu-kim/";
             },},{
       id: 'light-theme',
       title: 'Change theme to light',
