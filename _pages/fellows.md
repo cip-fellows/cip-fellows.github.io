@@ -5,7 +5,7 @@ permalink: /fellows/
 description: About the current CIP Fellows and alumni, along with links to their individual pages
 nav: true
 nav_order: 4
-display_categories: [current, alumni]
+display_categories: ["🎓 Cohort 2025", "🎓 Cohort 2024", "🎓 Cohort 2023"]
 horizontal: false
 ---
 

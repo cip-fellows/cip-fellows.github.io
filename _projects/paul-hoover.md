@@ -4,6 +4,6 @@ title: Paul Hoover
 description: 
 img: 
 importance: 1
-category: 2023
+category: "🎓 Cohort 2023"
 related_publications: false
 ---
