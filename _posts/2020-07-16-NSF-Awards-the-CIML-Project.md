@@ -4,7 +4,7 @@ title: PLACEHOLDER POST
 date: 2020-07-16
 description: "CyberTraining: Implementation: Small: Developing a Best Practices Training Program in Cyberinfrastructure-Enabled Machine Learning Research"
 tags: 
-  - 2023
+  - "2023"
   - Placeholder
 categories: 
 typograms: true
