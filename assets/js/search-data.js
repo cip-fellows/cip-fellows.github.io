@@ -53,11 +53,36 @@ ninja.data = [{
           description: "2025, SDSU | Velit excepteur ullamco ut eiusmod lorem voluptate sint fugiat dolore enim nisi. Ullamco excepteur ut velit eiusmod voluptate lorem sint nisi. Dolor aliquip sit cupidatat cillum proident sed velit ad lorem. Nisi lorem dolore dolor ut ullamco ad sit quis.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/anjali-shinde/";
+            },},{id: "projects-aram-valifar",
+          title: 'Aram Valifar',
+          description: "2025, SDSU",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/aram-valifar/";
+            },},{id: "projects-brendan-dennis",
+          title: 'Brendan Dennis',
+          description: "2025, UCSD",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/brendan-dennis/";
+            },},{id: "projects-choonhan-yoon",
+          title: 'Choonhan Yoon',
+          description: "2025, UCSD",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/choonhan-yoon/";
+            },},{id: "projects-christopher-hill",
+          title: 'Christopher Hill',
+          description: "2025, CSUSB",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/christopher-hill/";
             },},{id: "projects-dung-vu",
           title: 'Dung Vu',
           description: "",
           section: "Projects",handler: () => {
               window.location.href = "/projects/dung-vu/";
+            },},{id: "projects-eric-leslie",
+          title: 'Eric Leslie',
+          description: "2025, UCSD",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/eric-leslie/";
             },},{id: "projects-fernando-garzon",
           title: 'Fernando Garzon',
           description: "",
@@ -78,6 +103,11 @@ ninja.data = [{
           description: "",
           section: "Projects",handler: () => {
               window.location.href = "/projects/kyle-krick/";
+            },},{id: "projects-matthew-mccoy",
+          title: 'Matthew McCoy',
+          description: "2025, UCSD",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/matthew-mccoy/";
             },},{id: "projects-nabeel-alzahrani",
           title: 'Nabeel Alzahrani',
           description: "",
@@ -93,6 +123,11 @@ ninja.data = [{
           description: "",
           section: "Projects",handler: () => {
               window.location.href = "/projects/victoria-nguyen/";
+            },},{id: "projects-vikrant-tripathy",
+          title: 'Vikrant Tripathy',
+          description: "2025, UCSD",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/vikrant-tripathy/";
             },},{id: "projects-youngsu-kim",
           title: 'Youngsu Kim',
           description: "",
