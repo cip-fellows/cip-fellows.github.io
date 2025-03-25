@@ -3,39 +3,39 @@ const ninja = document.querySelector('ninja-keys');
 
 // add the home and posts menu items
 ninja.data = [{
-    id: "nav-home",
-    title: "Home",
+    id: "nav-program-overview",
+    title: "Program Overview",
     section: "Navigation",
     handler: () => {
       window.location.href = "/";
     },
-  },{id: "nav-program",
-          title: "Program",
-          description: "About the CIP Fellows Program",
-          section: "Navigation",
-          handler: () => {
-            window.location.href = "/program/";
-          },
-        },{id: "nav-team",
+  },{id: "nav-team",
           title: "Team",
           description: "About the CIP Fellows Team, including PIs and Co-PIs.",
           section: "Navigation",
           handler: () => {
             window.location.href = "/team/";
           },
-        },{id: "nav-fellows",
-          title: "Fellows",
+        },{id: "nav-cip-fellows",
+          title: "CIP Fellows",
           description: "About the current CIP Fellows and alumni, along with links to their individual pages",
           section: "Navigation",
           handler: () => {
-            window.location.href = "/fellows/";
+            window.location.href = "/cip-fellows/";
           },
-        },{id: "nav-news-amp-events",
-          title: "News &amp; Events",
+        },{id: "nav-project-outcomes",
+          title: "Project Outcomes",
+          description: "About the CIP Fellows Program",
+          section: "Navigation",
+          handler: () => {
+            window.location.href = "/project-outcomes/";
+          },
+        },{id: "nav-community-engagement",
+          title: "Community Engagement",
           description: "",
           section: "Navigation",
           handler: () => {
-            window.location.href = "/news-events/index.html";
+            window.location.href = "/community-engagement/index.html";
           },
         },{id: "post-placeholder-post",
       
@@ -50,7 +50,7 @@ ninja.data = [{
       },
     },{id: "projects-anjali-shinde",
           title: 'Anjali Shinde',
-          description: "",
+          description: "2025, SDSU | Velit excepteur ullamco ut eiusmod lorem voluptate sint fugiat dolore enim nisi. Ullamco excepteur ut velit eiusmod voluptate lorem sint nisi. Dolor aliquip sit cupidatat cillum proident sed velit ad lorem. Nisi lorem dolore dolor ut ullamco ad sit quis.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/anjali-shinde/";
             },},{id: "projects-dung-vu",
