@@ -1,7 +1,7 @@
 ---
 layout: default
-permalink: /news-events/
-title: News & Events
+permalink: /community-engagement/
+title: Community Engagement
 nav: true
 nav_order: 5
 pagination:

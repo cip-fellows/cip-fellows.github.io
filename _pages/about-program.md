@@ -1,10 +1,10 @@
 ---
 layout: about
-permalink: /program/
-title: Program
+permalink: /project-outcomes/
+title: Project Outcomes
 description: About the CIP Fellows Program
 nav: true
-nav_order: 2
+nav_order: 4
 ---
 
 
