@@ -110,7 +110,7 @@ ninja.data = [{
               window.location.href = "/projects/matthew-mccoy/";
             },},{id: "projects-nabeel-alzahrani",
           title: 'Nabeel Alzahrani',
-          description: "",
+          description: "Adjunct Professor in the Computer Science and Engineering Department &amp; Security Consultant in the Identity, Security, and Enterprise Technology Department",
           section: "Projects",handler: () => {
               window.location.href = "/projects/nabeel-alzahrani/";
             },},{id: "projects-paul-hoover",
