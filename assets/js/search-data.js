@@ -53,11 +53,11 @@ ninja.data = [{
           description: "2025, SDSU | Velit excepteur ullamco ut eiusmod lorem voluptate sint fugiat dolore enim nisi. Ullamco excepteur ut velit eiusmod voluptate lorem sint nisi. Dolor aliquip sit cupidatat cillum proident sed velit ad lorem. Nisi lorem dolore dolor ut ullamco ad sit quis.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/anjali-shinde/";
-            },},{id: "projects-aram-valifar",
-          title: 'Aram Valifar',
+            },},{id: "projects-aram-valafar",
+          title: 'Aram Valafar',
           description: "2025, SDSU",
           section: "Projects",handler: () => {
-              window.location.href = "/projects/aram-valifar/";
+              window.location.href = "/projects/aram-valafar/";
             },},{id: "projects-brendan-dennis",
           title: 'Brendan Dennis',
           description: "2025, UCSD",
