@@ -1,6 +1,12 @@
 # Andreas Goetz
 - Ph.D.
-- Research Scientist, Principal Investigator
+- PI, Mentor
 - SDSC
 
-Andreas Goetz leads the computational chemistry efforts at SDSC, working at the intersection of (bio)chemistry, physics, and high performance and data intensive computing. He is a contributing author to the ADF and QUICK quantum chemistry software and the AMBER software package for biomolecular simulations, which are widely used in academic and industrial research. Andreas collaborates on a variety of research projects in molecular simulation, computational enzymology, drug design, and atmospheric chemistry with support from NSF, DOE, NIH, Intel and Nvidia. Andreas also enjoys training the next generation of scientists in software engineering and numerical simulation methods via lectures, workshops and supervision of interns. He is author of over 65 scientific publications and editor of the book 'Electronic structure calculations on GPUs'. Prior to joining SDSC in 2009 Andreas performed postdoctoral research at the VU University in Amsterdam and obtained his undergraduate and Ph.D. degrees in chemistry from the University of Erlangen in Germany.
+Andreas Goetz is an associate research scientist at SDSC where he leads a research group in Quantum- and AI-Enabled Computational Chemistry, working at the intersection of chemistry, life sciences, and scientific computing. His research draws on quantum mechanics, statistical mechanics, molecular dynamics, and machine learning approaches to enable simulations of complex molecular systems on massively parallel computer architectures. He is a contributing author to the ADF and QUICK quantum chemistry software and the AMBER software for biomolecular simulations, which are widely used in academic and industrial research. He is also co-founder of ATTMOS Inc., which develops technologies for computational drug discovery. Andreas enjoys training the next generation of scientists in software engineering and numerical simulation methods via lectures, workshops, and supervision of interns. He is author of over 75 scientific publications and editor of the book 'Electronic structure calculations on graphics processing units'. Prior to joining SDSC in 2009 Andreas performed postdoctoral research at the VU University in Amsterdam and obtained his undergraduate and Ph.D. degrees in chemistry from the Friedrich-Alexander University in Erlangen, Germany.
+
+**Expertise**
+-	High-Performance Computing
+-	Accelerator Programming (GPUs)
+-	Quantum Chemistry
+-	Molecular Dynamics

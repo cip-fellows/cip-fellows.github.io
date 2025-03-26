@@ -20,18 +20,33 @@ profiles:
     image_circular: false  # crops the image to make it circular
     more_info: 
   - align: right
-    image: AndyGoetz.jpeg
+    image: AndyGoetz.jpg
     content: team/andreas_goetz.md
     image_circular: false  # crops the image to make it circular
     more_info: 
   - align: right
-    image: PaulRodriguez.jpeg
+    image: PaulRodriguez.jpg
     content: team/paul_rodriquez.md
+    image_circular: false  # crops the image to make it circular
+    more_info: 
+  - align: right
+    image: MichaelFarley.jpg
+    content: team/michael_farley.md
+    image_circular: false  # crops the image to make it circular
+    more_info: 
+  - align: right
+    image: CydBurrowsSchilling.jpg
+    content: team/cyd_burrows-schilling.md
     image_circular: false  # crops the image to make it circular
     more_info: 
   - align: right
     image: PeterRose.jpeg
     content: team/peter_rose.md
+    image_circular: false  # crops the image to make it circular
+    more_info: 
+  - align: right
+    image: GerardAu.jpg
+    content: team/gerard_au.md
     image_circular: false  # crops the image to make it circular
     more_info: 
   - align: right

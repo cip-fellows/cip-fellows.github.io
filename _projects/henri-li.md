@@ -2,7 +2,7 @@
 layout: page
 title: Henri Li
 description: 
-img: 
+img: assets/img/HenryLi.jpg
 importance: 1
 category: "🎓 Cohort 2024"
 related_publications: false
