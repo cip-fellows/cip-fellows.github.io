@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Aram Valifar
+title: Aram Valafar
 organization: SDSU
 description: 2025, SDSU
 img:
