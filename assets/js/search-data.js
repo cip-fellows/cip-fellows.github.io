@@ -125,7 +125,7 @@ ninja.data = [{
               window.location.href = "/projects/victoria-nguyen/";
             },},{id: "projects-vikrant-tripathy",
           title: 'Vikrant Tripathy',
-          description: "2025, UCSD",
+          description: "2025, UC San Diego",
           section: "Projects",handler: () => {
               window.location.href = "/projects/vikrant-tripathy/";
             },},{id: "projects-youngsu-kim",
