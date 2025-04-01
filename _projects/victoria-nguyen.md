@@ -1,9 +1,10 @@
 ---
 layout: page
 title: Victoria Nguyen
+institute: UC San Diego
 description: 
 img: assets/img/VictoriaNguyen.jpg
-importance: 1
+importance: 3
 category: "🎓 Cohort 2024"
 related_publications: false
 ---

@@ -1,9 +1,10 @@
 ---
 layout: page
 title: Henri Li
+institute: SDSU
 description: 
 img: assets/img/HenryLi.jpg
-importance: 1
+importance: 2
 category: "🎓 Cohort 2024"
 related_publications: false
 ---
