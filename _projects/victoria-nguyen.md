@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: fellow
 title: Victoria Nguyen
 institute: UC San Diego
 description: 

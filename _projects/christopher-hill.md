@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: fellow
 title: Christopher Hill
 organization: CSUSB
 description: 2025, CSUSB 

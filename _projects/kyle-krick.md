@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: fellow
 title: Kyle Krick
 description: 
 img: 

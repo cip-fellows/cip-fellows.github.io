@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: fellow
 title: Fernando Garzon
 description: 
 img: 

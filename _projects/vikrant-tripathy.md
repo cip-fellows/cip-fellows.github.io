@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: fellow
 title: Vikrant Tripathy
 institute: UC San Diego
 description: 2025, UC San Diego

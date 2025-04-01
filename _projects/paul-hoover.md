@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: fellow
 title: Paul Hoover
 description: 
 img: 

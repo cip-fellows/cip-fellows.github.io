@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: fellow
 title: Eric Leslie 
 organization: UCSD
 description: 2025, UCSD

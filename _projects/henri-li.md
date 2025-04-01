@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: fellow
 title: Henri Li
 institute: SDSU
 description: 

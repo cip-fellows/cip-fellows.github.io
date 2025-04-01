@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: fellow
 title: Brendan Dennis
 organization: UCSD
 description: 2025, UCSD

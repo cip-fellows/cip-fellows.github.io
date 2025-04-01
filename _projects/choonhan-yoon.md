@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: fellow
 title: Choonhan Yoon
 organization: UCD
 description: 2025, UCSD

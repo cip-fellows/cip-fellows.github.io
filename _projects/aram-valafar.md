@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: fellow
 title: Aram Valafar
 organization: SDSU
 description: 2025, SDSU
