@@ -1,6 +1,7 @@
 ---
 layout: page
 title: Hovakin Grabski
+institute: UC San Diego
 description: 
 img: assets/img/HovakimGrabski.png
 importance: 1
