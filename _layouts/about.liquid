@@ -1,12 +1,12 @@
 ---
 layout: default
 ---
+
 <div class="post">
   <header class="post-header">
     <h1 class="post-title">
       {% if site.title == 'blank' %}
-        <span class="font-weight-bold">{{ site.first_name }}</span> {{ site.middle_name }}
-        {{ site.last_name }}
+        <span class="font-weight-bold">{{ site.first_name }}</span> {{ site.middle_name }} {{ site.last_name }}
       {% else %}
         {{ site.title }}
       {% endif %}
@@ -15,75 +15,39 @@ layout: default
   </header>
 
   <article>
-    {% if page.profile %}
-      <div class="profile float-{% if page.profile.align == 'left' %}left{% else %}right{% endif %}">
-        {% if page.profile.image %}
-          {% assign profile_image_path = page.profile.image | prepend: 'assets/img/' %}
-          {% if page.profile.image_circular %}
-            {% assign profile_image_class = 'img-fluid z-depth-1 rounded-circle' %}
-          {% else %}
-            {% assign profile_image_class = 'img-fluid z-depth-1
-      rounded' %}
-          {% endif %}
-          {% capture sizes %}(min-width: {{ site.max_width }}) {{ site.max_width | minus: 30 | times: 0.3}}px, (min-width: 576px)
-      30vw, 95vw"{% endcapture %}
-          {%
-            include figure.liquid loading="eager" path=profile_image_path class=profile_image_class sizes=sizes alt=page.profile.image
-            cache_bust=true
-          %}
-        {% endif %}
-        {% if page.profile.more_info %}
-          <div class="more-info">{{ page.profile.more_info }}</div>
-        {% endif %}
+    <div class="row justify-content-center">
+      <!-- Left Anchor Nav (hidden on mobile) -->
+      <nav class="col-md-2 d-none d-md-block">
+        <div class="nav flex-column sticky-top">
+          <a class="nav-link" href="#program-overview">Program Overview</a>
+          <a class="nav-link" href="#how-it-works">How It Works</a>
+          <a class="nav-link" href="#">How to Apply</a>
+        </div>
+      </nav>
+
+      <!-- Main Content -->
+      <div class="col-12 col-md-7 mt-3 mt-md-0">
+        {{ content }}
       </div>
-    {% endif %}
 
-    <div class="clearfix">{{ content }}</div>
+      <!-- Right-side CTA Cards -->
+      <div class="col-md-3 mt-4 mt-md-0">
+        <div class="card mb-3">
+          <div class="card-body">
+            <h5 class="card-title">Register</h5>
+            <p class="card-text">Sign up to join the CIP-Fellows program.</p>
+            <a href="#" class="btn btn-primary">Go to Registration</a>
+          </div>
+        </div>
 
-    <!-- News -->
-    {% if page.news and site.announcements and site.announcements.enabled %}
-      <h2>
-        <a href="{{ '/news/' | relative_url }}" style="color: inherit">news</a>
-      </h2>
-      {% include news.liquid limit=true %}
-    {% endif %}
-
-    <!-- Latest posts
-    {% if site.latest_posts and site.latest_posts.enabled %}
-      {% capture posts_output %}
-        {% include latest_posts.liquid %}
-      {% endcapture %}
-      {% assign posts_output = posts_output | strip %}
-      {% if posts_output == "" %}
-        <p>There are no posts to display right now.</p>
-      {% else %}
-        <h2>
-          <a href="{{ '/blog/' | relative_url }}" style="color: inherit">Latest Posts</a>
-        </h2>
-        {{ posts_output }}
-      {% endif %}
-    {% endif %}    
-   -->
-
-    <!-- Selected papers -->
-    {% if page.selected_papers %}
-      <h2>
-        <a href="{{ '/publications/' | relative_url }}" style="color: inherit">selected publications</a>
-      </h2>
-      {% include selected_papers.liquid %}
-    {% endif %}
-
-    <!-- Social -->
-    {% if page.social %}
-      <div class="social">
-        <div class="contact-icons">{% include social.liquid %}</div>
-
-        <div class="contact-note">{{ site.contact_note }}</div>
+        <div class="card mb-3">
+          <div class="card-body">
+            <h5 class="card-title">Resources</h5>
+            <p class="card-text">Explore documentation, community links, and examples.</p>
+            <a href="#" class="btn btn-secondary">Learn More</a>
+          </div>
+        </div>
       </div>
-    {% endif %}
-
-    {% if site.newsletter and site.newsletter.enabled and site.footer_fixed %}
-      {% include newsletter.liquid center=true %}
-    {% endif %}
+    </div>
   </article>
 </div>
