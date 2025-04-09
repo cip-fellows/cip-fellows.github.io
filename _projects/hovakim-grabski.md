@@ -1,6 +1,6 @@
 ---
 layout: fellow
-title: Hovakin Grabski
+title: Hovakim Grabski
 institute: UC San Diego
 description: Hovakim Grabski is a visiting scholar from Armenia and Researcher/SysAdmin at Abagyan Lab, UC San Diego and SDSC, with experience in Python programming, ICM programming language for molecular modeling, docking, screening, and infrastructure automation.
 img: assets/img/HovakimGrabski.png
