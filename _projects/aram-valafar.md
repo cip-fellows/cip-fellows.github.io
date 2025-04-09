@@ -3,7 +3,7 @@ layout: fellow
 title: Aram Valafar
 organization: SDSU
 description: 2025, SDSU
-img:
+img: assets/img/default.jpg
 importance: 2
 category: "🎓 Cohort 2025" #change to 2024 again!
 related_publications: false

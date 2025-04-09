@@ -3,7 +3,7 @@ layout: fellow
 title: Anjali Shinde
 institute: SDSU
 description: 2025, SDSU | Velit excepteur ullamco ut eiusmod lorem voluptate sint fugiat dolore enim nisi. Ullamco excepteur ut velit eiusmod voluptate lorem sint nisi. Dolor aliquip sit cupidatat cillum proident sed velit ad lorem. Nisi lorem dolore dolor ut ullamco ad sit quis.
-img:
+img: assets/img/default.jpg
 importance: 2
 category: "🎓 Cohort 2024"
 related_publications: false

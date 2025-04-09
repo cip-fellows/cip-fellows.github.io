@@ -3,7 +3,7 @@ layout: fellow
 title: Christopher Hill
 organization: CSUSB
 description: 2025, CSUSB 
-img:
+img: assets/img/default.jpg
 importance: 1
 category: "🎓 Cohort 2025" #change to 2024 again!
 related_publications: false

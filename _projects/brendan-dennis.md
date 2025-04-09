@@ -3,7 +3,7 @@ layout: fellow
 title: Brendan Dennis
 organization: UCSD
 description: 2025, UCSD
-img:
+img: assets/img/default.jpg
 importance: 3
 category: "🎓 Cohort 2025" #change to 2024 again!
 related_publications: false
