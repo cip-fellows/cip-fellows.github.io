@@ -93,11 +93,11 @@ ninja.data = [{
           description: "",
           section: "Projects",handler: () => {
               window.location.href = "/projects/henri-li/";
-            },},{id: "projects-hovakin-grabski",
-          title: 'Hovakin Grabski',
+            },},{id: "projects-hovakim-grabski",
+          title: 'Hovakim Grabski',
           description: "Hovakim Grabski is a visiting scholar from Armenia and Researcher/SysAdmin at Abagyan Lab, UC San Diego and SDSC, with experience in Python programming, ICM programming language for molecular modeling, docking, screening, and infrastructure automation.",
           section: "Projects",handler: () => {
-              window.location.href = "/projects/hovakin-grabski/";
+              window.location.href = "/projects/hovakim-grabski/";
             },},{id: "projects-kyle-krick",
           title: 'Kyle Krick',
           description: "",
