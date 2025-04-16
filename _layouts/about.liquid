@@ -2,51 +2,108 @@
 layout: default
 ---
 
-<div class="post">
-  <header class="post-header">
-    <h1 class="post-title">
-      {% if site.title == 'blank' %}
-        <span class="font-weight-bold">{{ site.first_name }}</span> {{ site.middle_name }} {{ site.last_name }}
-      {% else %}
-        {{ site.title }}
-      {% endif %}
-    </h1>
-    <p class="desc">{{ page.subtitle }}</p>
-  </header>
+<style>
+  .homepage-container {
+    display: flex;
+    min-height: 80vh;
+    gap: 2rem;
+  }
 
-  <article>
-    <div class="row justify-content-center">
-      <!-- Left Anchor Nav (hidden on mobile) -->
-      <nav class="col-md-2 d-none d-md-block">
-        <div class="nav flex-column sticky-top">
-          <a class="nav-link" href="#program-overview">Program Overview</a>
-          <a class="nav-link" href="#how-it-works">How It Works</a>
-          <!-- <a class="nav-link" href="#">How to Apply</a> --> 
+  .left-pane {
+    flex: 0 0 30%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 2rem;
+  }
+
+  .left-pane .toc-header {
+    margin-bottom: 1.5rem;
+    font-size: 1.5rem;
+    font-weight: bold;
+    cursor: pointer;
+  }
+
+  .right-pane {
+    flex: 1;
+    padding-right: 2rem;
+  }
+
+  .right-pane > section {
+    display: none; /* only one will be shown at a time */
+  }
+
+  .right-pane > section.active {
+    display: block;
+  }
+</style>
+
+<script>
+  document.addEventListener("DOMContentLoaded", function () {
+    const headers = document.querySelectorAll(".toc-header");
+    const sections = document.querySelectorAll(".right-pane > section");
+
+    headers.forEach(header => {
+      header.addEventListener("click", () => {
+        // Remove 'active' from all sections
+        sections.forEach(section => section.classList.remove("active"));
+
+        // Get target section ID from data attribute
+        const targetId = header.getAttribute("data-target");
+        const targetSection = document.getElementById(targetId);
+
+        // Activate the correct section
+        if (targetSection) {
+          targetSection.classList.add("active");
+        }
+      });
+    });
+  });
+</script>
+
+
+<div class="homepage-container">
+  <!-- Left Pane TOC -->
+  <div class="left-pane">
+    <div class="toc-header" data-target="section-overview">Program Overview</div>
+    <div class="toc-header" data-target="section-how">How it Works</div>
+    <div class="toc-header" data-target="section-inquire">Inquire Here</div>
+  </div>
+
+  <!-- Right Pane Content -->
+  <div class="right-pane">
+    <section id="section-overview" class="active">
+      <h2><strong>Program Overview</strong></h2>
+      <p><em>A joint program between San Diego State University and Cal State University, San Bernardino, led by San Diego Supercomputer Center at UC San Diego, in partnership to develop and build a Cybertraining Professional (CIP) workforce.</em></p>
+
+      <p>A critical role within scientific research teams is the cyberinfrastructure (CI) professional who has interdisciplinary skills that bridge the science, engineering, and computing specialties... (rest of content here)</p>
+    </section>
+
+    <section id="section-how">
+      <h2><strong>How it Works</strong></h2>
+      <p>Our training approach demonstrates a pedagogical method that is part and parcel of how to develop this unique type of CIP workforce...</p>
+    </section>
+
+    <section id="section-inquire">
+      <h2><strong>Inquire Here</strong></h2>
+      <p>Placeholder for your paragraph about inquiries.</p>
+
+      <!-- CTA cards moved here from original layout -->
+      <div class="card mb-3">
+        <div class="card-body">
+          <h5 class="card-title">Register</h5>
+          <p class="card-text">Sign up to join the CIP-Fellows program.</p>
+          <a href="#" class="btn btn-primary">Go to Registration</a>
         </div>
-      </nav>
-
-      <!-- Main Content -->
-      <div class="col-12 col-md-7 mt-3 mt-md-0">
-        {{ content }}
       </div>
 
-      <!-- Right-side CTA Cards -->
-      <div class="col-md-3 mt-4 mt-md-0">
-        <div class="card mb-3">
-          <div class="card-body">
-            <h5 class="card-title">Register</h5>
-            <p class="card-text">Sign up to join the CIP-Fellows program.</p>
-            <a href="#" class="btn btn-primary">Go to Registration</a>
-          </div>
-        </div>
-
-        <div class="card mb-3">
-          <div class="card-body">
-            <h5 class="card-title">Inquire Here</h5>
-            <p class="card-text">For more further details about the CIP program, please provide a few details through this information form and we will get in contact with you directly.</p>
-            <a href="#" class="btn btn-primary">Inquire Here</a>
-          </div>
+      <div class="card mb-3">
+        <div class="card-body">
+          <h5 class="card-title">Inquire Here</h5>
+          <p class="card-text">For more details about the CIP program, please fill out this form and we’ll get in touch.</p>
+          <a href="#" class="btn btn-primary">Inquire Here</a>
         </div>
       </div>
-  </article>
+    </section>
+  </div>
 </div>
