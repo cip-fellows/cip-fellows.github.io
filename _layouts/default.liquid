@@ -1,56 +1,125 @@
-<!doctype html>
-<html lang="{{ site.lang }}">
-  <!-- Head -->
-  <head>
-    {% if page.redirect %}
-      {% if page.redirect == true %}
-        {% assign redirect = site.baseurl | append: '/' %}
-      {% elsif page.redirect contains '://' %}
-        {% assign redirect = page.redirect %}
-      {% else %}
-        {% assign redirect = page.redirect | relative_url %}
-      {% endif %}
-      <meta http-equiv="refresh" content="3; url={{ redirect }}">
-    {% endif %}
-    {% include head.liquid %}
-  </head>
+---
+layout: default
+---
 
-  <!-- Body -->
-  <body class="{% if site.navbar_fixed %}fixed-top-nav{% endif %} {% unless site.footer_fixed %}sticky-bottom-footer{% endunless %}">
-    <!-- Header -->
-    {% include header.liquid %}
+<style>
+  .homepage-container {
+    display: flex;
+    min-height: 80vh;
+  }
 
-    <!-- Content -->
-    <div class="container mt-5" role="main">
-      {% if page.toc and page.toc.sidebar %}
-        {% if page.toc.sidebar == 'right' %}
-          <div class="row">
-            <!-- main content area -->
-            <div class="col-sm-9">{{ content }}</div>
-            <!-- sidebar, which will move to the top on a small screen -->
-            <div class="col-sm-3">
-              <nav id="toc-sidebar" class="sticky-top"></nav>
-            </div>
-          </div>
-        {% else %}
-          <div class="row">
-            <!-- sidebar, which will move to the top on a small screen -->
-            <div class="col-sm-3">
-              <nav id="toc-sidebar" class="sticky-top"></nav>
-            </div>
-            <!-- main content area -->
-            <div class="col-sm-9">{{ content }}</div>
-          </div>
-        {% endif %}
-      {% else %}
+  .left-pane,
+  .right-pane {
+    width: 50%;
+    padding: 2rem;
+  }
+
+  .left-pane {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border-right: 1px solid #ddd;
+  }
+
+  .toc-header {
+    margin-bottom: 1.5rem;
+    font-size: 1.5rem;
+    font-weight: bold;
+    cursor: pointer;
+    transition: color 0.2s ease;
+  }
+
+  .toc-header:hover {
+    color: #0056b3;
+  }
+
+  .right-pane > section {
+    display: none;
+  }
+
+  .right-pane > section.active {
+    display: block;
+  }
+
+  .card + .card {
+    margin-top: 1.5rem;
+  }
+</style>
+
+<script>
+  document.addEventListener("DOMContentLoaded", function () {
+    const headers = document.querySelectorAll(".toc-header");
+    const sections = document.querySelectorAll(".right-pane > section");
+
+    headers.forEach(header => {
+      header.addEventListener("click", () => {
+        sections.forEach(section => section.classList.remove("active"));
+        const targetId = header.getAttribute("data-target");
+        const targetSection = document.getElementById(targetId);
+        if (targetSection) {
+          targetSection.classList.add("active");
+        }
+      });
+    });
+
+    // Optional: split markdown content into two sections by header
+    const contentDiv = document.getElementById("markdown-content");
+    const howHeader = contentDiv.querySelector("h2:nth-of-type(2)");
+    if (howHeader) {
+      const howSection = document.createElement("section");
+      howSection.id = "section-how";
+      howSection.innerHTML = "<h2>" + howHeader.innerHTML + "</h2>";
+
+      let sibling = howHeader.nextElementSibling;
+      while (sibling) {
+        const next = sibling.nextElementSibling;
+        howSection.appendChild(sibling);
+        sibling = next;
+      }
+
+      contentDiv.removeChild(howHeader);
+      contentDiv.parentElement.after(howSection);
+    }
+  });
+</script>
+
+<div class="homepage-container">
+  <!-- Left Pane TOC -->
+  <div class="left-pane">
+    <div class="toc-header" data-target="section-overview">Program Overview</div>
+    <div class="toc-header" data-target="section-how">How it Works</div>
+    <div class="toc-header" data-target="section-inquire">Inquire Here</div>
+  </div>
+
+  <!-- Right Pane Content -->
+  <div class="right-pane">
+    <!-- Injected markdown content -->
+    <section id="section-overview" class="active">
+      <div id="markdown-content">
         {{ content }}
-      {% endif %}
-    </div>
+      </div>
+    </section>
 
-    <!-- Footer -->
-    {% include footer.liquid %}
+    <!-- Section 3: CTA section -->
+    <section id="section-inquire">
+      <h2><strong>Inquire Here</strong></h2>
+      <p>For more details or to connect with a program lead, feel free to use the options below.</p>
 
-    <!-- JavaScripts -->
-    {% include scripts.liquid %}
-  </body>
-</html>
+      <div class="card">
+        <div class="card-body">
+          <h5 class="card-title">Register</h5>
+          <p class="card-text">Sign up to join the CIP-Fellows program.</p>
+          <a href="#" class="btn btn-primary">Go to Registration</a>
+        </div>
+      </div>
+
+      <div class="card">
+        <div class="card-body">
+          <h5 class="card-title">Inquire Here</h5>
+          <p class="card-text">For more details about the CIP program, please fill out this form and we’ll get in touch.</p>
+          <a href="#" class="btn btn-primary">Inquire Here</a>
+        </div>
+      </div>
+    </section>
+  </div>
+</div
