@@ -42,4 +42,36 @@
 .fellow-name {
     color: #172540;
   }
-  
+ 
+
+/* Custom Footer Below */
+
+footer {
+  min-height: 180px;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  font-size: 0.9rem;
+  color: #fff;
+  background-color: #111; // default fallback for dark mode
+  border-top: 1px solid #333;
+  display: flex;
+  align-items: center; // vertically center content
+}
+
+@media (prefers-color-scheme: light) {
+  footer {
+    background-color: rgb(26, 37, 63); // your requested color
+    color: chartreuse; 
+    /*color: #fff;*/
+    border-top: 1px solid rgba(255, 255, 255, 0.1);
+  }
+}
+
+footer a {
+  color: inherit;
+  text-decoration: underline;
+}
+
+footer a:hover {
+  opacity: 0.8;
+}
