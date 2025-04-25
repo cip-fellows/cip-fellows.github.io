@@ -23,19 +23,19 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/cip-fellows/";
           },
-        },{id: "nav-project-outcomes",
-          title: "Project Outcomes",
+        },{id: "nav-products",
+          title: "Products",
           description: "About the CIP Fellows Program",
           section: "Navigation",
           handler: () => {
-            window.location.href = "/project-outcomes/";
+            window.location.href = "/products/";
           },
-        },{id: "nav-community-engagement",
-          title: "Community Engagement",
+        },{id: "nav-news-amp-events",
+          title: "News &amp; Events",
           description: "",
           section: "Navigation",
           handler: () => {
-            window.location.href = "/community-engagement/index.html";
+            window.location.href = "/news-events/index.html";
           },
         },{id: "post-placeholder-post",
       
