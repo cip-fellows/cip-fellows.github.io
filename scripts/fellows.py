@@ -7,7 +7,7 @@ importance_map = { #this is so that institutes are in alphabetical order. update
     "CSUSB": 1
 }
 
-output_dir = "_projects"
+output_dir = "../_projects/"
 os.makedirs(output_dir, exist_ok=True)
 
 with open("fellows.csv", newline='', encoding='utf-8') as csvfile:
@@ -29,7 +29,7 @@ description: {row['description']}
 img: {row['img']}
 importance: {importance}
 category: "{row['category']}"
-fellow-type: {row['fellow-type']}
+fellow-type: "{row['fellow-type']}"
 related_publications: {row['related_publications'].lower()}
 ---
 

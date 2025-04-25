@@ -6,6 +6,7 @@ description: 2025, SDSU | Velit excepteur ullamco ut eiusmod lorem voluptate sin
 img: assets/img/default.jpg
 importance: 2
 category: "🎓 Cohort 2024"
+fellow-type: ""
 related_publications: false
 ---
 
