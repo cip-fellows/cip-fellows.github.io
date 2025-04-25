@@ -52,87 +52,87 @@ ninja.data = [{
           title: 'Anjali Shinde',
           description: "2025, SDSU | Velit excepteur ullamco ut eiusmod lorem voluptate sint fugiat dolore enim nisi. Ullamco excepteur ut velit eiusmod voluptate lorem sint nisi. Dolor aliquip sit cupidatat cillum proident sed velit ad lorem. Nisi lorem dolore dolor ut ullamco ad sit quis.",
           section: "Projects",handler: () => {
-              window.location.href = "/projects/anjali-shinde/";
+              window.location.href = "/projects/AnjaliShinde/";
             },},{id: "projects-aram-valafar",
           title: 'Aram Valafar',
           description: "2025, SDSU",
           section: "Projects",handler: () => {
-              window.location.href = "/projects/aram-valafar/";
+              window.location.href = "/projects/AramValafar/";
             },},{id: "projects-brendan-dennis",
           title: 'Brendan Dennis',
           description: "2025, UCSD",
           section: "Projects",handler: () => {
-              window.location.href = "/projects/brendan-dennis/";
+              window.location.href = "/projects/BrendanDennis/";
             },},{id: "projects-choonhan-yoon",
           title: 'Choonhan Yoon',
           description: "2025, UCSD",
           section: "Projects",handler: () => {
-              window.location.href = "/projects/choonhan-yoon/";
+              window.location.href = "/projects/ChoonhanYoon/";
             },},{id: "projects-christopher-hill",
           title: 'Christopher Hill',
           description: "2025, CSUSB",
           section: "Projects",handler: () => {
-              window.location.href = "/projects/christopher-hill/";
+              window.location.href = "/projects/ChristopherHill/";
             },},{id: "projects-dung-vu",
           title: 'Dung Vu',
           description: "",
           section: "Projects",handler: () => {
-              window.location.href = "/projects/dung-vu/";
+              window.location.href = "/projects/DungVu/";
             },},{id: "projects-eric-leslie",
           title: 'Eric Leslie',
           description: "2025, UCSD",
           section: "Projects",handler: () => {
-              window.location.href = "/projects/eric-leslie/";
+              window.location.href = "/projects/EricLeslie/";
             },},{id: "projects-fernando-garzon",
           title: 'Fernando Garzon',
           description: "",
           section: "Projects",handler: () => {
-              window.location.href = "/projects/fernando-garzon/";
+              window.location.href = "/projects/FernandoGarzon/";
             },},{id: "projects-henri-li",
           title: 'Henri Li',
           description: "",
           section: "Projects",handler: () => {
-              window.location.href = "/projects/henri-li/";
+              window.location.href = "/projects/HenriLi/";
             },},{id: "projects-hovakim-grabski",
           title: 'Hovakim Grabski',
           description: "Hovakim Grabski is a visiting scholar from Armenia and Researcher/SysAdmin at Abagyan Lab, UC San Diego and SDSC, with experience in Python programming, ICM programming language for molecular modeling, docking, screening, and infrastructure automation.",
           section: "Projects",handler: () => {
-              window.location.href = "/projects/hovakim-grabski/";
+              window.location.href = "/projects/HovakimGrabski/";
             },},{id: "projects-kyle-krick",
           title: 'Kyle Krick',
           description: "",
           section: "Projects",handler: () => {
-              window.location.href = "/projects/kyle-krick/";
+              window.location.href = "/projects/KyleKrick/";
             },},{id: "projects-matthew-mccoy",
           title: 'Matthew McCoy',
           description: "2025, UCSD",
           section: "Projects",handler: () => {
-              window.location.href = "/projects/matthew-mccoy/";
+              window.location.href = "/projects/MatthewMcCoy/";
             },},{id: "projects-nabeel-alzahrani",
           title: 'Nabeel Alzahrani',
           description: "Adjunct Professor in the Computer Science and Engineering Department &amp; Security Consultant in the Identity, Security, and Enterprise Technology Department",
           section: "Projects",handler: () => {
-              window.location.href = "/projects/nabeel-alzahrani/";
+              window.location.href = "/projects/NabeelAlzahrani/";
             },},{id: "projects-paul-hoover",
           title: 'Paul Hoover',
           description: "",
           section: "Projects",handler: () => {
-              window.location.href = "/projects/paul-hoover/";
+              window.location.href = "/projects/PaulHoover/";
             },},{id: "projects-victoria-nguyen",
           title: 'Victoria Nguyen',
           description: "",
           section: "Projects",handler: () => {
-              window.location.href = "/projects/victoria-nguyen/";
+              window.location.href = "/projects/VictoriaNguyen/";
             },},{id: "projects-vikrant-tripathy",
           title: 'Vikrant Tripathy',
           description: "2025, UC San Diego",
           section: "Projects",handler: () => {
-              window.location.href = "/projects/vikrant-tripathy/";
+              window.location.href = "/projects/VikrantTripathy/";
             },},{id: "projects-youngsu-kim",
           title: 'Youngsu Kim',
           description: "",
           section: "Projects",handler: () => {
-              window.location.href = "/projects/youngsu-kim/";
+              window.location.href = "/projects/YoungsuKim/";
             },},{
       id: 'light-theme',
       title: 'Change theme to light',
