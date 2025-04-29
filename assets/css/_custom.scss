@@ -43,3 +43,14 @@
     color: #172540;
   }
   
+
+footer.fixed-bottom,
+footer.sticky-bottom {
+  padding-top: 2rem !important;
+  padding-bottom: 2rem !important;
+
+  min-height: 120px;
+
+  background-color: #172540;
+}
+  
