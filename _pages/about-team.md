@@ -39,16 +39,14 @@ profiles:
     content: team/cyd_burrows-schilling.md
     image_circular: false  # crops the image to make it circular
     more_info: 
-  - align: right
-    image: PeterRose.jpeg
-    content: team/peter_rose.md
-    image_circular: false  # crops the image to make it circular
     more_info: 
   - align: right
     image: GerardAu.jpg
     content: team/gerard_au.md
     image_circular: false  # crops the image to make it circular
     more_info: 
+  
+past_profiles: 
   - align: right
     image: RobertSinkovits.jpeg
     content: team/robert_sinkovits.md
