@@ -1,4 +1,4 @@
-_site
+_site/
 .bundle
 .sass-cache
 .jekyll-cache
@@ -12,3 +12,6 @@ node_modules/
 vendor
 .idea
 .vscode/settings.json
+/_site
+_site/feed.xml
+_site/sitemap.xml
