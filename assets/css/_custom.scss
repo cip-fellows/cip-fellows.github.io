@@ -8,10 +8,6 @@
     .card-text {
       color: #ffffff;
     }
-  
-    a {
-      color: #4177A1; // link color
-    }
 
     .card-img-wrapper {
       width: 100%;
@@ -43,3 +39,31 @@
     color: #172540;
   }
   
+/*
+a {
+  color: #4177A1; // link color
+}
+*/
+
+footer.fixed-bottom,
+footer.sticky-bottom {
+  padding-top: 2rem !important;
+  padding-bottom: 2rem !important;
+
+  min-height: 120px;
+
+  background-color: #172540 !important; 
+
+  color: #fff !important;
+}
+
+footer.fixed-bottom .footer-left,
+footer.sticky-bottom .footer-left {
+  color: #fff !important;
+}
+
+footer.fixed-bottom a,
+footer.sticky-bottom a {
+  color: #fff !important;
+  text-decoration: underline;
+}
