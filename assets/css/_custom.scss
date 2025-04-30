@@ -67,3 +67,11 @@ footer.sticky-bottom a {
   color: #fff !important;
   text-decoration: underline;
 }
+
+a.nav-link { 
+  color: #4177A1; 
+}
+
+.container[role="main"] {
+  padding-bottom: 120px; //this needs to match the footer padding on line 53!
+}
