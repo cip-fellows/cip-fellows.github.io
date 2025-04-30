@@ -1,35 +1,51 @@
 {% if site.footer_fixed %}
-  <footer class="fixed-bottom" role="contentinfo">
-    <div class="container mt-0">
-      &copy; Copyright {{ site.time | date: '%Y' }}
-      {{ site.first_name }}
-      {{ site.middle_name }}
-      {{ site.last_name }}. {{ site.footer_text }}
-      {% if site.impressum_path %}
-        <a href="{{ site.url }}{{ site.baseurl }}{{ site.impressum_path }}">Impressum</a>.
-      {% endif %}
-      {% if site.last_updated %}
-        Last updated: {{ 'now' | date: '%B %d, %Y' }}.
-      {% endif %}
+  <footer class="fixed-bottom text-white" role="contentinfo">
+    <div class="container d-flex justify-content-between align-items-center mt-0">
+      <div class="footer-left me-6">
+        &copy; Copyright {{ site.time | date: '%Y' }}
+        {{ site.first_name }} {{ site.middle_name }} {{ site.last_name }}. {{ site.footer_text }}
+        {% if site.impressum_path %}
+          <a href="{{ site.url }}{{ site.baseurl }}{{ site.impressum_path }}">Impressum</a>.
+        {% endif %}
+        {% if site.last_updated %}
+          Last updated: {{ 'now' | date: '%B %d, %Y' }}.
+        {% endif %}
+      </div>
+
+      <div class="footer-logos d-flex align-items-center ms-6">
+        <img src="{{ site.baseurl }}/assets/img/logos/NSFLogo.png" alt="Logo 1" class="footer-logo mx-2">
+        <img src="{{ site.baseurl }}/assets/img/logos/UCSDLogo.png" alt="Logo 2" class="footer-logo mx-2">
+        <img src="{{ site.baseurl }}/assets/img/logos/SDSCLogo_White.png" alt="Logo 3" class="footer-logo mx-2">
+        <img src="{{ site.baseurl }}/assets/img/logos/SDSULogo.png" alt="Logo 4" class="footer-logo mx-2">
+        <img src="{{ site.baseurl }}/assets/img/logos/CSUSBLogo.png" alt="Logo 5" class="footer-logo mx-2">
+      </div>
     </div>
   </footer>
 {% else %}
-  <footer class="sticky-bottom mt-5" role="contentinfo">
+  <footer class="sticky-bottom mt-5 text-white" role="contentinfo">
     {% if site.newsletter.enabled %}
       {% include newsletter.liquid %}
     {% endif %}
 
-    <div class="container">
-      &copy; Copyright {{ site.time | date: '%Y' }}
-      {{ site.first_name }}
-      {{ site.middle_name }}
-      {{ site.last_name }}. {{ site.footer_text }}
-      {% if site.impressum_path %}
-        <a href="{{ site.url }}{{ site.baseurl }}{{ site.impressum_path }}">Impressum</a>.
-      {% endif %}
-      {% if site.last_updated %}
-        Last updated: {{ 'now' | date: '%B %d, %Y' }}.
-      {% endif %}
+    <div class="container d-flex justify-content-between align-items-center">
+      <div class="footer-left me-6">
+        &copy; Copyright {{ site.time | date: '%Y' }}
+        {{ site.first_name }} {{ site.middle_name }} {{ site.last_name }}. {{ site.footer_text }}
+        {% if site.impressum_path %}
+          <a href="{{ site.url }}{{ site.baseurl }}{{ site.impressum_path }}">Impressum</a>.
+        {% endif %}
+        {% if site.last_updated %}
+          Last updated: {{ 'now' | date: '%B %d, %Y' }}.
+        {% endif %}
+      </div>
+
+      <div class="footer-logos d-flex align-items-center ms-6">
+        <img src="{{ site.baseurl }}/assets/img/logos/NSFLogo.png" alt="Logo 1" class="footer-logo mx-2">
+        <img src="{{ site.baseurl }}/assets/img/logos/UCSDLogo.png" alt="Logo 2" class="footer-logo mx-2">
+        <img src="{{ site.baseurl }}/assets/img/logos/SDSCLogo_White.png" alt="Logo 3" class="footer-logo mx-2">
+        <img src="{{ site.baseurl }}/assets/img/logos/SDSULogo.png" alt="Logo 4" class="footer-logo mx-2">
+        <img src="{{ site.baseurl }}/assets/img/logos/CSUSBLogo.png" alt="Logo 5" class="footer-logo mx-2">
+      </div>
     </div>
   </footer>
 {% endif %}
