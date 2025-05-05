@@ -50,7 +50,7 @@ footer.sticky-bottom {
   padding-top: 2rem !important;
   padding-bottom: 2rem !important;
 
-  min-height: 120px;
+  min-height: 100px;
 
   background-color: #172540 !important; 
 
@@ -73,5 +73,5 @@ a.nav-link {
 }
 
 .container[role="main"] {
-  padding-bottom: 120px; //this needs to match the footer padding on line 53!
+  padding-bottom: 100px; //this needs to match the footer padding on line 53!
 }

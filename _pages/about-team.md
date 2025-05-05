@@ -52,4 +52,14 @@ past_profiles:
     content: team/robert_sinkovits.md
     image_circular: false  # crops the image to make it circular
     more_info: 
+  - align: right
+    image: RobertSinkovits.jpeg
+    content: team/rick_wagner.md
+    image_circular: false  # crops the image to make it circular
+    more_info: 
+  - align: right
+    image: RobertSinkovits.jpeg
+    content: team/some_student.md
+    image_circular: false  # crops the image to make it circular
+    more_info: 
 ---
