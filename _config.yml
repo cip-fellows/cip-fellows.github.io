@@ -137,9 +137,17 @@ collections:
       layout: post
     output: true
     permalink: /:collection/:title/
-  projects:
+  fellows:
     output: true
-    permalink: /:collection/:title/
+    permalink: /fellows/:title/
+    defaults:
+    - scope:
+        path: "" 
+        type: fellows
+      values:
+        layout: fellow 
+        output: true
+        permalink: /fellows/:title/
 
 announcements:
   enabled: true
