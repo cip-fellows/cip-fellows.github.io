@@ -126,3 +126,28 @@ a.nav-link {
   font-weight: bold;
   cursor: pointer;
 }
+
+.fellow-type {
+  color: #4177A1;
+}
+
+.text-muted {
+  color: #4177A1;
+}
+
+.contact-list {
+  display: grid;
+  grid-template-columns: 6rem auto;    /* 6rem for the label, rest for the value */
+  column-gap: 1rem;                     /* space between label and value */
+  row-gap: .5rem;                       /* vertical gap between rows */
+  align-items: center;
+  margin-bottom: 1rem;                  /* optional, space after the block */
+}
+.contact-label {
+  font-weight: bold;
+  color: #172540;                       /* your dark-blue */
+}
+.contact-value {
+  color: #6c757d;                       /* bootstrap’s text-muted */
+  font-style: italic;                   /* if you still want italic */
+}

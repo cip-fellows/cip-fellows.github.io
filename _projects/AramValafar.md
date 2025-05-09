@@ -6,7 +6,7 @@ description: 2025, SDSU
 img: assets/img/default.jpg
 importance: 2
 category: "🎓 Cohort 2025"
-fellow-type: ""
+fellow-type: "Faculty Fellow"
 related_publications: false
 ---
 
