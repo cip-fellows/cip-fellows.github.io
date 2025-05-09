@@ -30,11 +30,32 @@ layout: default
       {% endif %}
     </div>
 
-    <!-- Right: Bio content -->
+    <!-- Right: Contact and special info content -->
     <div class="col-md-8">
-      <article>
-        {{ content }}
-      </article>
+      <h3 class="fellow-type">CIP {{ page.fellow-type }}</h3>
+
+      {% if page.institute %}
+        <h4 class="text-muted font-italic mb-1">{{ page.institute }}</h4>
+      {% endif %}
+
+      <div class="contact-list">
+        {% if page.voice %}
+          <div class="contact-label">Voice:</div>
+          <div class="contact-value">{{ page.voice }}</div>
+        {% endif %}
+        {% if page.email %}
+          <div class="contact-label">Email:</div>
+          <div class="contact-value">{{ page.email }}</div>
+        {% endif %}
+        {% if page.orcid %}
+          <div class="contact-label">ORCID:</div>
+          <div class="contact-value">{{ page.orcid }}</div>
+        {% endif %}
+        {% if page.other %}
+          <div class="contact-label">Other:</div>
+          <div class="contact-value">{{ page.other }}</div>
+        {% endif %}
+      </div>
     </div>
   </div>
 
