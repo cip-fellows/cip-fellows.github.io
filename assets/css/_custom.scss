@@ -75,3 +75,54 @@ a.nav-link {
 .container[role="main"] {
   padding-bottom: 120px; //this needs to match the footer padding on line 53!
 }
+
+/* For home page custom image background on left-pane */
+
+.homepage-container {
+  display: flex;
+  min-height: 80vh;
+  gap: 2rem;
+}
+
+/* make the left pane a positioning context */
+.left-pane {
+  position: relative;
+  flex: 0 0 30%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-left: 2rem;
+}
+
+.right-pane {
+  flex: 1;
+  padding-right: 2rem;
+}
+
+.right-pane > section {
+  display: none;      /* only one at a time */
+}
+
+.right-pane > section.active {
+  display: block;
+}
+
+.bg-image-behind {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 120%;           /* fill—and slightly overshoot—the pane */
+  height: auto;          /* maintain aspect ratio */
+  z-index: 0;
+  pointer-events: none;  /* let clicks thru */
+}
+
+.left-pane .toc-header {
+  position: relative;    /* stack above the image */
+  z-index: 1;
+  margin-bottom: 1.5rem;
+  font-size: 1.5rem;
+  font-weight: bold;
+  cursor: pointer;
+}
