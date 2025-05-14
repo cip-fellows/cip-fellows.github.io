@@ -63,7 +63,16 @@ layout: default
     </article>
   </div>
 
-  
+  <hr class="my-4 fellow-divider"> 
+
+  {% if page.outcomes %}
+    {% for outcome in page.outcomes %}
+      <div class="fellow-outcome">
+        {{ outcome }}
+      </div>
+    {% endfor %}
+  {% endif %}
+
   {% if page.related_publications %}
     <h2 class="mt-5">References</h2>
     <div class="publications">
