@@ -1,0 +1,11 @@
+---
+layout: default
+---
+<ul>
+  {% for o in site.outcomes %}
+    <li>
+      <a href="{{ o.url }}">{{ o.title }}</a>
+      — <a href="/projects/{{ o.project }}/">{{ o.project | replace: "-", " " | capitalize }}</a>
+    </li>
+  {% endfor %}
+</ul>
