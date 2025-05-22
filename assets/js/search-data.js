@@ -48,7 +48,17 @@ ninja.data = [{
           window.location.href = "/blog/2020/NSF-Awards-the-CIML-Project/";
         
       },
-    },{id: "projects-anjali-shinde",
+    },{id: "outcomes-first-project",
+          title: 'First Project',
+          description: "",
+          section: "Outcomes",handler: () => {
+              window.location.href = "/outcomes/first-project/";
+            },},{id: "outcomes-second-project",
+          title: 'Second Project',
+          description: "",
+          section: "Outcomes",handler: () => {
+              window.location.href = "/outcomes/second-project/";
+            },},{id: "projects-anjali-shinde",
           title: 'Anjali Shinde',
           description: "2025, SDSU | Velit excepteur ullamco ut eiusmod lorem voluptate sint fugiat dolore enim nisi. Ullamco excepteur ut velit eiusmod voluptate lorem sint nisi. Dolor aliquip sit cupidatat cillum proident sed velit ad lorem. Nisi lorem dolore dolor ut ullamco ad sit quis.",
           section: "Projects",handler: () => {
