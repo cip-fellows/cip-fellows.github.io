@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: outcome
 permalink: /products/
 title: Products
 description: About the CIP Fellows Program

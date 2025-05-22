@@ -151,3 +151,17 @@ a.nav-link {
   color: #6c757d;                       /* bootstrap’s text-muted */
   font-style: italic;                   /* if you still want italic */
 }
+
+h1 {
+  font-weight: 500;
+}
+
+.fellow-outcome {
+  background-color: #4177A1;
+  color: white;
+  border-radius: 8px;
+  padding: 0.75em 1em;
+  margin-bottom: 1em;
+  font-size: 1rem;
+  line-height: 1.4;
+}

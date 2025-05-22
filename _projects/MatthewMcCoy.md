@@ -3,13 +3,13 @@ layout: fellow
 title: Matthew McCoy
 institute: UC San Diego
 description: 2025, UCSD
-img: assets/img/default.jpg
+img: assets/img/MatthewMcCoy.jpg
 importance: 3
 category: "🎓 Cohort 2025"
 fellow-type: ""
 related_publications: false
+contact: 
+    - Email: m3mccoy@ucsd.edu
 ---
 
-Velit excepteur ullamco ut eiusmod lorem voluptate sint fugiat dolore enim nisi. Ullamco excepteur ut velit eiusmod voluptate lorem sint nisi. Dolor aliquip sit cupidatat cillum proident sed velit ad lorem. Nisi lorem dolore dolor ut ullamco ad sit quis.
-
-Esse lorem ullamco eu proident non dolore ut velit nisi ad sit labore cillum. Commodo irure minim esse lorem qui consequat pariatur non ullamco exercitation veniam. Do minim lorem commodo eiusmod veniam cupidatat adipiscing excepteur ex deserunt fugiat irure. Enim dolor non excepteur nulla lorem ex fugiat sint do minim pariatur ullamco. Dolor excepteur ex nulla fugiat lorem enim non do sint minim. Exercitation lorem consectetur ex enim excepteur qui non commodo esse. Consectetur lorem ex exercitation sit anim qui enim velit duis.
+Matt is a former Network Engineer who switched to Linux Administration in 2010. Since then he has worked at a biological science nonprofit, a corporate enterprise company, Canonical (makers of Ubuntu Linux), and now UCSD. Matt joined the CIP Fellowship program in early 2025.

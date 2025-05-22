@@ -22,21 +22,17 @@ layout: default
       {% if page.img %}
         <img src="{{ page.img | relative_url }}" alt="{{ page.title }}" class="img-fluid rounded mb-3" style="max-height: 300px;">
       {% endif %}
-      {% if page.institute %}
-        <h4 class="text-muted font-italic mb-1">{{ page.institute }}</h4>
-      {% endif %}
-      {% if page.category %}
-        <p class="text-muted">{{ page.category }}</p>
-      {% endif %}
     </div>
 
     <!-- Right: Contact and special info content -->
     <div class="col-md-8">
-      <h3 class="fellow-type">CIP {{ page.fellow-type }}</h3>
+      <h3 class="fellow-type">CIP {{ page.fellow-type }} {{ page.category }} </h3>
 
       {% if page.institute %}
         <h4 class="text-muted font-italic mb-1">{{ page.institute }}</h4>
       {% endif %}
+
+      <br>
 
       <div class="contact-list">
         {% if page.voice %}
@@ -47,9 +43,13 @@ layout: default
           <div class="contact-label">Email:</div>
           <div class="contact-value">{{ page.email }}</div>
         {% endif %}
+        {% if page.LinkedIn %}
+          <div class="contact-label">LinkedIn:</div>
+          <div class="contact-value">{{ page.LinkedIn }}</div>
+        {% endif %}
         {% if page.orcid %}
           <div class="contact-label">ORCID:</div>
-          <div class="contact-value">{{ page.orcid }}</div>
+          <div class="contact-value"><a href="https://orcid.org/{{ page.orcid }}" target="_blank">{{ page.orcid }}</a></div>
         {% endif %}
         {% if page.other %}
           <div class="contact-label">Other:</div>
@@ -61,13 +61,22 @@ layout: default
 
   <hr class="my-4 fellow-divider">
 
-  <div class="col-md-8">
+  <div class="col-md-12">
     <article>
       {{ content }}
     </article>
   </div>
 
-  
+  <hr class="my-4 fellow-divider"> 
+
+  {% if page.outcomes %}
+    {% for outcome in page.outcomes %}
+      <div class="fellow-outcome">
+        {{ outcome }}
+      </div>
+    {% endfor %}
+  {% endif %}
+
   {% if page.related_publications %}
     <h2 class="mt-5">References</h2>
     <div class="publications">

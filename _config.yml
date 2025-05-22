@@ -140,6 +140,10 @@ collections:
   projects:
     output: true
     permalink: /:collection/:title/
+  outcomes:
+    output: true
+    permalink: /outcomes/:path/
+
 
 announcements:
   enabled: true
