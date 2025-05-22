@@ -3,13 +3,11 @@ layout: fellow
 title: Christopher Hill
 institute: CSUSB
 description: 2025, CSUSB
-img: assets/img/default.jpg
+img: assets/img/ChristopherHill.JPG
 importance: 1
 category: "🎓 Cohort 2025"
 fellow-type: ""
 related_publications: false
 ---
 
-Velit excepteur ullamco ut eiusmod lorem voluptate sint fugiat dolore enim nisi. Ullamco excepteur ut velit eiusmod voluptate lorem sint nisi. Dolor aliquip sit cupidatat cillum proident sed velit ad lorem. Nisi lorem dolore dolor ut ullamco ad sit quis.
-
-Esse lorem ullamco eu proident non dolore ut velit nisi ad sit labore cillum. Commodo irure minim esse lorem qui consequat pariatur non ullamco exercitation veniam. Do minim lorem commodo eiusmod veniam cupidatat adipiscing excepteur ex deserunt fugiat irure. Enim dolor non excepteur nulla lorem ex fugiat sint do minim pariatur ullamco. Dolor excepteur ex nulla fugiat lorem enim non do sint minim. Exercitation lorem consectetur ex enim excepteur qui non commodo esse. Consectetur lorem ex exercitation sit anim qui enim velit duis.
+Chris Hill is an Associate Professor of Kinesiology whose scholarship sits at the intersection of data and human performance. His research program leverages advanced quantitative methods to unpack the demands of elite motorsport, illuminating how drivers process information and make split second decisions at high speed. Beyond motorsport, he examines group dynamics—how teams coordinate, communicate, and thrive under pressure—offering evidence based insights that translate from the racetrack to broader athletic and organizational settings. Through cross disciplinary collaborations and an emphasis on applied statistics, Hill’s work advances both the science of human movement and the practice of performance optimization.

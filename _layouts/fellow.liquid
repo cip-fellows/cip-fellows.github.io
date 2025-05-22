@@ -43,9 +43,13 @@ layout: default
           <div class="contact-label">Email:</div>
           <div class="contact-value">{{ page.email }}</div>
         {% endif %}
+        {% if page.LinkedIn %}
+          <div class="contact-label">LinkedIn:</div>
+          <div class="contact-value">{{ page.LinkedIn }}</div>
+        {% endif %}
         {% if page.orcid %}
           <div class="contact-label">ORCID:</div>
-          <div class="contact-value">{{ page.orcid }}</div>
+          <div class="contact-value"><a href="https://orcid.org/{{ page.orcid }}" target="_blank">{{ page.orcid }}</a></div>
         {% endif %}
         {% if page.other %}
           <div class="contact-label">Other:</div>
