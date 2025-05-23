@@ -58,6 +58,11 @@ ninja.data = [{
           description: "",
           section: "Outcomes",handler: () => {
               window.location.href = "/outcomes/second-project/";
+            },},{id: "outcomes-teaching-tech",
+          title: '“Teaching Tech”',
+          description: "",
+          section: "Outcomes",handler: () => {
+              window.location.href = "/outcomes/teaching-tech/";
             },},{id: "projects-anjali-shinde",
           title: 'Anjali Shinde',
           description: "2025, SDSU | Velit excepteur ullamco ut eiusmod lorem voluptate sint fugiat dolore enim nisi. Ullamco excepteur ut velit eiusmod voluptate lorem sint nisi. Dolor aliquip sit cupidatat cillum proident sed velit ad lorem. Nisi lorem dolore dolor ut ullamco ad sit quis.",
