@@ -41,11 +41,11 @@ layout: default
         {% endif %}
         {% if page.email %}
           <div class="contact-label">Email:</div>
-          <div class="contact-value">{{ page.email }}</div>
+          <div class="contact-value"><a href="mailto:{{ page.email }}?subject=CIP Fellows"> {{ page.email }} </a></div>
         {% endif %}
         {% if page.LinkedIn %}
           <div class="contact-label">LinkedIn:</div>
-          <div class="contact-value">{{ page.LinkedIn }}</div>
+          <div class="contact-value"><a href="{{ page.LinkedIn }}" target="_blank"> {{ page.LinkedIn }}</a></div>
         {% endif %}
         {% if page.orcid %}
           <div class="contact-label">ORCID:</div>
@@ -70,11 +70,15 @@ layout: default
   <hr class="my-4 fellow-divider"> 
 
   {% if page.outcomes %}
-    {% for outcome in page.outcomes %}
-      <div class="fellow-outcome">
-        {{ outcome }}
-      </div>
-    {% endfor %}
+    <div class="fellow-outcomes-list">
+      {% for outcome_slug in page.outcomes %}
+        <a href="/outcomes/{{ outcome_slug | slugify }}/" style="text-decoration: none; color: inherit;">
+          <div class="fellow-outcome hover-card">
+            {{ outcome_slug | capitalize }}
+          </div>
+        </a>
+      {% endfor %}
+    </div>
   {% endif %}
 
   {% if page.related_publications %}

@@ -5,7 +5,7 @@ institute: UC San Diego
 description: 2025, UC San Diego
 img: assets/img/VikrantTripathy.jpg
 importance: 3
-category: "🎓 Cohort 2024"
+category: "🎓 Cohort 2025"
 fellow-type: ""
 related_publications: false
 email: vtripathy@ucsd.edu

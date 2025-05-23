@@ -11,6 +11,11 @@ layout: default
 <div class="post">
   <header class="post-header">
     <h1 class="post-title">{{ page.title }}</h1>
+    
+    {% if page.fellow %}
+    <h2 class="post-subtitle"> {{ page.fellow }} </h2>
+    {% endif %}
+
     <h2 class="post-subtitle"> {{ page.institute }} </h2>
     <p class="post-description">{{ page.description }}</p>
   </header>
