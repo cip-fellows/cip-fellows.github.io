@@ -4,13 +4,15 @@ layout: default
 <ul style="list-style: none; padding-left: 0;">
   {% for o in site.outcomes %}
     <li>
-        <div class="fellow-outcome">
-            <a href="{{ o.url }}" style="color: white;">{{ o.title }}</a>
-            <a href="/projects/{{ o.project }}/">{{ o.project | replace: "-", " " | capitalize }}</a>
-            {% if o.summary %}
-                — {{ o.summary }}
-            {% endif %}
+      <a href="{{ o.url }}" style="text-decoration: none; color: inherit;">
+        <div class="fellow-outcome hover-card">
+          {{ o.title }}
+          <span>{{ o.project | replace: "-", " " | capitalize }}</span>
+          {% if o.summary %}
+            — {{ o.summary }}
+          {% endif %}
         </div>
+      </a>
     </li>
   {% endfor %}
 </ul>
