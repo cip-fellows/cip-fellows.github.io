@@ -41,11 +41,11 @@ layout: default
         {% endif %}
         {% if page.email %}
           <div class="contact-label">Email:</div>
-          <div class="contact-value">{{ page.email }}</div>
+          <div class="contact-value"><a href="mailto:{{ page.email }}?subject=CIP Fellows"> {{ page.email }} </a></div>
         {% endif %}
         {% if page.LinkedIn %}
           <div class="contact-label">LinkedIn:</div>
-          <div class="contact-value">{{ page.LinkedIn }}</div>
+          <div class="contact-value"><a href="{{ page.LinkedIn }}" target="_blank"> {{ page.LinkedIn }}</a></div>
         {% endif %}
         {% if page.orcid %}
           <div class="contact-label">ORCID:</div>

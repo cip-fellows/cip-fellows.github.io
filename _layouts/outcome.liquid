@@ -1,11 +1,16 @@
 ---
 layout: default
 ---
-<ul>
+<ul style="list-style: none; padding-left: 0;">
   {% for o in site.outcomes %}
     <li>
-      <a href="{{ o.url }}">{{ o.title }}</a>
-      — <a href="/projects/{{ o.project }}/">{{ o.project | replace: "-", " " | capitalize }}</a>
+        <div class="fellow-outcome">
+            <a href="{{ o.url }}" style="color: white;">{{ o.title }}</a>
+            <a href="/projects/{{ o.project }}/">{{ o.project | replace: "-", " " | capitalize }}</a>
+            {% if o.summary %}
+                — {{ o.summary }}
+            {% endif %}
+        </div>
     </li>
   {% endfor %}
 </ul>
