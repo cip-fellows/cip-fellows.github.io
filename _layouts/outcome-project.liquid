@@ -25,10 +25,16 @@ layout: default
       </h2>
     {% endif %}
 
+    {% if page.date %}
+        <h4 class="post-date">July 21, 2024</h4>
+    {% endif %}
+
     {% if page.institute %}
       <h2 class="post-subtitle">{{ page.institute }}</h2>
     {% endif %}
 
+    <hr> 
+    
     {%- comment -%}
     Outcome pages use a `summary` field instead of `description`
     so we surface that here.
