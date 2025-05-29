@@ -8,6 +8,10 @@ importance: 3
 category: "🎓 Cohort 2024"
 fellow-type: ""
 related_publications: false
+voice: 
+email: 
+orcid: 
+other: 
 outcomes: 
     - "summer research program" 
 ---
