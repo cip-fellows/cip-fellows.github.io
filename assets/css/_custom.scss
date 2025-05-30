@@ -1,3 +1,6 @@
+// footer size
+$footer-size: 80px;
+
 .cip-fellow-card {
     background-color: #4177A1;
     color: #ffffff;
@@ -40,21 +43,19 @@
   }
   
 /*
-a {
-  color: #4177A1; // link color
-}
+ a {
+   color: #4177A1; // link color
+ }
 */
 
 footer.fixed-bottom,
 footer.sticky-bottom {
-  padding-top: 2rem !important;
-  padding-bottom: 2rem !important;
-
-  min-height: 120px;
-
-  background-color: #172540 !important; 
-
-  color: #fff !important;
+  height:         $footer-size;            // fix exactly 80px total height
+  padding:        0.5rem 1rem !important;  // ~8px top/bottom, 16px left/right
+  background-color: #172540 !important;
+  color:            #fff     !important;
+  font-size:        0.9rem;                // slightly smaller text
+  line-height:      1.2;                   // ensure text and images align nicely
 }
 
 footer.fixed-bottom .footer-left,
@@ -68,19 +69,20 @@ footer.sticky-bottom a {
   text-decoration: underline;
 }
 
-a.nav-link { 
-  color: #4177A1; 
+/* constrain logo images to fit within the reduced footer height */
+.footer-logos .footer-logo {
+  max-height: 64px;     // $footer-size (80px) minus 2 * 0.5rem (16px)
+  height: auto;
 }
 
 .container[role="main"] {
-  padding-bottom: 120px; //this needs to match the footer padding on line 53!
+  padding-bottom: $footer-size;
 }
 
 /* For home page custom image background on left-pane */
-
 .homepage-container {
   display: flex;
-  min-height: 80vh;
+  min-height: calc(80vh - #{$footer-size});
   gap: 2rem;
 }
 
@@ -164,4 +166,9 @@ h1 {
   margin-bottom: 1em;
   font-size: 1rem;
   line-height: 1.4;
+}
+
+.projects a:hover .card-title {
+  color: white; /* possible css colors: white, lightblue  */ 
+  text-decoration-line: underline;
 }
