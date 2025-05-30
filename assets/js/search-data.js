@@ -48,21 +48,26 @@ ninja.data = [{
           window.location.href = "/blog/2020/NSF-Awards-the-CIML-Project/";
         
       },
-    },{id: "outcomes-first-project",
-          title: 'First Project',
+    },{id: "outcomes-csusb-summer-research-program-in-ai-ml",
+          title: 'CSUSB Summer Research Program in AI/ML',
           description: "",
           section: "Outcomes",handler: () => {
-              window.location.href = "/outcomes/first-project/";
-            },},{id: "outcomes-second-project",
-          title: 'Second Project',
+              window.location.href = "/outcomes/summer-research-program/";
+            },},{id: "outcomes-educational-aids-or-curricula",
+          title: 'Educational aids or Curricula',
           description: "",
           section: "Outcomes",handler: () => {
-              window.location.href = "/outcomes/second-project/";
-            },},{id: "outcomes-teaching-tech",
-          title: '“Teaching Tech”',
+              window.location.href = "/outcomes/educational-aids/";
+            },},{id: "outcomes-containerizing-fourcastnet-for-kubernetes-cluster",
+          title: 'Containerizing FourCastNet for Kubernetes Cluster',
           description: "",
           section: "Outcomes",handler: () => {
-              window.location.href = "/outcomes/teaching-tech/";
+              window.location.href = "/outcomes/software-container/";
+            },},{id: "outcomes-singularity-conversion-of-nvidia-containers-for-expanse-nairr-expansion",
+          title: 'Singularity Conversion of NVIDIA Containers for Expanse NAIRR Expansion',
+          description: "",
+          section: "Outcomes",handler: () => {
+              window.location.href = "/outcomes/singularity-conversion-of-nvidia-containers-for-expanse-nairr-expansion/";
             },},{id: "projects-anjali-shinde",
           title: 'Anjali Shinde',
           description: "2025, SDSU | Velit excepteur ullamco ut eiusmod lorem voluptate sint fugiat dolore enim nisi. Ullamco excepteur ut velit eiusmod voluptate lorem sint nisi. Dolor aliquip sit cupidatat cillum proident sed velit ad lorem. Nisi lorem dolore dolor ut ullamco ad sit quis.",
