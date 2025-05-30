@@ -1,4 +1,4 @@
-# Paul Rodriquez
+# Paul Rodriquez (Co-PI)
 - Ph.D.
 - Computational Data Scientist
 - SDSC
