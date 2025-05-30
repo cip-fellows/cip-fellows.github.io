@@ -1,4 +1,4 @@
-# Cyd Burrows-Schilling 
+# Cyd Burrows-Schilling (Co-PI)
 - 23rd year in higher education
 - Sr. Research Facilitator
 - UCSD
