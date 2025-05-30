@@ -1,0 +1,62 @@
+---
+layout: default
+---
+{% if page._styles %}
+  <!-- Page/Post style -->
+  <style type="text/css">
+    {{ page._styles }}
+  </style>
+{% endif %}
+
+<div class="post outcome-post">
+  <header class="post-header">
+    <h1 class="post-title">{{ page.title }}</h1>
+
+    {% if page.fellow %}
+      {%- comment -%}
+      Build the fellow’s URL by stripping spaces out of their name
+      (so “Henry Li” → “HenryLi”), matching the folder under /projects/.
+      {%- endcomment -%}
+      {% assign fellow_slug = page.fellow | remove: ' ' %}
+      <h2 class="post-subtitle">
+        <a href="{{ site.baseurl }}/projects/{{ fellow_slug }}/">
+          {{ page.fellow }}
+        </a>
+      </h2>
+    {% endif %}
+
+    {% if page.date %}
+        <h4 class="post-date">July 21, 2024</h4>
+    {% endif %}
+
+    {% if page.institute %}
+      <h2 class="post-subtitle">{{ page.institute }}</h2>
+    {% endif %}
+
+    <hr> 
+
+    {%- comment -%}
+    Outcome pages use a `summary` field instead of `description`
+    so we surface that here.
+    {%- endcomment -%}
+    {% if page.summary %}
+      <p class="post-description">{{ page.summary }}</p>
+    {% endif %}
+  </header>
+
+  <!--<h2>Abstract</h2>--> 
+  <article>
+    {{ content }}
+  </article>
+
+  {% if page.related_publications %}
+    <h2>References</h2>
+    <div class="publications">
+      {% bibliography --cited_in_order %}
+    </div>
+  {% endif %}
+
+  {% if site.giscus and page.giscus_comments %}
+    {% include giscus.liquid %}
+  {% endif %}
+</div>
