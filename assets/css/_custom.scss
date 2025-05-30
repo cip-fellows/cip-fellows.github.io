@@ -52,10 +52,10 @@ footer.fixed-bottom,
 footer.sticky-bottom {
   height:         $footer-size;            // fix exactly 80px total height
   padding:        0.5rem 1rem !important;  // ~8px top/bottom, 16px left/right
-
-  background-color: #172540 !important; 
-
-  color: #fff !important;
+  background-color: #172540 !important;
+  color:            #fff     !important;
+  font-size:        0.9rem;                // slightly smaller text
+  line-height:      1.2;                   // ensure text and images align nicely
 }
 
 footer.fixed-bottom .footer-left,
@@ -69,12 +69,17 @@ footer.sticky-bottom a {
   text-decoration: underline;
 }
 
+/* constrain logo images to fit within the reduced footer height */
+.footer-logos .footer-logo {
+  max-height: 64px;     // $footer-size (80px) minus 2 * 0.5rem (16px)
+  height: auto;
+}
+
 .container[role="main"] {
   padding-bottom: $footer-size;
 }
 
 /* For home page custom image background on left-pane */
-
 .homepage-container {
   display: flex;
   min-height: calc(80vh - #{$footer-size});
