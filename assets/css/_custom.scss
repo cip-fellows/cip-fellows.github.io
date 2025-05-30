@@ -1,3 +1,6 @@
+// footer size
+$footer-size: 80px;
+
 .cip-fellow-card {
     background-color: #4177A1;
     color: #ffffff;
@@ -40,17 +43,15 @@
   }
   
 /*
-a {
-  color: #4177A1; // link color
-}
+ a {
+   color: #4177A1; // link color
+ }
 */
 
 footer.fixed-bottom,
 footer.sticky-bottom {
-  padding-top: 2rem !important;
-  padding-bottom: 2rem !important;
-
-  min-height: 120px;
+  height:         $footer-size;            // fix exactly 80px total height
+  padding:        0.5rem 1rem !important;  // ~8px top/bottom, 16px left/right
 
   background-color: #172540 !important; 
 
@@ -68,19 +69,15 @@ footer.sticky-bottom a {
   text-decoration: underline;
 }
 
-a.nav-link { 
-  color: #4177A1; 
-}
-
 .container[role="main"] {
-  padding-bottom: 120px; //this needs to match the footer padding on line 53!
+  padding-bottom: $footer-size;
 }
 
 /* For home page custom image background on left-pane */
 
 .homepage-container {
   display: flex;
-  min-height: 80vh;
+  min-height: calc(80vh - #{$footer-size});
   gap: 2rem;
 }
 
