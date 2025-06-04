@@ -3,13 +3,15 @@ layout: fellow
 title: Eric Leslie
 institute: UC San Diego
 description: 2025, UCSD
-img: assets/img/default.jpg
+img: assets/img/EricLeslie.jpg
 importance: 3
 category: "🎓 Cohort 2025"
 fellow-type: ""
 related_publications: false
 ---
 
-Velit excepteur ullamco ut eiusmod lorem voluptate sint fugiat dolore enim nisi. Ullamco excepteur ut velit eiusmod voluptate lorem sint nisi. Dolor aliquip sit cupidatat cillum proident sed velit ad lorem. Nisi lorem dolore dolor ut ullamco ad sit quis.
+Eric Leslie has research experience in the exercise and biomedical sciences with focuses in cardiopulmonary disease, environmental stress, and exercise performance. He is currently learning advanced computing applicable to these areas at the San Diego Supercomputer Center.
 
-Esse lorem ullamco eu proident non dolore ut velit nisi ad sit labore cillum. Commodo irure minim esse lorem qui consequat pariatur non ullamco exercitation veniam. Do minim lorem commodo eiusmod veniam cupidatat adipiscing excepteur ex deserunt fugiat irure. Enim dolor non excepteur nulla lorem ex fugiat sint do minim pariatur ullamco. Dolor excepteur ex nulla fugiat lorem enim non do sint minim. Exercitation lorem consectetur ex enim excepteur qui non commodo esse. Consectetur lorem ex exercitation sit anim qui enim velit duis.
+He has expertise in designing and leading research projects, completing experiments and data analysis, and disseminating results through journal publications.
+
+His communication skills have been developed as a university and K–12 instructor, enabling him to work with and educate researchers and stakeholders.
