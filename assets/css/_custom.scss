@@ -1,5 +1,5 @@
 // footer size
-$footer-size: 80px;
+$footer-size: 68px;
 
 .cip-fellow-card {
     background-color: #4177A1;
@@ -51,7 +51,7 @@ $footer-size: 80px;
 footer.fixed-bottom,
 footer.sticky-bottom {
   height:         $footer-size;            // fix exactly 80px total height
-  padding:        0.5rem 1rem !important;  // ~8px top/bottom, 16px left/right
+  padding:        0.25rem 1rem !important;  // ~8px top/bottom, 16px left/right
   background-color: #172540 !important;
   color:            #fff     !important;
   font-size:        0.9rem;                // slightly smaller text

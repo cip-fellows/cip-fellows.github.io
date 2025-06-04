@@ -8,8 +8,8 @@ layout: page
         <div class="fellow-outcome hover-card">
           {{ o.title }}
           <span>{{ o.project | replace: "-", " " | capitalize }}</span>
-          {% if o.summary %}
-            — {{ o.summary }}
+          {% if o.tags %}
+            — {{ o.tags }} , <!-- tags should be smaller than the title --> 
           {% endif %}
         </div>
       </a>
