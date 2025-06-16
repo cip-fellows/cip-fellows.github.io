@@ -8,10 +8,10 @@ importance: 3
 category: "🎓 Cohort 2024"
 fellow-type: "Faculty Fellow"
 related_publications: false
-voice: "(123) 456-7890"
-email: "hovakim@example.edu"
-orcid: "0000-0002-1234-5678"
-other: "Office hours by appointment." 
+voice:
+email:
+orcid:
+other:
 outcomes: 
     - "educational aids" 
 ---
