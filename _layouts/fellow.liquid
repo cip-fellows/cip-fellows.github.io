@@ -51,6 +51,10 @@ layout: default
           <div class="contact-label">ORCID:</div>
           <div class="contact-value"><a href="https://orcid.org/{{ page.orcid }}" target="_blank">{{ page.orcid }}</a></div>
         {% endif %}
+        {% if page.Github %}
+          <div class="contact-label">Github: </div>
+          <div class="contact-value"><a href="{{ page.Github }}" target="_blank"> {{ page.Github }} </a></div>
+        {% endif %}
         {% if page.other %}
           <div class="contact-label">Other:</div>
           <div class="contact-value">{{ page.other }}</div>

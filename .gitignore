@@ -13,3 +13,4 @@ vendor
 .idea
 .vscode/settings.json
 _site/feed.xml
+tasks.md

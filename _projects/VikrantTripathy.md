@@ -9,7 +9,8 @@ category: "🎓 Cohort 2025"
 fellow-type: ""
 related_publications: false
 email: vtripathy@ucsd.edu
-LinkedIn: www.linkedin.com/in/vtripath/
+LinkedIn: https://www.linkedin.com/in/vtripath/
+Github: https://github.com/vtripath65
 orcid: 0000-0002-3246-0680
 ---
 
