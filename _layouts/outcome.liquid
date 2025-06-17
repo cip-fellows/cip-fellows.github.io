@@ -6,14 +6,14 @@ layout: page
     <li>
       <a href="{{ o.url }}" style="text-decoration: none; color: inherit;">
         <div class="fellow-outcome hover-card">
-          {{ o.title }}
+          <h3 class="post-title">{{ o.title }}</h3>
           <span>{{ o.project | replace: "-", " " | capitalize }}</span>
           {% if o.tags %}
             <br>
-            <ul class="tag-list d-inline">
+            <ul class="post-list d-inline">
               {% for t in o.tags %}
                 <li class="d-inline me-1">
-                  <a class="tag-pill" href="/outcomes/tag/{{ t | uri_escape }}/">{{ t }}</a>
+                  <p class="post-tags"><a class="tag-pill" href="/outcomes/tag/{{ t | uri_escape }}/">{{ t }}</a></p>
                 </li>
               {% endfor %}
             </ul>

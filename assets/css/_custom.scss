@@ -127,6 +127,20 @@ footer.sticky-bottom a {
   font-size: 1.5rem;
   font-weight: bold;
   cursor: pointer;
+  color: #4177A1;
+}
+
+.left-pane .toc-header-blank {
+  position: relative;    /* stack above the image */
+  z-index: 1;
+  margin-bottom: 1.5rem;
+  font-size: 1.5rem;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.left-pane .toc-header :active {
+  text-decoration: underline;
 }
 
 .fellow-type {
