@@ -9,7 +9,14 @@ layout: page
           {{ o.title }}
           <span>{{ o.project | replace: "-", " " | capitalize }}</span>
           {% if o.tags %}
-            — {{ o.tags }} , <!-- tags should be smaller than the title --> 
+            <br>
+            <ul class="tag-list d-inline">
+              {% for t in o.tags %}
+                <li class="d-inline me-1">
+                  <a class="tag-pill" href="/outcomes/tag/{{ t | uri_escape }}/">{{ t }}</a>
+                </li>
+              {% endfor %}
+            </ul>
           {% endif %}
         </div>
       </a>

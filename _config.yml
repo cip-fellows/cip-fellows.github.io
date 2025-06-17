@@ -250,6 +250,9 @@ terser:
 
 jekyll-archives:
   enabled: [year, tags, categories] # enables year, tag and category archives (remove if you need to disable one of them).
+  collections: 
+    - posts 
+    - outcomes #for the time being, outcomes and posts have the same, shared tags. 
   layouts:
     year: archive-year
     tag: archive-tag

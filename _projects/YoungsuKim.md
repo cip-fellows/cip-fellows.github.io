@@ -1,7 +1,7 @@
 ---
 layout: fellow
 title: Youngsu Kim
-institute: 
+institute: CSUSB
 description: 
 img: assets/img/YoungsuKim.jpeg
 importance: 0

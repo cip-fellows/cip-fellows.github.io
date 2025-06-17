@@ -6,6 +6,10 @@ summary:
 url: "https://github.com/hovo1990/CIP_Nextflow_on_HPC"
 format: "github" 
 date: 2024-06-22
+tags: 
+    - github
+    - outcome
+    - placeholder
 ---
 ## Abstract
 The GitHub repository "CIP_Nextflow_on_HPC" is a comprehensive guide to leveraging Nextflow for deploying tasks on high-performance computing (HPC) systems, with a specific focus on SLURM-based environments. Nextflow is a powerful workflow management system designed to simplify the creation, orchestration, and execution of complex data analysis pipelines. This repository provides a step-by-step tutorial for setting up Nextflow, utilizing conda environments, and employing Singularity containers, making it accessible to users with a working knowledge of Linux and HPC environments.

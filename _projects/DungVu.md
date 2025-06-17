@@ -1,7 +1,7 @@
 ---
 layout: fellow
 title: Dung Vu
-institute: 
+institute: CSUSB
 description: 
 img: assets/img/default.jpg
 importance: 0

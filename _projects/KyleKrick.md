@@ -1,10 +1,10 @@
 ---
 layout: fellow
 title: Kyle Krick
-institute: 
+institute: SDSU
 description: 
 img: assets/img/KyleKrick.jpg
-importance: 0
+importance: 1
 category: "🎓 Cohort 2023"
 fellow-type: ""
 related_publications: false

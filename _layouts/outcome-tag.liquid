@@ -1,0 +1,21 @@
+---
+layout: page
+---
+
+<h1>Outcomes tagged “{{ page.title }}”</h1>
+
+<ul class="archive-list">
+  {% assign matches = site.outcomes | where_exp: "o", "o.tags contains page.title" %}
+  {% if matches %}
+    {% for o in matches %}
+      <li>
+        <a href="{{ o.url | relative_url }}">
+          {{ o.title }}
+        </a>
+        <small class="text-muted">({{ o.date | date: "%b %-d, %Y" }})</small>
+      </li>
+    {% endfor %}
+  {% else %}
+    <li>No outcomes found under this tag.</li>
+  {% endif %}
+</ul>
