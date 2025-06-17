@@ -8,7 +8,7 @@ layout: page
         <div class="fellow-outcome hover-card">
           <h3 class="post-title">{{ o.title }}</h3>
           {{ if o.summary }}
-            <p> {{ o.summary }} </p>
+            <p style="padding-bottom: 0px; margin-bottom: 0px;"> {{ o.summary }} </p>
           {{ endif }}
           {% comment %} <span>{{ o.project | replace: "-", " " | capitalize }}</span> {% endcomment %}
           {% if o.tags %}
