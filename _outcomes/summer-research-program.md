@@ -2,7 +2,7 @@
 layout: outcome-project 
 title: "CSUSB Summer Research Program in AI/ML" 
 fellow: "Nabeel Alzahrani" 
-summary: 
+summary: I created the Summer Research Program in AI/ML for undergraduate STEM majors interested in learning more about Artificial Intelligence (AI) and Machine Learning (ML).
 url: "https://csusb.az1.qualtrics.com/jfe/form/SV_3I4hAlma7wcvkPQ" 
 format: "meetings" 
 date: 2024-05-13 
