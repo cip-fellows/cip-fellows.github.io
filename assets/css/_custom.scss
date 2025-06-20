@@ -2,37 +2,55 @@
 $footer-size: 68px;
 
 .cip-fellow-card {
-    background-color: #4177A1;
-    color: #ffffff;
-    border: none;
-  
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  background-color: #4177A1;
+  color: #ffffff;
+  border: none;
+  border-radius: 0.25rem;
+
+  .card-img-wrapper {
+    flex: 0 0 60%; //60% of card height
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+    border-top-left-radius: 0.25rem;
+    border-top-right-radius: 0.25rem;
+  }
+
+  .card-body {
+    flex: 1 1 40%; //40% of card height
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 1rem;
+
     .card-title,
     .card-subtitle,
     .card-text {
-      color: #ffffff;
+      color: #ffffff; //Not sure if this is needed. In the future, consider deleting.
     }
 
-    .card-img-wrapper {
-      width: 100%;
-      aspect-ratio: 1 / 1;
-      overflow: hidden;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-    }
-    
-    .card-img-fixed {
-      width: 100%;
-      height: 100%;
-      object-fit: cover;
-    }    
-    
     .card-institute {
-        font-style: italic;
-        color: #ffffff !important; // ensures it stays white if needed
+      font-style: italic;
+      color: #ffffff !important;
     }
-      
   }
+
+  .card-img-wrapper img,
+  .card-img-fixed {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center center;
+    border-radius: 0.25rem;
+  }
+}
+
 
 .fellow-divider {
     border-top: 2px solid #172540;
@@ -186,4 +204,8 @@ h1 {
 .projects a:hover .card-title {
   color: white; /* possible css colors: white, lightblue  */ 
   text-decoration-line: underline;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  color: #4177A1;
 }

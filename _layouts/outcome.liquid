@@ -7,19 +7,19 @@ layout: page
       <a href="{{ o.url }}" style="text-decoration: none; color: inherit;">
         <div class="fellow-outcome hover-card">
           <h3 class="post-title">{{ o.title }}</h3>
-          {{ if o.summary }}
+          {% if o.summary %}
             <p style="padding-bottom: 0px; margin-bottom: 0px;"> {{ o.summary }} </p>
           {% endif %}
           {% comment %} <span>{{ o.project | replace: "-", " " | capitalize }}</span> {% endcomment %}
           {% if o.tags %}
-          <br>
-          {{ if o.tags }}
-            <p class="post-tags outcome" style="padding-bottom: 0px; margin-bottom: 0px;">
-            {% for t in o.tags %}
-                <a class="tag-pill" href="/outcomes/tag/{{ t | uri_escape }}/"># {{ t }}</a>
-            {% endfor %}
-            </p>
-          {% endif %}
+            <br>
+            {% if o.tags %}
+              <p class="post-tags outcome" style="padding-bottom: 0px; margin-bottom: 0px;">
+              {% for t in o.tags %}
+                  <a class="tag-pill" href="/outcomes/tag/{{ t | uri_escape }}/"># {{ t }}</a>
+              {% endfor %}
+              </p>
+            {% endif %}
           {% endif %}
         </div>
       </a>
