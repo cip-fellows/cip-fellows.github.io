@@ -84,9 +84,18 @@ footer.sticky-bottom a {
   text-decoration: underline;
 }
 
+footer.fixed-bottom {
+  .footer-left {
+    padding-bottom: 2rem;
+  }
+  .footer-logos {
+    padding-bottom: 2rem;
+  }
+}
+
 /* constrain logo images to fit within the reduced footer height */
 .footer-logos .footer-logo {
-  max-height: 64px;     // $footer-size (80px) minus 2 * 0.5rem (16px)
+  max-height: 50px;     // $footer-size (80px) minus 2 * 0.5rem (16px)
   height: auto;
 }
 
