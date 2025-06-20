@@ -78,7 +78,21 @@ layout: default
       {% for outcome_slug in page.outcomes %}
         <a href="/outcomes/{{ outcome_slug | slugify }}/" style="text-decoration: none; color: inherit;">
           <div class="fellow-outcome hover-card">
-            {{ outcome_slug | capitalize }}
+            <h3 class="post-title"> {{ outcome_slug | capitalize }} </h3>
+            {%  comment  %} Working up to here. page.outcomes.tags not working {% endcomment %}
+            {% if page.outcomes.summary %}
+              <p style="padding-bottom: 0px; margin-bottom: 0px;"> {{ page.outcomes.summary }} </p>
+            {% endif %}
+            {% if page.outcomes.tags %}
+              <br>
+              {% if page.outcomes.tags %}
+                <p class="post-tags outcome" style="padding-bottom: 0px; margin-bottom: 0px;">
+                {% for t in page.outcomes.tags %}
+                  <a class="tag-pill" href="/outcomes/tag/{{ t | uri_escape }}/"># {{ t }}</a>
+                {% endfor %}
+                </p>
+              {% endif %}
+            {% endif %}
           </div>
         </a>
       {% endfor %}

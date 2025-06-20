@@ -84,9 +84,18 @@ footer.sticky-bottom a {
   text-decoration: underline;
 }
 
+footer.fixed-bottom {
+  .footer-left {
+    padding-bottom: 2rem;
+  }
+  .footer-logos {
+    padding-bottom: 2rem;
+  }
+}
+
 /* constrain logo images to fit within the reduced footer height */
 .footer-logos .footer-logo {
-  max-height: 64px;     // $footer-size (80px) minus 2 * 0.5rem (16px)
+  max-height: 50px;     // $footer-size (80px) minus 2 * 0.5rem (16px)
   height: auto;
 }
 
@@ -142,7 +151,7 @@ footer.sticky-bottom a {
   font-size: 1.5rem;
   font-weight: bold;
   cursor: pointer;
-  color: #4177A1;
+  color: #172540;
 }
 
 .left-pane .toc-header-blank {
@@ -204,5 +213,15 @@ h1 {
 }
 
 h1, h2, h3, h4, h5, h6 {
+  color: #172540;
+}
+
+.header-bar h1 {
+  color: #172540;
+}
+
+h3.post-title {
   color: #4177A1;
+  font-weight: bold;
+  font-size:large;
 }

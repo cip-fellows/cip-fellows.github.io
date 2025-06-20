@@ -36,10 +36,10 @@ layout: default
     {% endif %}
 
     {% if page.tags %}
-      <ul class="tag-list d-inline">
+      <ul class="tag-list d-inline" style="padding-left: 0px;">
         {% for t in page.tags %}
           <li class="d-inline me-1">
-            <a class="tag-pill" href="/outcomes/tag/{{ t | uri_escape }}/">{{ t }}</a>
+            <a class="tag-pill" href="/outcomes/tag/{{ t | uri_escape }}/">#{{ t }} </a>
           </li>
         {% endfor %}
       </ul>
@@ -50,10 +50,10 @@ layout: default
     {%- comment -%}
     Outcome pages use a `summary` field instead of `description`
     so we surface that here.
-    {%- endcomment -%}
     {% if page.summary %}
       <p class="post-description">{{ page.summary }}</p>
     {% endif %}
+    {%- endcomment -%}
   </header>
 
   <!--<h2>Abstract</h2>--> 
