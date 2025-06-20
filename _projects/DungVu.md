@@ -1,7 +1,7 @@
 ---
 layout: fellow
 title: Dung Vu
-institute: 
+institute: CSUSB
 description: 
 img: assets/img/default.jpg
 importance: 0
@@ -10,4 +10,4 @@ fellow-type: ""
 related_publications: false
 ---
 
-
+Dung Vu is a programmer / analyst at California State University, San Bernardino

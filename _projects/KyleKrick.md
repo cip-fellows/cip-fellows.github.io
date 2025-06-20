@@ -1,13 +1,13 @@
 ---
 layout: fellow
 title: Kyle Krick
-institute: 
+institute: SDSU
 description: 
-img: assets/img/default.jpg
-importance: 0
+img: assets/img/KyleKrick.jpg
+importance: 1
 category: "🎓 Cohort 2023"
 fellow-type: ""
 related_publications: false
 ---
 
-
+Kyle Krick is a Software Engineer with experience working in the higher education industry. He is skilled in several web technologies and certified in Microsoft Azure.

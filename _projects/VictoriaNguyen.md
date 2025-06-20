@@ -10,6 +10,7 @@ fellow-type: ""
 related_publications: false
 voice: 
 email: 
+LinkedIn: https://www.linkedin.com/in/victoria-nguyen-718920160/
 orcid: 
 other: 
 outcomes: 

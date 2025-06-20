@@ -3,7 +3,7 @@ layout: fellow
 title: Brendan Dennis
 institute: UC San Diego
 description: 2025, UCSD
-img: assets/img/default.jpg
+img: assets/img/BrendanDennis.jpg
 importance: 3
 category: "🎓 Cohort 2025"
 fellow-type: ""

@@ -1,6 +1,6 @@
 ---
 layout: fellow
-title: Henri Li
+title: Henry Li
 institute: SDSU
 description: 
 img: assets/img/HenryLi.jpg

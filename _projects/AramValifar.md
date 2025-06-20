@@ -1,6 +1,6 @@
 ---
 layout: fellow
-title: Aram Valafar
+title: Aram Valifar
 institute: SDSU
 description: 2025, SDSU
 img: assets/img/default.jpg

@@ -1,38 +1,53 @@
 // footer size
-$footer-size: 80px;
+$footer-size: 68px;
 
 .cip-fellow-card {
-    background-color: #4177A1;
-    color: #ffffff;
-    border: none;
+  display: flex;
+  flex-direction: column;
+  background-color: #4177A1;
+  color: #ffffff;
+  border: none;
+  border-radius: 0.25rem;
+  overflow: hidden; 
+
   
+  .card-img-wrapper {
+    position: relative;
+    width: 100%;
+    aspect-ratio: 1 / 1;
+    overflow: hidden;
+  }
+
+  .card-img-wrapper img,
+  .card-img-fixed {
+    position: absolute;
+    inset: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+  }
+
+  .card-body {
+    flex: 0 1 auto;
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
     .card-title,
     .card-subtitle,
     .card-text {
       color: #ffffff;
     }
 
-    .card-img-wrapper {
-      width: 100%;
-      aspect-ratio: 1 / 1;
-      overflow: hidden;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-    }
-    
-    .card-img-fixed {
-      width: 100%;
-      height: 100%;
-      object-fit: cover;
-    }    
-    
     .card-institute {
-        font-style: italic;
-        color: #ffffff !important; // ensures it stays white if needed
+      font-style: italic;
+      color: #ffffff !important;
     }
-      
   }
+}
+
 
 .fellow-divider {
     border-top: 2px solid #172540;
@@ -51,7 +66,7 @@ $footer-size: 80px;
 footer.fixed-bottom,
 footer.sticky-bottom {
   height:         $footer-size;            // fix exactly 80px total height
-  padding:        0.5rem 1rem !important;  // ~8px top/bottom, 16px left/right
+  padding:        0.25rem 1rem !important;  // ~8px top/bottom, 16px left/right
   background-color: #172540 !important;
   color:            #fff     !important;
   font-size:        0.9rem;                // slightly smaller text
@@ -127,6 +142,20 @@ footer.sticky-bottom a {
   font-size: 1.5rem;
   font-weight: bold;
   cursor: pointer;
+  color: #4177A1;
+}
+
+.left-pane .toc-header-blank {
+  position: relative;    /* stack above the image */
+  z-index: 1;
+  margin-bottom: 1.5rem;
+  font-size: 1.5rem;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.left-pane .toc-header :active {
+  text-decoration: underline;
 }
 
 .fellow-type {
@@ -159,8 +188,9 @@ h1 {
 }
 
 .fellow-outcome {
-  background-color: #4177A1;
-  color: white;
+  background-color: #fff;
+  border: 2px solid #4177A1;
+  /*color: white;*/ 
   border-radius: 8px;
   padding: 0.75em 1em;
   margin-bottom: 1em;
@@ -171,4 +201,8 @@ h1 {
 .projects a:hover .card-title {
   color: white; /* possible css colors: white, lightblue  */ 
   text-decoration-line: underline;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  color: #4177A1;
 }
