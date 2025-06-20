@@ -142,7 +142,7 @@ footer.sticky-bottom a {
   font-size: 1.5rem;
   font-weight: bold;
   cursor: pointer;
-  color: #4177A1;
+  color: #172540;
 }
 
 .left-pane .toc-header-blank {
@@ -204,5 +204,15 @@ h1 {
 }
 
 h1, h2, h3, h4, h5, h6 {
+  color: #172540;
+}
+
+.header-bar h1 {
+  color: #172540;
+}
+
+h3.post-title {
   color: #4177A1;
+  font-weight: bold;
+  font-size:large;
 }
