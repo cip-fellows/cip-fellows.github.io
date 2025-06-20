@@ -1,7 +1,7 @@
 ---
 layout: outcome-project
 title: "Containerizing FourCastNet for Kubernetes Cluster"
-fellow: "Henri Li" 
+fellow: "Henry Li" 
 summary: Researchers at San Diego State University wanted more computation power to train and run inference on FourCastNet.
 url: "https://hub.docker.com/repository/docker/henrylisdsu/nvidia-cuda-12.4/general" 
 format: "docker" 
