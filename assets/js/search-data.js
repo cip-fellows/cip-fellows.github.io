@@ -73,11 +73,11 @@ ninja.data = [{
           description: "2025, SDSU | Velit excepteur ullamco ut eiusmod lorem voluptate sint fugiat dolore enim nisi. Ullamco excepteur ut velit eiusmod voluptate lorem sint nisi. Dolor aliquip sit cupidatat cillum proident sed velit ad lorem. Nisi lorem dolore dolor ut ullamco ad sit quis.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/AnjaliShinde/";
-            },},{id: "projects-aram-valafar",
-          title: 'Aram Valafar',
+            },},{id: "projects-aram-valifar",
+          title: 'Aram Valifar',
           description: "2025, SDSU",
           section: "Projects",handler: () => {
-              window.location.href = "/projects/AramValafar/";
+              window.location.href = "/projects/AramValifar/";
             },},{id: "projects-brendan-dennis",
           title: 'Brendan Dennis',
           description: "2025, UCSD",
@@ -108,11 +108,11 @@ ninja.data = [{
           description: "",
           section: "Projects",handler: () => {
               window.location.href = "/projects/FernandoGarzon/";
-            },},{id: "projects-henri-li",
-          title: 'Henri Li',
+            },},{id: "projects-henry-li",
+          title: 'Henry Li',
           description: "",
           section: "Projects",handler: () => {
-              window.location.href = "/projects/HenriLi/";
+              window.location.href = "/projects/HenryLi/";
             },},{id: "projects-hovakim-grabski",
           title: 'Hovakim Grabski',
           description: "Hovakim Grabski is a visiting scholar from Armenia and Researcher/SysAdmin at Abagyan Lab, UC San Diego and SDSC, with experience in Python programming, ICM programming language for molecular modeling, docking, screening, and infrastructure automation.",
