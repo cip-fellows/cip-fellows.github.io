@@ -14,3 +14,4 @@ vendor
 .vscode/settings.json
 _site/feed.xml
 tasks.md
+_layouts/scratch
