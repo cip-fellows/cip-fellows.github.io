@@ -36,17 +36,31 @@ layout: default
   .right-pane > section.active {
     display: block;
   }
+
+  .toc-header.active {
+    text-decoration: underline;
+  }
 </style>
 
 <script>
   document.addEventListener("DOMContentLoaded", function () {
     const headers = document.querySelectorAll(".toc-header");
     const sections = document.querySelectorAll(".right-pane > section");
+    const initSection = document.querySelector(".right-pane > section.active")
+
+    if (initSection) {
+      const initHeader = document.querySelector(`.toc-header[data-target="${initSection.id}"]`); 
+      if (initHeader) {
+        initHeader.classList.add("active"); 
+      }
+    }
 
     headers.forEach(header => {
       header.addEventListener("click", () => {
         // Remove 'active' from all sections
         sections.forEach(section => section.classList.remove("active"));
+
+        headers.forEach(h => h.classList.remove("active")); 
 
         // Get target section ID from data attribute
         const targetId = header.getAttribute("data-target");
@@ -55,6 +69,7 @@ layout: default
         // Activate the correct section
         if (targetSection) {
           targetSection.classList.add("active");
+          header.classList.add("active"); 
         }
       });
     });
