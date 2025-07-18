@@ -14,5 +14,6 @@ orcid:
 other: 
 outcomes: 
     - "summer research program" 
+    - "nabeel's project"
 ---
 Dr. Alzahrani is an Adjunct Professor in the Computer Science and Engineering Department at California State University, San Bernardino (CSUSB) with expertise in diverse areas, including artificial intelligence, cybersecurity, cloud and mobile computing, software engineering, and computer networks. He earned his Ph.D. in Computer Science from the University of California, Riverside, with a perfect 4.00/4.00 GPA. Dr. Alzahrani is also a consultant in the Identity, Security, and Enterprise Technology Department at CSUSB. He is a published author with three published books and seven peer-reviewed scientific research papers, and has delivered multiple presentations in his field.
