@@ -46,6 +46,13 @@ profiles:
     image_circular: false  # crops the image to make it circular
     more_info: 
   
+student_profiles: 
+  - align: right 
+    image: AarushMehrotra.jpeg
+    content: team/student/aarush_mehrotra.md
+    image_circular: false 
+    more_info: 
+
 past_profiles: 
   - align: right
     image: RobertSinkovits.jpeg
