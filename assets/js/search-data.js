@@ -63,6 +63,11 @@ ninja.data = [{
           description: "",
           section: "Outcomes",handler: () => {
               window.location.href = "/outcomes/software-container/";
+            },},{id: "outcomes-nabeel-39-s-final-report",
+          title: 'Nabeel&amp;#39;s Final Report',
+          description: "",
+          section: "Outcomes",handler: () => {
+              window.location.href = "/outcomes/nabeels-project/";
             },},{id: "outcomes-singularity-conversion-of-nvidia-containers-for-expanse-nairr-expansion",
           title: 'Singularity Conversion of NVIDIA Containers for Expanse NAIRR Expansion',
           description: "",
