@@ -75,7 +75,7 @@ ninja.data = [{
               window.location.href = "/outcomes/singularity-conversion-of-nvidia-containers-for-expanse-nairr-expansion/";
             },},{id: "projects-anjali-shinde",
           title: 'Anjali Shinde',
-          description: "2025, SDSU | Velit excepteur ullamco ut eiusmod lorem voluptate sint fugiat dolore enim nisi. Ullamco excepteur ut velit eiusmod voluptate lorem sint nisi. Dolor aliquip sit cupidatat cillum proident sed velit ad lorem. Nisi lorem dolore dolor ut ullamco ad sit quis.",
+          description: "2025, SDSU",
           section: "Projects",handler: () => {
               window.location.href = "/projects/AnjaliShinde/";
             },},{id: "projects-aram-valifar",
