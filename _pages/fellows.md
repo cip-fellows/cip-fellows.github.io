@@ -9,17 +9,18 @@ display_categories: ["🎓 Cohort 2025", "🎓 Cohort 2024", "🎓 Cohort 2023"]
 horizontal: false
 ---
 
-<!-- pages/fellows.md -->
+{% comment %} pages/fellows.md {% endcomment %}
+
 <div class="projects">
 {% if site.enable_project_categories and page.display_categories %}
-  <!-- Display categorized projects -->
+  {% comment %}   Display categorized projects {% endcomment %}  
   {% for category in page.display_categories %}
   <a id="{{ category }}" href=".#{{ category }}">
     <h2 class="category">{{ category }}</h2>
   </a>
   {% assign categorized_projects = site.projects | where: "category", category %}
   {% assign sorted_projects = categorized_projects | sort: "importance" %}
-  <!-- Generate cards for each project -->
+  {% comment %}   Generate cards for each project {% endcomment %}  
   {% if page.horizontal %}
   <div class="container">
     <div class="row row-cols-1 row-cols-md-2">
@@ -39,11 +40,11 @@ horizontal: false
 
 {% else %}
 
-<!-- Display projects without categories -->
+{% comment %}   Display projects without categories {% endcomment %}  
 
 {% assign sorted_projects = site.projects | sort: "importance" %}
 
-  <!-- Generate cards for each project -->
+  {% comment %}   Generate cards for each project {% endcomment %}  
 
 {% if page.horizontal %}
 
