@@ -1,5 +1,5 @@
 # Tech Debt on CIP Fellows Pages 
-This file documents pages that differ from Al-Folio conventions, or otherwise differ from convention. 
+This file documents pages that differ from Al-Folio conventions, or otherwise differ from convention. You can go back to the main README [here](README.md).
 
 # Index/Home page 
 The home page has custom javascript functionality built in. As a result, this page exists largely on its own- there is no separation of concerns here, and instead, all content for the home page exists within [_layouts/about.liquid](_layouts/about.liquid). Although there is an about-index.md, only the front matter of that page is used. 
@@ -30,3 +30,14 @@ title: tech-debt
 permalink: /outcomes/tag/tech-debt/ 
 ---
 ```
+
+# Tracking and Analytics 
+At the moment there is no tracking or analytics implemented, but that might be useful for the future. 
+
+# CI/CD 
+At the moment some initial steps have been made for a CI/CD pipeline. However, more work is left to be done. 
+- Main branch protection exists 
+- Some level of build protection exists but is not fully implemented yet 
+- No deployment/build checks as part of merge process 
+- No issue templates
+- Branching could be better defined 
