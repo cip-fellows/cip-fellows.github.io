@@ -48,7 +48,32 @@ ninja.data = [{
           window.location.href = "/blog/2020/NSF-Awards-the-CIML-Project/";
         
       },
-    },{id: "outcomes-csusb-summer-research-program-in-ai-ml",
+    },{id: "outcomes-instructional-cluster-intro",
+          title: 'Instructional Cluster Intro',
+          description: "",
+          section: "Outcomes",handler: () => {
+              window.location.href = "/outcomes/instructional-cluster-intro/";
+            },},{id: "outcomes-kyle-39-s-final-report",
+          title: 'Kyle&amp;#39;s Final Report',
+          description: "",
+          section: "Outcomes",handler: () => {
+              window.location.href = "/outcomes/kyles-final-report/";
+            },},{id: "outcomes-containerization-of-quick",
+          title: 'Containerization of QUICK',
+          description: "",
+          section: "Outcomes",handler: () => {
+              window.location.href = "/outcomes/containerization-of-quick/";
+            },},{id: "outcomes-documentation-of-benchmarking-of-containerized-quick",
+          title: 'Documentation of Benchmarking of Containerized QUICK',
+          description: "",
+          section: "Outcomes",handler: () => {
+              window.location.href = "/outcomes/documentation-of-containerized-quick/";
+            },},{id: "outcomes-benchmarking-of-containerized-quick",
+          title: 'Benchmarking of Containerized QUICK',
+          description: "",
+          section: "Outcomes",handler: () => {
+              window.location.href = "/outcomes/benchmarking-of-containerized-quick/";
+            },},{id: "outcomes-csusb-summer-research-program-in-ai-ml",
           title: 'CSUSB Summer Research Program in AI/ML',
           description: "",
           section: "Outcomes",handler: () => {
@@ -58,6 +83,11 @@ ninja.data = [{
           description: "",
           section: "Outcomes",handler: () => {
               window.location.href = "/outcomes/educational-aids/";
+            },},{id: "outcomes-instructional-intro-to-nextflow-on-hpc",
+          title: 'Instructional Intro to NextFlow on HPC',
+          description: "",
+          section: "Outcomes",handler: () => {
+              window.location.href = "/outcomes/instructional-intro-to-nextflow-on-hpc/";
             },},{id: "outcomes-containerizing-fourcastnet-for-kubernetes-cluster",
           title: 'Containerizing FourCastNet for Kubernetes Cluster',
           description: "",
@@ -73,6 +103,16 @@ ninja.data = [{
           description: "",
           section: "Outcomes",handler: () => {
               window.location.href = "/outcomes/singularity-conversion-of-nvidia-containers-for-expanse-nairr-expansion/";
+            },},{id: "outcomes-containerizing-fourcastnet-for-kubernetes-cluster",
+          title: 'Containerizing FourCastNet for Kubernetes Cluster',
+          description: "",
+          section: "Outcomes",handler: () => {
+              window.location.href = "/outcomes/containerizing-fourcastnet-for-kubernetes-cluster/";
+            },},{id: "outcomes-accessible-ai-and-hpc-education-for-all",
+          title: 'Accessible AI and HPC Education for All',
+          description: "",
+          section: "Outcomes",handler: () => {
+              window.location.href = "/outcomes/accessible-ai-and-hpc-education-for-all/";
             },},{id: "projects-anjali-shinde",
           title: 'Anjali Shinde',
           description: "2025, SDSU",
