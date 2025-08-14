@@ -7,6 +7,7 @@ layout: page
       <a href="{{ o.url }}" style="text-decoration: none; color: inherit;">
         <div class="fellow-outcome hover-card">
           <h3 class="post-title">{{ o.title }}</h3>
+          <h4 class="post-subtitle"> {{ o.fellow }} | {{ o.date | date:"%Y" }} </h4>
           {% if o.summary %}
             <p style="padding-bottom: 0px; margin-bottom: 0px;"> {{ o.summary }} </p>
           {% endif %}
