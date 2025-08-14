@@ -9,7 +9,11 @@ category: "🎓 Cohort 2023"
 fellow-type: ""
 related_publications: false
 outcomes: 
-    - "kyle's final report" 
+    # - "kyle's final report"
+    - "instructional cluster intro"
+    - "containerization of quick"
+    - "benchmarking of containerized quick" 
+    - "documentation of containerized quick"
 ---
 
 Kyle Krick is a Software Engineer with experience working in the higher education industry. He is skilled in several web technologies and certified in Microsoft Azure.
