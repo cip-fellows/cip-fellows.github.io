@@ -88,8 +88,8 @@ ninja.data = [{
           description: "",
           section: "Outcomes",handler: () => {
               window.location.href = "/outcomes/instructional-intro-to-nextflow-on-hpc/";
-            },},{id: "outcomes-containerizing-fourcastnet-for-kubernetes-cluster",
-          title: 'Containerizing FourCastNet for Kubernetes Cluster',
+            },},{id: "outcomes-software-container-for-fourcastnet",
+          title: 'Software Container for FourCastNet',
           description: "",
           section: "Outcomes",handler: () => {
               window.location.href = "/outcomes/software-container/";
