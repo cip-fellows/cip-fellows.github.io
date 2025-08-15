@@ -205,6 +205,11 @@ h1 {
   margin-bottom: 1em;
   font-size: 1rem;
   line-height: 1.4;
+
+  html[data-theme="dark"] & {
+    background-color: #222; // Grey background
+    color: var(--global-text-color-light); // Light text inside
+  }
 }
 
 .projects a:hover .card-title {
@@ -215,6 +220,17 @@ h1 {
 h1, h2, h3, h4, h5, h6 {
   color: #172540;
 }
+
+html[data-theme="dark"] h1,
+html[data-theme="dark"] h2,
+html[data-theme="dark"] .projects h2.category, 
+html[data-theme="dark"] h3,
+html[data-theme="dark"] h4,
+html[data-theme="dark"] h5,
+html[data-theme="dark"] h6 {
+  color: #4177A1;
+}
+
 
 .header-bar h1 {
   color: #172540;
