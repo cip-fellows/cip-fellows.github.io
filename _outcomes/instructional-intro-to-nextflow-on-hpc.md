@@ -4,7 +4,7 @@ title: "Instructional Intro to NextFlow on HPC"
 fellow: "Hovakim Grabski" 
 summary: This repository is designed to be an interactive introduction on how to use Nextflow on HPC within the CIP. This intro assumes that you are familiar with...
 
-url: "https://github.com/hovo1990/CIP_Nextflow_on_HPC"
+link: "https://github.com/hovo1990/CIP_Nextflow_on_HPC"
 format: "github" 
 date: 2024-06-23
 tags: 

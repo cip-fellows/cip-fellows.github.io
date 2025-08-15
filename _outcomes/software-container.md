@@ -3,7 +3,7 @@ layout: outcome-project
 title: "Software Container for FourCastNet"
 fellow: "Henry Li" 
 summary: Researchers at San Diego State University wanted more computation power to train and run inference on FourCastNet.
-url: "https://hub.docker.com/repository/docker/henrylisdsu/nvidia-cuda-12.4/general" 
+link: "https://hub.docker.com/repository/docker/henrylisdsu/nvidia-cuda-12.4/general" 
 format: "docker" 
 date: 2024-07-21 
 tags: 

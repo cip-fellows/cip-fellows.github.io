@@ -25,17 +25,16 @@ layout: default
       </h2>
     {% endif %}
 
-    {%- comment -%}
-    {% if page.date %}
-        <h4 class="post-date">July 21, 2024</h4>
+    {% if page.url %}
+        <h2 class="post-subtitle"> <a href="{{ page.link }}" target="_blank">{{ page.link }}</a> </h2>
     {% endif %}
-    {%- endcomment -%}
 
     {% if page.institute %}
       <h2 class="post-subtitle">{{ page.institute }}</h2>
     {% endif %}
 
     {% if page.tags %}
+      <hr> 
       <ul class="tag-list d-inline" style="padding-left: 0px;">
         {% for t in page.tags %}
           <li class="d-inline me-1">
