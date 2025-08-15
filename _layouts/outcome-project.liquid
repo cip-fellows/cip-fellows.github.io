@@ -20,7 +20,7 @@ layout: default
       {% assign fellow_slug = page.fellow | remove: ' ' %}
       <h2 class="post-subtitle">
         <a href="{{ site.baseurl }}/projects/{{ fellow_slug }}/">
-          {{ page.fellow }}
+          {{ page.fellow }} | {{ page.date | date:"%Y" }}
         </a>
       </h2>
     {% endif %}
