@@ -23,13 +23,6 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/cip-fellows/";
           },
-        },{id: "nav-products",
-          title: "Products",
-          description: "About the CIP Fellows Program",
-          section: "Navigation",
-          handler: () => {
-            window.location.href = "/products/";
-          },
         },{id: "nav-news-amp-events",
           title: "News &amp; Events",
           description: "",
@@ -113,6 +106,16 @@ ninja.data = [{
           description: "",
           section: "Outcomes",handler: () => {
               window.location.href = "/outcomes/accessible-ai-and-hpc-education-for-all/";
+            },},{id: "outcomes-access-to-jupyter-hubs",
+          title: 'Access to Jupyter Hubs',
+          description: "",
+          section: "Outcomes",handler: () => {
+              window.location.href = "/outcomes/access-to-jupyter-hubs/";
+            },},{id: "outcomes-about-an-ai-assisted-mobile-solution-to-reliably-diagnose-obstructive-sleep-apnea-osa",
+          title: 'About an AI-assisted mobile solution to reliably diagnose Obstructive Sleep Apnea (OSA)',
+          description: "",
+          section: "Outcomes",handler: () => {
+              window.location.href = "/outcomes/obstructive-sleep-apnea/";
             },},{id: "projects-anjali-shinde",
           title: 'Anjali Shinde',
           description: "2025, SDSU",
