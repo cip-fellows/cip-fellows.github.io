@@ -7,7 +7,7 @@ img: assets/img/HovakimGrabski.png
 importance: 3
 category: "🎓 Cohort 2024"
 fellow-type: "Faculty Fellow"
-related_publications: false
+related_publications: true
 voice:
 email:
 orcid:
