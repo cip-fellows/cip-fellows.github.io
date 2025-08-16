@@ -15,12 +15,6 @@ layout: default
     flex-direction: column;
     justify-content: center;
     padding-left: 2rem;
-
-    position: sticky;
-    top: 59px;
-    align-self: flex-start;
-    max-height: calc(100vh - 2.5rem);
-    overflow: auto;
   }
 
   .left-pane .toc-header {
@@ -28,16 +22,6 @@ layout: default
     font-size: 1.5rem;
     font-weight: bold;
     cursor: pointer;
-    z-index: 1;
-  }
-
-  .bg-image-behind {
-    position: absolute;
-    inset: 0 auto auto 0;
-    width: 220px;
-    opacity: 0.06;
-    pointer-events: none;
-    z-index: 0;
   }
 
   .right-pane {
@@ -45,109 +29,76 @@ layout: default
     padding-right: 2rem;
   }
 
-  .right-pane > section { display: none; }
-  .right-pane > section.active { display: block; }
+  .right-pane > section {
+    display: none; /* only one will be shown at a time */
+  }
 
-  .toc-header.active { text-decoration: underline; }
+  .right-pane > section.active {
+    display: block;
+  }
+
+  .toc-header.active {
+    text-decoration: underline;
+  }
 
   html[data-theme="dark"] .homepage-container .toc-header,
   html[data-theme="dark"] .homepage-container .toc-header-blank a {
     color: #4177A1 !important;
   }
-  
-  @media (max-width: 900px) {
-    .homepage-container {
-      flex-direction: column;
-    }
-    .left-pane {
-      position: static;
-      max-height: none;
-      overflow: visible;
-      padding-left: 0;
-      margin-bottom: 1rem;
-    }
-  }
 </style>
 
 <script>
   document.addEventListener("DOMContentLoaded", function () {
-    const headers = Array.from(document.querySelectorAll(".toc-header"));
-    const sections = Array.from(document.querySelectorAll(".right-pane > section"));
+    const headers = document.querySelectorAll(".toc-header");
+    const sections = document.querySelectorAll(".right-pane > section");
+    const initSection = document.querySelector(".right-pane > section.active")
 
-    // Map: sectionId -> header element
-    const headerByTarget = new Map(
-      headers.map(h => [h.dataset.target, h])
-    );
-
-    function activateSection(targetId, pushHash = false) {
-      const targetSection = document.getElementById(targetId);
-      const targetHeader  = headerByTarget.get(targetId);
-
-      if (!targetSection || !targetHeader) {
-        console.warn("No matching section/header for:", targetId);
-        return;
-      }
-
-      // Deactivate all
-      sections.forEach(s => s.classList.remove("active"));
-      headers.forEach(h => h.classList.remove("active"));
-
-      // Activate selected
-      targetSection.classList.add("active");
-      targetHeader.classList.add("active");
-
-      if (pushHash) {
-        // Keep URL in sync for deep-links/back/forward
-        history.pushState(null, "", "#" + targetId);
+    if (initSection) {
+      const initHeader = document.querySelector(`.toc-header[data-target="${initSection.id}"]`); 
+      if (initHeader) {
+        initHeader.classList.add("active"); 
       }
     }
 
-    // Initial activation: URL hash > existing .active > first section
-    const hashId = decodeURIComponent(location.hash.replace(/^#/, ""));
-    const activeOnLoad =
-      (hashId && document.getElementById(hashId)) ? hashId :
-      (document.querySelector(".right-pane > section.active")?.id) ||
-      (sections[0]?.id);
-
-    if (activeOnLoad) activateSection(activeOnLoad, false);
-
-    // Click handlers
     headers.forEach(header => {
       header.addEventListener("click", () => {
-        const targetId = header.getAttribute("data-target");
-        if (targetId) activateSection(targetId, true);
-      });
-    });
+        // Remove 'active' from all sections
+        sections.forEach(section => section.classList.remove("active"));
 
-    // Support navigating directly to #core-competencies etc.
-    window.addEventListener("hashchange", () => {
-      const newId = decodeURIComponent(location.hash.replace(/^#/, ""));
-      if (newId) activateSection(newId, false);
+        headers.forEach(h => h.classList.remove("active")); 
+
+        // Get target section ID from data attribute
+        const targetId = header.getAttribute("data-target");
+        const targetSection = document.getElementById(targetId);
+
+        // Activate the correct section
+        if (targetSection) {
+          targetSection.classList.add("active");
+          header.classList.add("active"); 
+        }
+      });
     });
   });
 </script>
 
+
 <div class="homepage-container">
   <!-- Left Pane TOC -->
-  <div class="left-pane" role="tablist" aria-label="Page sections">
+  <div class="left-pane">
     <!-- background logo behind the headers -->
     <img
       src="{{ site.baseurl }}/assets/img/ML_Icon_Opacity5.png"
       alt="An image of a brain that looks like a computer chip"
       class="bg-image-behind"
     >
-    <div class="toc-header" data-target="section-overview" role="tab" aria-controls="section-overview"> Program Overview </div>
-    <div class="toc-header" data-target="section-how" role="tab" aria-controls="section-how"> How it Works </div>
-    <div class="toc-header" data-target="core-competencies" role="tab" aria-controls="core-competencies"> Core Competencies </div>
-    <!-- External link stays a plain link; it doesn't participate in switching -->
-    <div class="toc-header-blank">
-      <a style="color: #172540;" href="https://na.eventscloud.com/ereg/newreg.php?eventid=755152&" target="_blank" rel="noopener">Inquire Here</a>
-    </div>
+    <div class="toc-header" data-target="section-overview"> Program Overview </div>
+    <div class="toc-header" data-target="section-how"> How it Works </div>
+    <div class="toc-header-blank" data-target="section-inquire" ><a style="color: #172540;" href="https://na.eventscloud.com/ereg/newreg.php?eventid=755152&" target="_blank">Inquire Here</a></div>
   </div>
 
   <!-- Right Pane Content -->
   <div class="right-pane">
-    <section id="section-overview" class="active" role="tabpanel" aria-labelledby="section-overview">
+    <section id="section-overview" class="active">
       <h2>Program Overview</h2>
       <p><em>A joint program between San Diego State University and Cal State University, San Bernardino, led by San Diego Supercomputer Center at UC San Diego, in partnership to develop and build a Cybertraining Professional (CIP) workforce.</em></p>
 
@@ -160,187 +111,13 @@ layout: default
       <p>The CIP-Fellows program is seeking candidates who have the appropriate science and/or computing background and the motivation to work with research teams.</p>
     </section>
 
-    <section id="section-how" role="tabpanel" aria-labelledby="section-how">
+    <section id="section-how">
       <h2>How it Works</h2>
       <p>Our training approach demonstrates a pedagogical method that is part and parcel of how to develop this unique type of CIP workforce. Namely, it is the combination of individual training, being embedded into projects, coupled with ongoing mentoring, that will most effectively develop personnel with the array of needed skills. Once a Fellow is selected, we will design a customized training program with the goal that they can acquire the combination of technical competencies and soft skills needed to work independently with research teams and to facilitate team research. Training topics can include parallel programming concepts, HPC skills, data management, data sciences skills, AI/ML skills, scientific domain applications and libraries, working on different HPC architectures, and workforce development skills. A core activity will include giving the CIP-Fellows the opportunity to work on science research efforts identified by the NSF <a href="https://support.access-ci.org/matchplus">ACCESS MATCH</a> or <a href="https://nairrpilot.org/about">NAIRR</a> program.</p>
 
       <p>The outcome of this program can be considered to be analogous to many professional degree programs that have to combine concepts and practice. In some cases, training will result in certificates or badges (depending on the program). In other cases, CIP-Fellows will be encouraged to develop and present training material.</p>
 
       <p>This program is a 3-campus partnership led by the San Diego Supercomputer Center (SDSC) between UC San Diego, San Diego State University, and Cal State University, San Bernardino. Fellowship appointments are flexible, based on available funding and type of Fellowship. Fellows will work with their local CIP-Fellows site leads to determine eligibility and funding. CIP-Fellows will work in established departments at their home institutions, where they will be able to apply their new knowledge to real world situations. When applying, the application will ask for a letter of support and applicant resume.</p>
-    </section>
-
-    <section id="core-competencies" role="tabpanel" aria-labelledby="core-competencies">
-      <h1>CIP Fellows 5 Core Competencies</h1>
-
-      <h2>1. Technical CI Skills (HPC, Cloud Computing, Data Management)</h2>
-
-      <h3>High-Performance Computing Keywords</h3>
-      <ul>
-        <li><strong>Parallel Computing</strong>: MPI, OpenMP, CUDA, OpenACC, multithreading, distributed computing</li>
-        <li><strong>Job Schedulers</strong>: SLURM, PBS, SGE, LSF, Torque, resource allocation</li>
-        <li><strong>Performance Optimization</strong>: profiling, benchmarking, scalability, load balancing</li>
-        <li><strong>System Architecture</strong>: clusters, nodes, cores, memory hierarchy, interconnects</li>
-        <li><strong>Programming Models</strong>: shared memory, distributed memory, hybrid programming</li>
-        <li><strong>Workflow Management</strong>: pipelines, job dependencies, automation, orchestration</li>
-      </ul>
-
-      <h3>Cloud Computing Keywords</h3>
-      <ul>
-        <li><strong>Platform Services</strong>: IaaS, PaaS, SaaS, serverless, microservices</li>
-        <li><strong>Container Technologies</strong>: Docker, Kubernetes, Singularity, Apptainer, orchestration</li>
-        <li><strong>Infrastructure Management</strong>: provisioning, auto-scaling, load balancers, networking</li>
-        <li><strong>Cost Optimization</strong>: resource monitoring, rightsizing, reserved instances, spot instances</li>
-        <li><strong>Multi-Cloud Strategy</strong>: hybrid cloud, cloud migration, vendor lock-in, interoperability</li>
-        <li><strong>DevOps Practices</strong>: CI/CD, infrastructure as code, configuration management</li>
-      </ul>
-
-      <h3>Data Management Keywords</h3>
-      <ul>
-        <li><strong>Storage Systems</strong>: parallel filesystems, object storage, block storage, archival systems</li>
-        <li><strong>Data Transfer</strong>: high-throughput protocols, data staging, bandwidth optimization</li>
-        <li><strong>Database Technologies</strong>: relational, NoSQL, graph databases, time-series, distributed</li>
-        <li><strong>Data Lifecycle</strong>: ingestion, processing, analysis, archiving, retention policies</li>
-        <li><strong>Metadata Standards</strong>: Dublin Core, DataCite, schema.org, provenance tracking</li>
-        <li><strong>FAIR Principles</strong>: findable, accessible, interoperable, reusable data practices</li>
-      </ul>
-
-      <h2>2. Pedagogical and Facilitation Skills</h2>
-
-      <h3>Adult Learning Theory Keywords</h3>
-      <ul>
-        <li><strong>Learning Models</strong>: experiential learning, constructivism, andragogy, transformative learning</li>
-        <li><strong>Cognitive Load</strong>: scaffolding, chunking, prior knowledge activation, mental models</li>
-        <li><strong>Learning Styles</strong>: visual, auditory, kinesthetic, multimodal approaches</li>
-        <li><strong>Motivation Theory</strong>: self-determination, intrinsic motivation, goal orientation</li>
-        <li><strong>Assessment Methods</strong>: formative, summative, authentic assessment, rubrics</li>
-        <li><strong>Feedback Mechanisms</strong>: peer review, self-assessment, 360-degree feedback</li>
-      </ul>
-
-      <h3>Instructional Design Keywords</h3>
-      <ul>
-        <li><strong>Design Models</strong>: ADDIE, SAM, backward design, design thinking</li>
-        <li><strong>Learning Objectives</strong>: Bloom's taxonomy, SMART goals, competency-based education</li>
-        <li><strong>Content Development</strong>: multimedia learning, accessibility, universal design</li>
-        <li><strong>Technology Integration</strong>: LMS, authoring tools, interactive media, gamification</li>
-        <li><strong>Evaluation Methods</strong>: Kirkpatrick model, ROI analysis, learning analytics</li>
-        <li><strong>Quality Assurance</strong>: peer review, pilot testing, continuous improvement</li>
-      </ul>
-
-      <h3>Facilitation Skills Keywords</h3>
-      <ul>
-        <li><strong>Group Dynamics</strong>: team formation, conflict resolution, consensus building</li>
-        <li><strong>Communication</strong>: active listening, questioning techniques, nonverbal communication</li>
-        <li><strong>Engagement Strategies</strong>: interactive methods, breakout sessions, collaborative learning</li>
-        <li><strong>Virtual Facilitation</strong>: online platforms, digital tools, remote engagement</li>
-        <li><strong>Cultural Competence</strong>: inclusive practices, bias awareness, diverse perspectives</li>
-        <li><strong>Problem-Solving</strong>: critical thinking, creativity, decision-making processes</li>
-      </ul>
-
-      <h2>3. Professional Development and Career Transition Support</h2>
-
-      <h3>Career Development Keywords</h3>
-      <ul>
-        <li><strong>Career Planning</strong>: career mapping, skills assessment, goal setting, career transitions</li>
-        <li><strong>Professional Branding</strong>: personal brand, online presence, portfolio development</li>
-        <li><strong>Networking</strong>: relationship building, professional associations, mentorship programs</li>
-        <li><strong>Job Search</strong>: resume optimization, interview skills, salary negotiation, market analysis</li>
-        <li><strong>Leadership Development</strong>: emotional intelligence, team management, strategic thinking</li>
-        <li><strong>Entrepreneurship</strong>: innovation, business planning, risk assessment, startup culture</li>
-      </ul>
-
-      <h3>Project Management Keywords</h3>
-      <ul>
-        <li><strong>Methodologies</strong>: Agile, Scrum, Waterfall, Kanban, Lean, Six Sigma</li>
-        <li><strong>Planning Tools</strong>: work breakdown structure, Gantt charts, resource allocation</li>
-        <li><strong>Risk Management</strong>: risk assessment, mitigation strategies, contingency planning</li>
-        <li><strong>Communication</strong>: stakeholder management, status reporting, change management</li>
-        <li><strong>Quality Assurance</strong>: process improvement, performance metrics, deliverable standards</li>
-        <li><strong>Software Tools</strong>: project management platforms, collaboration tools, tracking systems</li>
-      </ul>
-
-      <h3>Grant and Funding Keywords</h3>
-      <ul>
-        <li><strong>Proposal Writing</strong>: narrative development, budget preparation, compliance requirements</li>
-        <li><strong>Funding Sources</strong>: federal agencies, foundations, industry partnerships, crowdfunding</li>
-        <li><strong>Evaluation Criteria</strong>: intellectual merit, broader impacts, feasibility, innovation</li>
-        <li><strong>Collaboration</strong>: multi-institutional partnerships, international cooperation, interdisciplinary teams</li>
-        <li><strong>Compliance</strong>: regulatory requirements, reporting, financial management, auditing</li>
-        <li><strong>Sustainability</strong>: long-term planning, diversified funding, scalability, impact measurement</li>
-      </ul>
-
-      <h2>4. Interdisciplinary Research Methods</h2>
-
-      <h3>Research Methodology Keywords</h3>
-      <ul>
-        <li><strong>Study Design</strong>: experimental, observational, mixed methods, longitudinal, cross-sectional</li>
-        <li><strong>Data Collection</strong>: surveys, interviews, ethnography, sensors, computational methods</li>
-        <li><strong>Statistical Analysis</strong>: hypothesis testing, regression, machine learning, Bayesian methods</li>
-        <li><strong>Reproducibility</strong>: open science, version control, documentation, replication studies</li>
-        <li><strong>Ethics</strong>: IRB approval, informed consent, data privacy, responsible conduct</li>
-        <li><strong>Literature Review</strong>: systematic review, meta-analysis, bibliometrics, knowledge synthesis</li>
-      </ul>
-
-      <h3>Convergence Research Keywords</h3>
-      <ul>
-        <li><strong>Systems Thinking</strong>: complexity science, network analysis, emergent properties, feedback loops</li>
-        <li><strong>Transdisciplinary Methods</strong>: co-creation, participatory research, stakeholder engagement</li>
-        <li><strong>Innovation Frameworks</strong>: design thinking, human-centered design, rapid prototyping</li>
-        <li><strong>Collaboration Models</strong>: virtual teams, distributed research, cross-cultural communication</li>
-        <li><strong>Problem-Solving</strong>: wicked problems, root cause analysis, scenario planning, foresight</li>
-        <li><strong>Impact Assessment</strong>: theory of change, logic models, outcome measurement, evaluation</li>
-      </ul>
-
-      <h3>Data Science Keywords</h3>
-      <ul>
-        <li><strong>Machine Learning</strong>: supervised, unsupervised, reinforcement learning, deep learning, neural networks</li>
-        <li><strong>Big Data</strong>: volume, velocity, variety, distributed computing, real-time processing</li>
-        <li><strong>Analytics</strong>: descriptive, predictive, prescriptive, business intelligence, data mining</li>
-        <li><strong>Visualization</strong>: dashboards, interactive graphics, storytelling with data, visual analytics</li>
-        <li><strong>Modeling</strong>: mathematical models, simulation, optimization, predictive analytics</li>
-        <li><strong>Tools and Platforms</strong>: programming languages, frameworks, cloud platforms, APIs</li>
-      </ul>
-
-      <h2>5. Community Building and Networking</h2>
-
-      <h3>Community Development Keywords</h3>
-      <ul>
-        <li><strong>Engagement Strategies</strong>: stakeholder mapping, outreach campaigns, grassroots organizing</li>
-        <li><strong>Event Management</strong>: conference planning, workshops, networking events, virtual gatherings</li>
-        <li><strong>Partnership Building</strong>: collaboration agreements, memorandums of understanding, consortiums</li>
-        <li><strong>Volunteer Management</strong>: recruitment, training, retention, recognition programs</li>
-        <li><strong>Resource Development</strong>: fundraising, sponsorship, grant writing, membership drives</li>
-        <li><strong>Governance</strong>: board development, policy creation, strategic planning, organizational structure</li>
-      </ul>
-
-      <h3>Digital Community Keywords</h3>
-      <ul>
-        <li><strong>Social Media Strategy</strong>: content creation, engagement metrics, platform optimization</li>
-        <li><strong>Online Platforms</strong>: forums, social networks, collaboration tools, community management systems</li>
-        <li><strong>Digital Marketing</strong>: SEO, content marketing, email campaigns, analytics</li>
-        <li><strong>Virtual Events</strong>: webinars, online conferences, hybrid events, streaming technology</li>
-        <li><strong>Content Curation</strong>: knowledge management, resource sharing, best practice documentation</li>
-        <li><strong>User Experience</strong>: interface design, accessibility, mobile optimization, user feedback</li>
-      </ul>
-
-      <h3>Professional Networks Keywords</h3>
-      <ul>
-        <li><strong>Association Management</strong>: membership development, program planning, professional standards</li>
-        <li><strong>Mentorship Programs</strong>: matching systems, training mentors, program evaluation, succession planning</li>
-        <li><strong>Knowledge Sharing</strong>: communities of practice, peer learning, expert networks, thought leadership</li>
-        <li><strong>Advocacy</strong>: policy development, lobbying, public relations, coalition building</li>
-        <li><strong>Diversity and Inclusion</strong>: equity initiatives, bias training, inclusive leadership, cultural competence</li>
-        <li><strong>International Collaboration</strong>: global partnerships, cross-cultural communication, virtual exchanges</li>
-      </ul>
-
-      <h3>Measurement and Evaluation Keywords</h3>
-      <ul>
-        <li><strong>Community Metrics</strong>: engagement rates, growth indicators, participation levels, retention rates</li>
-        <li><strong>Impact Assessment</strong>: outcome measurement, theory of change, social return on investment</li>
-        <li><strong>Survey Methods</strong>: member satisfaction, needs assessment, program evaluation, feedback systems</li>
-        <li><strong>Data Analysis</strong>: trend analysis, predictive modeling, segmentation, behavioral analytics</li>
-        <li><strong>Reporting</strong>: dashboards, annual reports, impact stories, stakeholder communication</li>
-        <li><strong>Continuous Improvement</strong>: iterative design, feedback loops, adaptive management, innovation cycles</li>
-      </ul>
     </section>
   </div>
 </div>
