@@ -3,7 +3,7 @@ layout: outcome-project
 title: "Containerization of QUICK" 
 fellow: "Kyle Krick" 
 summary: An open source, GPU enabled, *ab initio* and density functional theory program developed by Götz lab at University of California San Diego and Merz lab at Michigan State University. Features...
-link: "https://github.com/kkrick-sdsu/QUICK"
+url: "https://github.com/kkrick-sdsu/QUICK"
 format: "github" 
 date: 2024-01-26
 tags: 

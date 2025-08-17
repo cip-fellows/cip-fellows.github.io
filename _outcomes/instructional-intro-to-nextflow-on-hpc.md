@@ -3,8 +3,8 @@ layout: outcome-project
 title: "Instructional Intro to NextFlow on HPC" 
 fellow: "Hovakim Grabski" 
 summary: This repository is designed to be an interactive introduction on how to use Nextflow on HPC within the CIP. This intro assumes that you are familiar with...
-doi: 10.6084/m9.figshare.29919467
-link: "https://github.com/hovo1990/CIP_Nextflow_on_HPC"
+
+url: "https://github.com/hovo1990/CIP_Nextflow_on_HPC"
 format: "github" 
 date: 2024-06-23
 tags: 
@@ -14,9 +14,6 @@ tags:
     - linux
     - expanse
 ---
-
-> This paper is published on Figshare with a DOI of [10.6084/m9.figshare.29919467]( https://www.figshare.com/articles/software/CIP_Nextflow_on_HPC/29919467?file=57208589)
-
 # 👋 Welcome to the Instructional Intro to Nextflow on HPC
 This repository is designed to be an interactive introduction on how to use Nextflow on HPC within the CIP.
 
