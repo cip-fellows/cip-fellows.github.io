@@ -1,0 +1,150 @@
+---
+layout: page
+title: Core Competencies
+permalink: /core-competencies/
+description: 
+nav: true
+nav_order: 6
+display_categories:
+horizontal: false
+---
+
+# CIP Fellow Training - 5 Core Competencies
+
+## Technical CI Skills (HPC, Cloud Computing, Data Management)
+
+### High-Performance Computing Keywords
+- **Parallel Computing**: MPI, OpenMP, CUDA, OpenACC, multithreading, distributed computing
+- **Job Schedulers**: SLURM, PBS, SGE, LSF, Torque, resource allocation
+- **Performance Optimization**: profiling, benchmarking, scalability, load balancing
+- **System Architecture**: clusters, nodes, cores, memory hierarchy, interconnects
+- **Programming Models**: shared memory, distributed memory, hybrid programming
+- **Workflow Management**: pipelines, job dependencies, automation, orchestration
+
+### Cloud Computing Keywords
+- **Platform Services**: IaaS, PaaS, SaaS, serverless, microservices
+- **Container Technologies**: Docker, Kubernetes, Singularity, Apptainer, orchestration
+- **Infrastructure Management**: provisioning, auto-scaling, load balancers, networking
+- **Cost Optimization**: resource monitoring, rightsizing, reserved instances, spot instances
+- **Multi-Cloud Strategy**: hybrid cloud, cloud migration, vendor lock-in, interoperability
+- **DevOps Practices**: CI/CD, infrastructure as code, configuration management
+
+### Data Management Keywords
+- **Storage Systems**: parallel filesystems, object storage, block storage, archival systems
+- **Data Transfer**: high-throughput protocols, data staging, bandwidth optimization
+- **Database Technologies**: relational, NoSQL, graph databases, time-series, distributed
+- **Data Lifecycle**: ingestion, processing, analysis, archiving, retention policies
+- **Metadata Standards**: Dublin Core, DataCite, schema.org, provenance tracking
+- **FAIR Principles**: findable, accessible, interoperable, reusable data practices
+
+## Pedagogical and Facilitation Skills
+
+### Adult Learning Theory Keywords
+- **Learning Models**: experiential learning, constructivism, andragogy, transformative learning
+- **Cognitive Load**: scaffolding, chunking, prior knowledge activation, mental models
+- **Learning Styles**: visual, auditory, kinesthetic, multimodal approaches
+- **Motivation Theory**: self-determination, intrinsic motivation, goal orientation
+- **Assessment Methods**: formative, summative, authentic assessment, rubrics
+- **Feedback Mechanisms**: peer review, self-assessment, 360-degree feedback
+
+### Instructional Design Keywords
+- **Design Models**: ADDIE, SAM, backward design, design thinking
+- **Learning Objectives**: Bloom's taxonomy, SMART goals, competency-based education
+- **Content Development**: multimedia learning, accessibility, universal design
+- **Technology Integration**: LMS, authoring tools, interactive media, gamification
+- **Evaluation Methods**: Kirkpatrick model, ROI analysis, learning analytics
+- **Quality Assurance**: peer review, pilot testing, continuous improvement
+
+### Facilitation Skills Keywords
+- **Group Dynamics**: team formation, conflict resolution, consensus building
+- **Communication**: active listening, questioning techniques, nonverbal communication
+- **Engagement Strategies**: interactive methods, breakout sessions, collaborative learning
+- **Virtual Facilitation**: online platforms, digital tools, remote engagement
+- **Cultural Competence**: inclusive practices, bias awareness, diverse perspectives
+- **Problem-Solving**: critical thinking, creativity, decision-making processes
+
+## Professional Development and Career Transition Support
+
+### Career Development Keywords
+- **Career Planning**: career mapping, skills assessment, goal setting, career transitions
+- **Professional Branding**: personal brand, online presence, portfolio development
+- **Networking**: relationship building, professional associations, mentorship programs
+- **Job Search**: resume optimization, interview skills, salary negotiation, market analysis
+- **Leadership Development**: emotional intelligence, team management, strategic thinking
+- **Entrepreneurship**: innovation, business planning, risk assessment, startup culture
+
+### Project Management Keywords
+- **Methodologies**: Agile, Scrum, Waterfall, Kanban, Lean, Six Sigma
+- **Planning Tools**: work breakdown structure, Gantt charts, resource allocation
+- **Risk Management**: risk assessment, mitigation strategies, contingency planning
+- **Communication**: stakeholder management, status reporting, change management
+- **Quality Assurance**: process improvement, performance metrics, deliverable standards
+- **Software Tools**: project management platforms, collaboration tools, tracking systems
+
+### Grant and Funding Keywords
+- **Proposal Writing**: narrative development, budget preparation, compliance requirements
+- **Funding Sources**: federal agencies, foundations, industry partnerships, crowdfunding
+- **Evaluation Criteria**: intellectual merit, broader impacts, feasibility, innovation
+- **Collaboration**: multi-institutional partnerships, international cooperation, interdisciplinary teams
+- **Compliance**: regulatory requirements, reporting, financial management, auditing
+- **Sustainability**: long-term planning, diversified funding, scalability, impact measurement
+
+## Interdisciplinary Research Methods
+
+### Research Methodology Keywords
+- **Study Design**: experimental, observational, mixed methods, longitudinal, cross-sectional
+- **Data Collection**: surveys, interviews, ethnography, sensors, computational methods
+- **Statistical Analysis**: hypothesis testing, regression, machine learning, Bayesian methods
+- **Reproducibility**: open science, version control, documentation, replication studies
+- **Ethics**: IRB approval, informed consent, data privacy, responsible conduct
+- **Literature Review**: systematic review, meta-analysis, bibliometrics, knowledge synthesis
+
+### Convergence Research Keywords
+- **Systems Thinking**: complexity science, network analysis, emergent properties, feedback loops
+- **Transdisciplinary Methods**: co-creation, participatory research, stakeholder engagement
+- **Innovation Frameworks**: design thinking, human-centered design, rapid prototyping
+- **Collaboration Models**: virtual teams, distributed research, cross-cultural communication
+- **Problem-Solving**: wicked problems, root cause analysis, scenario planning, foresight
+- **Impact Assessment**: theory of change, logic models, outcome measurement, evaluation
+
+### Data Science Keywords
+- **Machine Learning**: supervised, unsupervised, reinforcement learning, deep learning, neural networks
+- **Big Data**: volume, velocity, variety, distributed computing, real-time processing
+- **Analytics**: descriptive, predictive, prescriptive, business intelligence, data mining
+- **Visualization**: dashboards, interactive graphics, storytelling with data, visual analytics
+- **Modeling**: mathematical models, simulation, optimization, predictive analytics
+- **Tools and Platforms**: programming languages, frameworks, cloud platforms, APIs
+
+## Community Building and Networking
+
+### Community Development Keywords
+- **Engagement Strategies**: stakeholder mapping, outreach campaigns, grassroots organizing
+- **Event Management**: conference planning, workshops, networking events, virtual gatherings
+- **Partnership Building**: collaboration agreements, memorandums of understanding, consortiums
+- **Volunteer Management**: recruitment, training, retention, recognition programs
+- **Resource Development**: fundraising, sponsorship, grant writing, membership drives
+- **Governance**: board development, policy creation, strategic planning, organizational structure
+
+### Digital Community Keywords
+- **Social Media Strategy**: content creation, engagement metrics, platform optimization
+- **Online Platforms**: forums, social networks, collaboration tools, community management systems
+- **Digital Marketing**: SEO, content marketing, email campaigns, analytics
+- **Virtual Events**: webinars, online conferences, hybrid events, streaming technology
+- **Content Curation**: knowledge management, resource sharing, best practice documentation
+- **User Experience**: interface design, accessibility, mobile optimization, user feedback
+
+### Professional Networks Keywords
+- **Association Management**: membership development, program planning, professional standards
+- **Mentorship Programs**: matching systems, training mentors, program evaluation, succession planning
+- **Knowledge Sharing**: communities of practice, peer learning, expert networks, thought leadership
+- **Advocacy**: policy development, lobbying, public relations, coalition building
+- **Diversity and Inclusion**: equity initiatives, bias training, inclusive leadership, cultural competence
+- **International Collaboration**: global partnerships, cross-cultural communication, virtual exchanges
+
+### Measurement and Evaluation Keywords
+- **Community Metrics**: engagement rates, growth indicators, participation levels, retention rates
+- **Impact Assessment**: outcome measurement, theory of change, social return on investment
+- **Survey Methods**: member satisfaction, needs assessment, program evaluation, feedback systems
+- **Data Analysis**: trend analysis, predictive modeling, segmentation, behavioral analytics
+- **Reporting**: dashboards, annual reports, impact stories, stakeholder communication
+- **Continuous Improvement**: iterative design, feedback loops, adaptive management, innovation cycles
