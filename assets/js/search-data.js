@@ -37,6 +37,13 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/news-events/index.html";
           },
+        },{id: "nav-core-competencies",
+          title: "Core Competencies",
+          description: "",
+          section: "Navigation",
+          handler: () => {
+            window.location.href = "/core-competencies/";
+          },
         },{id: "post-placeholder-post",
       
         title: "PLACEHOLDER POST",
