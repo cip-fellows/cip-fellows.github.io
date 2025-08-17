@@ -3,7 +3,7 @@ layout: outcome-project
 title: "Nabeel's Final Report" 
 fellow: "Nabeel Alzahrani" 
 summary: Reflections from the Fellow based on their time during the program.
-link: 
+url: 
 format:
 date: 2024-08-31
 tags: 
