@@ -3,7 +3,7 @@ layout: fellow
 title: Dung Vu
 institute: CSUSB
 description: 
-img: assets/img/default.jpg
+img: assets/img/DungVu.jpg
 importance: 0
 category: "🎓 Cohort 2023"
 fellow-type: ""
