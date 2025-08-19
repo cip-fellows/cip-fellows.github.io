@@ -8,10 +8,10 @@ importance: 1
 category: "🎓 Cohort 2024"
 fellow-type: ""
 related_publications: false
-voice: 
-email: 
+voice: (909) 537-7163
+email: alzahran@csusb.edu
 orcid: 
-other: 
+other: CSUSB Office PL-022
 outcomes: 
     - "summer research program" 
     # - "nabeel's project"

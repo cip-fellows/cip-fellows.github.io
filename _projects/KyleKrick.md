@@ -14,6 +14,9 @@ outcomes:
     - "containerization of quick"
     - "benchmarking of containerized quick" 
     - "documentation of containerized quick"
+email: kkrick@sdsc.edu
+LinkedIn: https://www.linkedin.com/in/kyle-krick-5a35b1106/
+Github: https://github.com/kkrick-sdsu
 ---
 
 Kyle Krick is a Software Engineer with experience working in the higher education industry. He is skilled in several web technologies and certified in Microsoft Azure.

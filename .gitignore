@@ -14,5 +14,11 @@ vendor
 _site/feed.xml
 tasks.md
 _layouts/scratch
+CUSTOMIZE.md
+docker-compose-slim.yml
+docker-compose.yml
+Dockerfile
+FAQ.md
+INSTALL.md
 
 _outcomes/kyles-final-report.md
