@@ -44,15 +44,37 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/core-competencies/";
           },
-        },{id: "post-placeholder-post",
+        },{id: "post-in-the-news-three-california-universities-commit-to-growing-a-community-of-cyberinfrastructure-professionals",
       
-        title: "PLACEHOLDER POST",
+        title: "In The News! Three California Universities Commit To Growing A Community Of Cyberinfrastructure...",
       
-      description: "CyberTraining: Implementation: Small: Developing a Best Practices Training Program in Cyberinfrastructure-Enabled Machine Learning Research",
+      description: "",
       section: "Posts",
       handler: () => {
         
-          window.location.href = "/blog/2020/NSF-Awards-the-CIML-Project/";
+          window.location.href = "/blog/2022/In-the-News!-Three-California-Universities-Commit-to-Growing-a-Community-of-Cyberinfrastructure-Professionals/";
+        
+      },
+    },{id: "post-three-california-universities-commit-to-growing-a-community-of-cyberinfrastructure-professionals",
+      
+        title: "“Three California Universities Commit to Growing a Community of Cyberinfrastructure Professionals”",
+      
+      description: "See related article: https://www.sdsc.edu/news/2022/PR20221020_cyberinfrastructure.html",
+      section: "Posts",
+      handler: () => {
+        
+          window.location.href = "/blog/2022/In-the-News!-Three-California-Universities-Commit-to-Growing-a-Community-of-Cyberinfrastructure-Professionals/";
+        
+      },
+    },{id: "post-nsf-award-announced-for-the-cip-fellows-project",
+      
+        title: "NSF Award Announced for the CIP-Fellows Project",
+      
+      description: "NSF Awards CyberTraining: CIP: Training and Developing a Research Computing and Data CI Professionals (RCD-CIP) Community to SDSC and collaborators",
+      section: "Posts",
+      handler: () => {
+        
+          window.location.href = "/blog/2022/NSF-Award-Announced/";
         
       },
     },{id: "outcomes-instructional-cluster-intro",
@@ -105,11 +127,21 @@ ninja.data = [{
           description: "",
           section: "Outcomes",handler: () => {
               window.location.href = "/outcomes/nabeels-project/";
+            },},{id: "outcomes-nextflow-core-quickflow",
+          title: 'Nextflow Core Quickflow',
+          description: "",
+          section: "Outcomes",handler: () => {
+              window.location.href = "/outcomes/nf-core-quickflow/";
             },},{id: "outcomes-singularity-conversion-of-nvidia-containers-for-expanse-nairr-expansion",
           title: 'Singularity Conversion of NVIDIA Containers for Expanse NAIRR Expansion',
           description: "",
           section: "Outcomes",handler: () => {
               window.location.href = "/outcomes/singularity-conversion-of-nvidia-containers-for-expanse-nairr-expansion/";
+            },},{id: "outcomes-rag-for-nairr-resources-project",
+          title: 'RAG For NAIRR Resources Project',
+          description: "",
+          section: "Outcomes",handler: () => {
+              window.location.href = "/outcomes/rag-for-nairr-resources/";
             },},{id: "outcomes-containerizing-fourcastnet-for-kubernetes-cluster",
           title: 'Containerizing FourCastNet for Kubernetes Cluster',
           description: "",
