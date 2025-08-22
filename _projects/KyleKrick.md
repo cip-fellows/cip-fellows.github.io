@@ -19,4 +19,4 @@ LinkedIn: https://www.linkedin.com/in/kyle-krick-5a35b1106/
 Github: https://github.com/kkrick-sdsu
 ---
 
-Kyle Krick is a Software Engineer with experience working in the higher education industry. He is skilled in several web technologies and certified in Microsoft Azure.
+Kyle Krick is a Research Software Engineer who leverages cyberinfrastructure to empower education and research in data science, artificial intelligence and machine learning. He is experienced in web development, cloud computing and software containers. Kyle is skilled in Python, Docker and Kubernetes. He is currently supporting education and research through JupyterHub and open source large language models on local and national high-performance computing resources.
