@@ -4,7 +4,7 @@ title: "Singularity Conversion of NVIDIA Containers for Expanse NAIRR Expansion"
 fellow: "Victoria Nguyen" 
 summary: This project will create Singularity containers for SDSC’s Expanse NAIRR Expansion, using NVIDIA’s published AI and ML Docker containers as a starting point. These Singularity containers are...
 link: "https://github.com/vin011/NVIDIA-Singularity-Containers" 
-format: "docker" 
+format: "Github" 
 date: 2025-03-31 
 tags: 
 ---

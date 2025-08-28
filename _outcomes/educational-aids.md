@@ -4,7 +4,7 @@ title: "Educational aids or Curricula"
 fellow: "Hovakim Grabski" 
 summary: The GitHub repository "CIP_Nextflow_on_HPC" is a comprehensive guide to leveraging Nextflow for deploying tasks on high-performance computing (HPC) systems, with a specific focus on SLURM-based environments.
 link: "https://github.com/hovo1990/CIP_Nextflow_on_HPC"
-format: "github" 
+format: "Github" 
 date: 2024-06-22
 tags: 
     - github

@@ -4,7 +4,7 @@ title: "Benchmarking of Containerized QUICK"
 fellow: "Kyle Krick" 
 summary: Scripts and results from benchmarking containerized [QUICK](https://github.com/merzlab/QUICK). The goal of this repo is to compare containerized QUICK to a local installation of QUICK on various...
 link: "https://github.com/kkrick-sdsu/quick-benchmarks/tree/master"
-format: "github" 
+format: "Github" 
 date: 2024-05-5
 tags: 
     - github

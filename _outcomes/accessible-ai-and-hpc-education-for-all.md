@@ -4,7 +4,7 @@ title: "Accessible AI and HPC Education for All"
 fellow: "Nabeel Alzahrani" 
 summary: High-performance computing (HPC) and artificial intelligence (AI) are increasingly critical in research and industry, yet opportunities to learn these skills remain limited for many students and...
 link: "https://dl.acm.org/doi/10.1145/3708035.3736048"
-format: "paper" 
+format: "Paper" 
 date: 2025-07-18
 tags: 
     - HPC
