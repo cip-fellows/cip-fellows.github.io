@@ -3,8 +3,8 @@ layout: outcome-project
 title: "Kyle's Final Report" 
 fellow: "Kyle Krick" 
 summary: I transitioned into my current role as a Research Software Engineer coming from a web development and system administration background in enterprise IT. Through this CIP training grant I have received...
-url: ""
-format: "" 
+url:
+format:
 date: 2023-08-16
 tags: 
     - github

@@ -16,6 +16,7 @@ outcomes:
     - "educational aids" 
     - "instructional intro to nextflow on hpc"
     - "nf core quickflow"
+    - "hovakim's final report"
 LinkedIn: linkedin.com/in/hovakim-grabski
 ---
 

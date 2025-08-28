@@ -45,6 +45,11 @@ profiles:
     content: team/gerard_au.md
     image_circular: false  # crops the image to make it circular
     more_info: 
+  - align: right
+    image: default.jpg
+    content: team/susan_rathbun.md
+    image_circular: false  # crops the image to make it circular
+    more_info: 
   
 student_profiles: 
   - align: right 
