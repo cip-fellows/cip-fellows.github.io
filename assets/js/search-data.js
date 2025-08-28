@@ -107,11 +107,41 @@ ninja.data = [{
           description: "",
           section: "Outcomes",handler: () => {
               window.location.href = "/outcomes/summer-research-program/";
+            },},{id: "outcomes-dung-39-s-final-report",
+          title: 'Dung&amp;#39;s Final Report',
+          description: "",
+          section: "Outcomes",handler: () => {
+              window.location.href = "/outcomes/dungs-final-report/";
             },},{id: "outcomes-educational-aids-or-curricula",
           title: 'Educational aids or Curricula',
           description: "",
           section: "Outcomes",handler: () => {
               window.location.href = "/outcomes/educational-aids/";
+            },},{id: "outcomes-fernando-39-s-final-report",
+          title: 'Fernando&amp;#39;s Final Report',
+          description: "",
+          section: "Outcomes",handler: () => {
+              window.location.href = "/outcomes/fernandos-final-report/";
+            },},{id: "outcomes-henry-39-s-final-report",
+          title: 'Henry&amp;#39;s Final Report',
+          description: "",
+          section: "Outcomes",handler: () => {
+              window.location.href = "/outcomes/henrys-final-report/";
+            },},{id: "outcomes-hovakim-39-s-final-report",
+          title: 'Hovakim&amp;#39;s Final Report',
+          description: "",
+          section: "Outcomes",handler: () => {
+              window.location.href = "/outcomes/hovakims-final-report/";
+            },},{id: "outcomes-victoria-39-s-final-report",
+          title: 'Victoria&amp;#39;s Final Report',
+          description: "",
+          section: "Outcomes",handler: () => {
+              window.location.href = "/outcomes/victorias-final-report/";
+            },},{id: "outcomes-youngsu-39-s-final-report",
+          title: 'Youngsu&amp;#39;s Final Report',
+          description: "",
+          section: "Outcomes",handler: () => {
+              window.location.href = "/outcomes/youngs-final-report/";
             },},{id: "outcomes-instructional-intro-to-nextflow-on-hpc",
           title: 'Instructional Intro to NextFlow on HPC',
           description: "",
