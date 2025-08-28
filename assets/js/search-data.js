@@ -107,6 +107,11 @@ ninja.data = [{
           description: "",
           section: "Outcomes",handler: () => {
               window.location.href = "/outcomes/summer-research-program/";
+            },},{id: "outcomes-anjali-39-s-final-report",
+          title: 'Anjali&amp;#39;s Final Report',
+          description: "",
+          section: "Outcomes",handler: () => {
+              window.location.href = "/outcomes/anjalis-final-report/";
             },},{id: "outcomes-dung-39-s-final-report",
           title: 'Dung&amp;#39;s Final Report',
           description: "",
