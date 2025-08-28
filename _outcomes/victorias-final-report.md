@@ -3,7 +3,7 @@ layout: outcome-project
 title: "Victoria's Final Report" 
 fellow: "Victoria Nguyen" 
 summary: Through the CIP Fellow program, I accomplished three main things, solidification of foundational cyber-infrastructure knowledge, exposure to academic and research HPC communities and resources, and...
-url:
+link:
 format:
 date: 2024-06-22
 tags: 

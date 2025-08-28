@@ -3,7 +3,7 @@ layout: outcome-project
 title: "Fernando's Final Report" 
 fellow: "Fernando Garzon" 
 summary: My recent training program took me through a transformative learning experience in the domain of HPC. The "Parallel Computing Concepts" seminar equipped me with essential skills in executing multiple...
-url: "https://github.com/hovo1990/CIP_Nextflow_on_HPC"
+link: "https://github.com/hovo1990/CIP_Nextflow_on_HPC"
 format: "github" 
 date: 2024-06-22
 tags: 

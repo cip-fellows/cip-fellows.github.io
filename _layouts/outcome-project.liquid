@@ -31,8 +31,8 @@ layout: default
     {% endif %}
     {%- endcomment -%}
 
-    {% if page.institute %}
-      <h2 class="post-subtitle">{{ page.institute }}</h2>
+    {% if page.format %}
+      <h2 class="post-subtitle"><a href="{{ page.link }}" target="_blank">{{ page.format }}</a></h2>
     {% endif %}
 
     {% if page.tags %}

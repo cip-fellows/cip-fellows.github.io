@@ -3,7 +3,7 @@ layout: outcome-project
 title: "Dung's Final Report" 
 fellow: "Dung Vu" 
 summary: I have actively participated in all scheduled training, especially with the in-person training at SDSC. The training covers a wide range, rich and in depth of topics such as parallel computing, HPC...
-url:
+link:
 format:
 date: 2024-06-22
 tags: 

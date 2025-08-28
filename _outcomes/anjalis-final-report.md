@@ -3,7 +3,7 @@ layout: outcome-project
 title: "Anjali's Final Report" 
 fellow: "Anjali Shinde" 
 summary: Over the past few months, my work has primarily focused on learning and applying HPC infrastructure, particularly in the areas of resource allocation, management, and monitoring. This focus has been... 
-url:
+link:
 format:
 date: 2024-06-22
 tags: 

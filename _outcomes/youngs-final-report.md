@@ -4,7 +4,7 @@ title: "Youngsu's Final Report"
 fellow: "Youngsu Kim" 
 summary: I try to improve myself in supporting machine learning and scientific computing. For the former, the main events are the two AI Bootcamps by the Ohio Supercomputing Center and the...
 
-url:
+link:
 format: 
 date: 2024-06-22
 tags: 

@@ -17,8 +17,8 @@ outcomes:
     - "instructional intro to nextflow on hpc"
     - "nf core quickflow"
     - "hovakim's final report"
-LinkedIn: www.linkedin.com/in/hovakim-grabski
-Github: www.github.com/hovo1990
+LinkedIn: https://www.linkedin.com/in/hovakim-grabski
+Github: https://www.github.com/hovo1990
 ---
 
 Hovakim Grabski is a visiting scholar from Armenia and Researcher/SysAdmin at Abagyan Lab, UC San Diego and SDSC, with experience in Python programming, ICM programming language for molecular modeling, docking, screening, and infrastructure automation. His work involves backend development, containerization, and high-performance computing (HPC) using platforms like SLURM and HashiCorp Nomad. Hovakim has worked on designing and managing pipelines for virtual screening of chemical compounds, utilizing GPUs to optimize scientific workflows. He has been working in Linux environments for over a decade, with experience across various distributions including Ubuntu and AlmaLinux.
