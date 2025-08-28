@@ -12,6 +12,7 @@ outcomes:
     - "software container" 
     - "containerizing fourcastnet for kubernetes cluster"
     - "rag for nairr resources"
+    - "henry's final report" 
 LinkedIn: www.linkedin.com/in/henryeli
 Github: github.com/heli-sdsu
 ---
