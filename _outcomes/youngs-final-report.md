@@ -8,7 +8,8 @@ url:
 format: 
 date: 2024-06-22
 tags: 
-    - 
+    - AI-ML
+    - MPI
 ---
 # Overview of Key Activities & Accomplishments
 
