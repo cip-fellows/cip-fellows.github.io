@@ -3,7 +3,7 @@ layout: outcome-project
 title: "Hovakim's Final Report" 
 fellow: "Hovakim Grabski" 
 summary: As a researcher with a background in structural bioinformatics, I successfully transitioned into this role by leveraging my expertise in parallel computing and data management. The CIP training grant...
-url:
+link:
 format:
 date: 2024-06-22
 tags: 

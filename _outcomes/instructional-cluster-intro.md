@@ -3,8 +3,8 @@ layout: outcome-project
 title: "Instructional Cluster Intro" 
 fellow: "Kyle Krick" 
 summary: This repository is designed to be an interactive introduction to the <a href="https://sdsu-research-ci.github.io/instructionalcluster" target="_blank">Instructional Cluster</a> at San Diego State...
-url: "https://github.com/SDSU-Research-CI/ic-intro/"
-format: "github" 
+link: "https://github.com/SDSU-Research-CI/ic-intro/"
+format: "Github" 
 date: 2023-05-19
 tags: 
     - github

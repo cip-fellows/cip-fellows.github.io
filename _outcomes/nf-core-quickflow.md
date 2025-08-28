@@ -3,8 +3,8 @@ layout: outcome-project
 title: "Nextflow Core Quickflow" 
 fellow: "Hovakim Grabski" 
 summary: nf-core/quickflow is a bioinformatics/cheminformatics pipeline that automates the generation of synthetic quantum chemistry data for AI/ML training, which is crucial in fields like biophysics...
-url: "https://github.com/hovo1990/nf-core-quickflow"
-format: "github" 
+link: "https://github.com/hovo1990/nf-core-quickflow"
+format: "Github" 
 date: 2025-03-10
 tags: 
     - AI-ML

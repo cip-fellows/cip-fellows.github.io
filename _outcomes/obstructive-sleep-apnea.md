@@ -3,7 +3,7 @@ layout: outcome-project
 title: "About an AI-assisted mobile solution to reliably diagnose Obstructive Sleep Apnea (OSA)" 
 fellow: "Dung Vu" 
 summary: Obstructive sleep apnea (OSA) occurs due to improper functioning of the upper respiratory tract. When the muscles of the hard palate in the back of the throat that supports the soft palate relax...
-url:
+link:
 format: 
 date: 2025-08-16
 tags: 

@@ -3,8 +3,8 @@ layout: outcome-project
 title: "Containerizing FourCastNet for Kubernetes Cluster" 
 fellow: "Henry Li" 
 summary: This repository contain code and yaml for the Shen Climate Lab for use on the National Research Platform Nautilus hyper-cluster.
-url: "https://github.com/SDSU-Research-CI/shen-climate-lab"
-format: "github" 
+link: "https://github.com/SDSU-Research-CI/shen-climate-lab"
+format: "Github" 
 date: 2025-05-09
 tags: 
     - github
