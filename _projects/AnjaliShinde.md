@@ -11,6 +11,8 @@ related_publications: false
 email: anjushinde19@gmail.com
 LinkedIn: https://www.linkedin.com/in/anjalishinde1906/
 Github: https://github.com/anjalishinde1906 
+outcomes: 
+    - "Anjali's Final Report"
 ---
 
 Anjali Shinde has worked as CIP Student Research Fellow at San Diego State University in the Cyberinfrastructure and Research IT department. She completed her Master’s in Computer Science at San Diego State University (SDSU). During her fellowship, Anjali developed interactive Jupyter Notebooks aimed at helping students and educators understand GPU and server usage. These resources leveraged SDSU’s infrastructure and knowledge base to simplify access to computational tools and workflows.

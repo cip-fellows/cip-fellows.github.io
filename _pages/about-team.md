@@ -46,7 +46,7 @@ profiles:
     image_circular: false  # crops the image to make it circular
     more_info: 
   - align: right
-    image: default.jpg
+    image: SusanRathbun.jpg
     content: team/susan_rathbun.md
     image_circular: false  # crops the image to make it circular
     more_info: 
@@ -64,4 +64,9 @@ past_profiles:
     content: team/robert_sinkovits.md
     image_circular: false  # crops the image to make it circular
     more_info: 
+  - align: right
+    image: RickWagner.jpg
+    content: team/rick_wagner.md
+    image_circular: false 
+    more info: 
 ---

@@ -20,7 +20,7 @@ tags:
 <img src='https://readthedocs.org/projects/quick-docs/badge/?version=23.8.0' alt='Documentation Status' />
 </p>
 <p align="left">
-<img width="299" height="169" src="./tools/logo.png">
+<img width="299" height="169" src="https://raw.githubusercontent.com/kkrick-sdsu/QUICK/refs/heads/master/tools/logo.png">
 </p>
 
 An open source, GPU enabled, *ab initio* and density functional
