@@ -9,7 +9,6 @@ category: "🎓 Cohort 2023"
 fellow-type: ""
 related_publications: false
 outcomes: 
-    - "kyle's final report"
     - "instructional cluster intro"
     - "containerization of quick"
     - "benchmarking of containerized quick" 
