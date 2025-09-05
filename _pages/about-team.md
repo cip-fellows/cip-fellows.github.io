@@ -3,7 +3,7 @@ layout: profiles
 permalink: /team/
 title: Team
 description: About the CIP Fellows Team, including PIs and Co-PIs.
-nav: true
+nav: false
 nav_order: 2
 
 profiles:
