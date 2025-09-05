@@ -9,21 +9,21 @@ ninja.data = [{
     handler: () => {
       window.location.href = "/";
     },
-  },{id: "nav-team",
-          title: "Team",
-          description: "About the CIP Fellows Team, including PIs and Co-PIs.",
-          section: "Navigation",
-          handler: () => {
-            window.location.href = "/team/";
-          },
-        },{id: "nav-cip-fellows",
-          title: "CIP Fellows",
-          description: "About the current CIP Fellows and alumni, along with links to their individual pages",
-          section: "Navigation",
-          handler: () => {
-            window.location.href = "/cip-fellows/";
-          },
-        },{id: "nav-products",
+  },{id: "dropdown-team",
+              title: "Team",
+              description: "",
+              section: "Dropdown",
+              handler: () => {
+                window.location.href = "";
+              },
+            },{id: "dropdown-cip-fellows",
+              title: "CIP Fellows",
+              description: "",
+              section: "Dropdown",
+              handler: () => {
+                window.location.href = "";
+              },
+            },{id: "nav-products",
           title: "Products",
           description: "About the CIP Fellows Program",
           section: "Navigation",
@@ -44,18 +44,7 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/core-competencies/";
           },
-        },{id: "post-in-the-news-three-california-universities-commit-to-growing-a-community-of-cyberinfrastructure-professionals",
-      
-        title: "In The News! Three California Universities Commit To Growing A Community Of Cyberinfrastructure...",
-      
-      description: "",
-      section: "Posts",
-      handler: () => {
-        
-          window.location.href = "/blog/2022/In-the-News!-Three-California-Universities-Commit-to-Growing-a-Community-of-Cyberinfrastructure-Professionals/";
-        
-      },
-    },{id: "post-three-california-universities-commit-to-growing-a-community-of-cyberinfrastructure-professionals",
+        },{id: "post-three-california-universities-commit-to-growing-a-community-of-cyberinfrastructure-professionals",
       
         title: "“Three California Universities Commit to Growing a Community of Cyberinfrastructure Professionals”",
       
@@ -63,7 +52,7 @@ ninja.data = [{
       section: "Posts",
       handler: () => {
         
-          window.location.href = "/blog/2022/In-the-News!-Three-California-Universities-Commit-to-Growing-a-Community-of-Cyberinfrastructure-Professionals/";
+          window.location.href = "/blog/2022/three-california-universities/";
         
       },
     },{id: "post-nsf-award-announced-for-the-cip-fellows-project",
