@@ -1,3 +1,13 @@
+---
+layout: fellow
+title: Michael Farley
+description: 
+img: assets/img/MichaelFarley.jpg
+category: "Current Team Members"
+email: 
+LinkedIn: 
+Github: 
+---
 # Michael Farley 
 - Senior Personnel, TIDE Project 
 - Chief Technology Research Officer 

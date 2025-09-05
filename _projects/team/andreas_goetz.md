@@ -1,3 +1,13 @@
+---
+layout: fellow
+title: Andreas Goetz
+description: 
+img: assets/img/AndyGoetz
+category: "Current Team Members"
+email: 
+LinkedIn: 
+Github: 
+---
 # Andreas Goetz (Co-PI)
 - Ph.D.
 - Associate Research Scientist

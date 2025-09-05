@@ -1,3 +1,13 @@
+---
+layout: fellow
+title: Rick Wagner
+description: 
+img: assets/img/RickWagner.jpg
+category: "Past Team Members"
+email: 
+LinkedIn: 
+Github: 
+---
 # Rick Wagner (Co-PI)
 - SDSC CTO 
 

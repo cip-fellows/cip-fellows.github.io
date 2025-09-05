@@ -1,3 +1,13 @@
+---
+layout: fellow
+title: Marty Kandes
+description: 
+img: assets/img/MartyKandes.jpeg
+category: "Current Team Members"
+email: 
+LinkedIn: 
+Github: 
+---
 # Marty Kandes (Co-PI)
 - Ph.D.
 - Computational and Data Science Research Specialist

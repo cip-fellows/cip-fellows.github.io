@@ -1,3 +1,13 @@
+---
+layout: fellow
+title: Paul Rodriquez
+description: 
+img: assets/img/PaulRodriguez.jpg
+category: "Current Team Members"
+email: 
+LinkedIn: 
+Github: 
+---
 # Paul Rodriquez (Co-PI)
 - Ph.D.
 - Computational Data Scientist

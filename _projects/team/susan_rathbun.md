@@ -1,3 +1,13 @@
+---
+layout: fellow
+title: Susan Rathbun
+description: 
+img: assets/img/SusanRathbun.jpg
+category: "Current Team Members"
+email: 
+LinkedIn: 
+Github: 
+---
 # Susan Rathbun (Co-PI)
 - Program Manager
 - SDSC

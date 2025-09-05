@@ -1,3 +1,13 @@
+---
+layout: fellow
+title: Mary Thomas
+description: 
+img: assets/img/MaryThomas.jpeg
+category: "Current Team Members"
+email: 
+LinkedIn: 
+Github: 
+---
 # Mary Thomas (PI)
 - Ph.D.
 - Computational Data Scientist, HPC Trainer

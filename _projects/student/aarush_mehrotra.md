@@ -1,3 +1,13 @@
+---
+layout: fellow
+title: Aarush Mehrotra
+description: 
+img: assets/img/AarushMehrotra.jpeg
+category: "Interns"
+email: 
+LinkedIn: 
+Github: 
+---
 # Aarush Mehrotra
 - HPC Intern
 
