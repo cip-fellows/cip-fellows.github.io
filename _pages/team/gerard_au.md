@@ -1,4 +1,4 @@
-# Gerard Au
+# Gerard Au (CSUSB PI)
 - Co-PI
 - Chief Information Officer
 - CSUSB
