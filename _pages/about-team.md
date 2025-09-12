@@ -8,7 +8,7 @@ nav_order: 2
 display_categories: ["Current Team Members", "Interns", "Past Team Members"]
 ---
 
-{% comment %} pages/fellows.md {% endcomment %}
+{% comment %} pages/about-team.md {% endcomment %}
 
 <div class="projects">
 {% if site.enable_project_categories and page.display_categories %}
@@ -64,7 +64,7 @@ display_categories: ["Current Team Members", "Interns", "Past Team Members"]
 {% endif %}
 </div>
 
-{% comment %}
+{% comment %} THIS IS THE OLD LAYOUT
 profiles:
   # If you want to include more than one profile, just replicate the following block
   # and create one content file for each profile inside _pages/

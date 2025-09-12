@@ -1,6 +1,6 @@
 <div class="col">
   <a href="{% if project.redirect %}{{ project.redirect }}{% else %}{{ project.url | relative_url }}{% endif %}">
-    <div class="card h-100 hoverable {% if page.url == '/cip-fellows/' %}cip-fellow-card{% endif %}">
+    <div class="card h-100 hoverable {% if page.url == '/cip-fellows/' or page.url == '/team/' %}cip-fellow-card{% endif %}"> {% comment %} IF THERE IS EVER A BUG ABOUT CARD-BASED PAGES NOT FORMATTING CORRECTLY, IT IS BECAUSE THE URL IS NOT SPECIFIED HERE! {% endcomment %}
       {% if project.img %}
         <div class="card-img-wrapper">
           {% include figure.liquid

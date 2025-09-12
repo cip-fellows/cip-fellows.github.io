@@ -2,7 +2,7 @@
 layout: fellow
 title: Andreas Goetz
 description: 
-img: assets/img/AndyGoetz
+img: assets/img/AndyGoetz.jpg
 category: "Current Team Members"
 email: 
 LinkedIn: 
