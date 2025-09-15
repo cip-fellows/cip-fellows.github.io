@@ -1,4 +1,4 @@
-# Michael Farley 
+# Michael Farley (SDSU PI)
 - Senior Personnel, TIDE Project 
 - Chief Technology Research Officer 
 - SDSU
