@@ -1,3 +1,13 @@
+---
+layout: fellow
+title: Robert Sinkovits
+description: 
+img: assets/img/RobertSinkovits.jpeg
+category: "Past Team Members"
+email: 
+LinkedIn: 
+Github: 
+---
 # Robert Sinkovits (Co-PI)
 - Ph.D.
 - Director of Education and Training

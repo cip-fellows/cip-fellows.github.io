@@ -1,3 +1,13 @@
+---
+layout: fellow
+title: Cyd Burrows-Schilling
+description: 
+img: assets/img/CydBurrowsSchilling.jpg
+category: "Current Team Members"
+email: 
+LinkedIn: 
+Github: 
+---
 # Cyd Burrows-Schilling (Co-PI)
 - 23rd year in higher education
 - Sr. Research Facilitator

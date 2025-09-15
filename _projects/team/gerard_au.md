@@ -1,5 +1,15 @@
+---
+layout: fellow
+title: Gerard Au
+description: 
+img: assets/img/GerardAu.jpg
+category: "Current Team Members"
+email: 
+LinkedIn: 
+Github: 
+---
 # Gerard Au (CSUSB PI)
-- Co-PI
+- CSUSB PI
 - Chief Information Officer
 - CSUSB
 
