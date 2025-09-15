@@ -8,8 +8,8 @@ email:
 LinkedIn: 
 Github: 
 ---
-# Gerard Au
-- Co-PI
+# Gerard Au (CSUSB PI)
+- CSUSB PI
 - Chief Information Officer
 - CSUSB
 

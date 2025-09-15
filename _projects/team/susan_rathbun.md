@@ -8,7 +8,7 @@ email:
 LinkedIn: 
 Github: 
 ---
-# Susan Rathbun (Co-PI)
+# Susan Rathbun (Program Manager)
 - Program Manager
 - SDSC
 
