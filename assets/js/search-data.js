@@ -221,6 +221,61 @@ ninja.data = [{
           description: "",
           section: "Projects",handler: () => {
               window.location.href = "/projects/YoungsuKim/";
+            },},{id: "projects-aarush-mehrotra",
+          title: 'Aarush Mehrotra',
+          description: "",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/aarush_mehrotra/";
+            },},{id: "projects-andreas-goetz",
+          title: 'Andreas Goetz',
+          description: "",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/andreas_goetz/";
+            },},{id: "projects-cyd-burrows-schilling",
+          title: 'Cyd Burrows-Schilling',
+          description: "",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/cyd_burrows-schilling/";
+            },},{id: "projects-gerard-au",
+          title: 'Gerard Au',
+          description: "",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/gerard_au/";
+            },},{id: "projects-marty-kandes",
+          title: 'Marty Kandes',
+          description: "",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/marty_kandes/";
+            },},{id: "projects-mary-thomas",
+          title: 'Mary Thomas',
+          description: "",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/mary_thomas/";
+            },},{id: "projects-michael-farley",
+          title: 'Michael Farley',
+          description: "",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/michael_farley/";
+            },},{id: "projects-paul-rodriquez",
+          title: 'Paul Rodriquez',
+          description: "",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/paul_rodriquez/";
+            },},{id: "projects-rick-wagner",
+          title: 'Rick Wagner',
+          description: "",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/rick_wagner/";
+            },},{id: "projects-robert-sinkovits",
+          title: 'Robert Sinkovits',
+          description: "",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/robert_sinkovits/";
+            },},{id: "projects-susan-rathbun",
+          title: 'Susan Rathbun',
+          description: "",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/susan_rathbun/";
             },},{
       id: 'light-theme',
       title: 'Change theme to light',
