@@ -7,8 +7,8 @@ category: "Current Team Members"
 email: 
 LinkedIn: 
 Github: 
+position: Co-PI
 ---
-# Marty Kandes (Co-PI)
 - Ph.D.
 - Computational and Data Science Research Specialist
 - SDSC

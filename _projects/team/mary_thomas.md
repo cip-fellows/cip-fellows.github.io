@@ -4,11 +4,11 @@ title: Mary Thomas
 description: 
 img: assets/img/MaryThomas.jpeg
 category: "Current Team Members"
-email: 
+email: mpthomas@ucsd.edu
 LinkedIn: 
-Github: 
+Github: https://github.com/marypthomas
+position: PI
 ---
-# Mary Thomas (PI)
 - Ph.D.
 - Computational Data Scientist, HPC Trainer
 - SDSC

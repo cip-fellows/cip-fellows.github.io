@@ -17,7 +17,10 @@
         {% if project.institute %}
           <h4 class="card-subtitle mb-2 card-institute">{{ project.institute }}</h4>
         {% endif %}
-        <!-- <p class="card-text" style="color: white;">{{ project.description }}</p> -->
+        {% if project.position %}
+          <h4 class="card-subtitle mb-2 card-institute">{{ project.position }}</h4>
+        {% endif %}
+          <!-- <p class="card-text" style="color: white;">{{ project.description }}</p> -->
       </div>
     </div>
   </a>

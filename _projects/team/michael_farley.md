@@ -7,8 +7,8 @@ category: "Current Team Members"
 email: 
 LinkedIn: 
 Github: 
+position: SDSU PI
 ---
-# Michael Farley (SDSU PI)
 - Senior Personnel, TIDE Project 
 - Chief Technology Research Officer 
 - SDSU

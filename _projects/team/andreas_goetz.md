@@ -4,11 +4,11 @@ title: Andreas Goetz
 description: 
 img: assets/img/AndyGoetz.jpg
 category: "Current Team Members"
-email: 
+email: agoetz@sdsc.edu
 LinkedIn: 
 Github: 
+position: Co-PI
 ---
-# Andreas Goetz (Co-PI)
 - Ph.D.
 - Associate Research Scientist
 - SDSC

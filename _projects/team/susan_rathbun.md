@@ -7,8 +7,8 @@ category: "Current Team Members"
 email: 
 LinkedIn: 
 Github: 
+position: Program Manager
 ---
-# Susan Rathbun (Program Manager)
 - Program Manager
 - SDSC
 
