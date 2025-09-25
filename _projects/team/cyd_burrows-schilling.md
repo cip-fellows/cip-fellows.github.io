@@ -7,8 +7,8 @@ category: "Current Team Members"
 email: 
 LinkedIn: 
 Github: 
+position: Co-PI
 ---
-# Cyd Burrows-Schilling (Co-PI)
 - 23rd year in higher education
 - Sr. Research Facilitator
 - UCSD

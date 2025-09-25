@@ -4,11 +4,9 @@ title: Aarush Mehrotra
 description: 
 img: assets/img/AarushMehrotra.jpeg
 category: "Interns"
-email: 
-LinkedIn: 
-Github: 
+email: amehrotra@ucsd.edu
+LinkedIn: https://www.linkedin.com/in/aarushmehrotra
+Github: https://www.github.com/iAarush
+position: HPC Intern
 ---
-# Aarush Mehrotra
-- HPC Intern
-
 Aarush Mehrotra is a senior at UC San Diego. He is currently pursuing a bachelors in Mathematics-Computer Science. He is a member of the UCSD Supercomputing club and an intern at the San Diego Supercomputer Center. 

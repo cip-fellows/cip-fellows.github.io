@@ -7,8 +7,8 @@ category: "Past Team Members"
 email: 
 LinkedIn: 
 Github: 
+position: Co-PI
 ---
-# Robert Sinkovits (Co-PI)
 - Ph.D.
 - Director of Education and Training
 - SDSC
