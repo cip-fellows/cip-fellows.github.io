@@ -24,4 +24,7 @@ To run the project locally, please follow the steps below. Reach out to one of t
 > Note: Technically, `jekyll serve` will also work, but it doesn't use the gemfiles from the folder/project you're in. It will instead use a global gemfile in your environment. We do not recommend it. 
 
 ## Contributing
-Please open an issue before submitting a large pull request. For small changes, fork the repo, make edits, and submit a PR to `main`.
+Please open an issue before submitting a large pull request. For small changes, fork the repo, make edits, and submit a PR to `main`. See more information at [CONTRIBUTING.md](CONTRIBUTING.md). 
+
+## Further resources 
+The Jekyll theme provides more information in the [CUSTOMIZE.md](CUSTOMIZE.md), [FAQ.md](FAQ.md), and [INSTALL.md](INSTALL.md). Some of this information might not be relevant to our specific implementation of the theme and development of this website. 
