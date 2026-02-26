@@ -107,4 +107,4 @@ The "title" is the name of the Fellow, student, or team member. The description,
 Finally, and most importantly, we must manually link back every outcome associated with the fellow, as seen in the example, so that it appears on their personal page as well. We only need to link it, the actual outcome file only appears in one place but will be visible from two places in the website. 
 
 # Sasss, scripts, site, and all other folders 
-Documentation under construction. 
+Documentation under construction!
