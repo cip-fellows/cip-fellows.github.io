@@ -9,7 +9,7 @@ social: false
 ---
 <!-- The left side navbar is now in about.liquid. You can modify it over there. -->
 ## **Program Overview**  
-*A joint program between San Diego State University and Cal State University, San Bernardino, led by San Diego Supercomputer Center at UC San Diego, in partnership to develop and build a Cybertraining Professional (CIP) workforce.* 
+*A joint program between San Diego State University and Cal State University, San Bernardino, led by San Diego Supercomputer Center at UC San Diego, in partnership to develop and build a Cyberinfrastructure Professional (CIP) workforce.* 
 
 A critical role within scientific research teams is the cyberinfrastructure (CI) professional who has interdisciplinary skills that bridge the science, engineering, and computing specialties. Readily finding such personnel, with the necessary experience needed to navigate CI ecosytems has become a bottleneck for many projects. The Cyberinfrastructure Professional (CIP) Fellows Program is designed to address this need by training and mentoring a team of interdisciplinary Researcher-Facing ([CARCC](https://carcc.org/about/)) CI Professionals with individualized training program in advanced computing and workforce development topics, embedding them into institutional departments, teaching them how to support and facilitate research projects, fostering a long-term CIP community, and defining sustainable career paths specifically for these kinds of professionals.
 
