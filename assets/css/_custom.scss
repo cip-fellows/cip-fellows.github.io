@@ -185,7 +185,11 @@ footer.fixed-bottom {
 }
 .contact-label {
   font-weight: bold;
-  color: #172540;                       /* your dark-blue */
+  color: #172540;
+
+  @media (prefers-color-scheme: dark) {
+      color: #4d769e;
+  }
 }
 .contact-value {
   color: #6c757d;                       /* bootstrap’s text-muted */
