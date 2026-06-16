@@ -8,6 +8,8 @@ importance: 3
 category: "🎓 Cohort 2025"
 fellow-type: ""
 related_publications: false
+outcomes:
+    - "quantum chemistry python interface"
 email: vtripathy@ucsd.edu
 LinkedIn: https://www.linkedin.com/in/vtripath/
 Github: https://github.com/vtripath65

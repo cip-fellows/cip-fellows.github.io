@@ -8,6 +8,8 @@ importance: 3
 category: "🎓 Cohort 2025"
 fellow-type: ""
 related_publications: false
+outcomes: 
+    - "ai and machine learning materials for sdsc voyager"
 email: cyoun@ucsd.edu
 LinkedIn: https://www.linkedin.com/in/choonhan-youn-9b32407a/
 ---
