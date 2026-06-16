@@ -1,0 +1,16 @@
+---
+layout: fellow
+title: Kira Dunn
+institute: UC San Diego
+description: 2026, UCSD
+img: assets/img/KiraDunn.jpg
+importance: 0
+category: "🎓 Cohort 2026"
+fellow-type: ""
+related_publications: false
+email: 
+LinkedIn: 
+Github: 
+outcomes: 
+
+---
