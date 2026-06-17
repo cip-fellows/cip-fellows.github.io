@@ -1,0 +1,20 @@
+imagemagick:
+  enabled: false
+
+jekyll-minifier:
+  enabled: false
+
+plugins:
+  - jekyll-archives
+  - jekyll-email-protect
+  - jekyll-get-json
+  - jekyll-jupyter-notebook
+  - jekyll-link-attributes
+  - jekyll-paginate-v2
+  - jekyll-regex-replace
+  - jekyll/scholar
+  - jekyll-sitemap
+  - jekyll-tabs
+  - jekyll-toc
+  - jekyll-twitter-plugin
+  - jemoji

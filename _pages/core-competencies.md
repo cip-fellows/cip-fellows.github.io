@@ -11,29 +11,33 @@ horizontal: false
 
 <style>
   .homepage-container {
-    display: flex;
-    min-height: 80vh;
-    gap: 2rem;
+    display: grid;
+    grid-template-columns: 20% 1fr;
+    min-height: 100vh;
+    align-items: start;
+    gap: 20px;
   }
 
   .left-pane {
-    flex: 0 0 30%;
-    display: flex;
-    flex-direction: column;
+    position: sticky;
+    left: 0;
+    top: 5em;
+    height: fit-content;
+    width: 150%;
     justify-content: center;
-    padding-left: 2rem;
   }
 
   .left-pane .toc-header {
-    margin-bottom: 1.5rem;
-    font-size: 1.5rem;
+    margin-bottom: 0.6rem;
+    font-size: 1.50rem;
     font-weight: bold;
     cursor: pointer;
   }
 
   .right-pane {
     flex: 1;
-    padding-right: 2rem;
+    padding-left: 2rem;
+    margin-left: 5rem;
   }
 
   .right-pane > section {
@@ -101,7 +105,7 @@ horizontal: false
     <div class="toc-header" data-target="professional-development"> Professional Development and Career Transition Support </div>
     <div class="toc-header" data-target="research-methods"> Interdisciplinary Research Methods </div>
     <div class="toc-header" data-target="community"> Community Building and Networking </div>
-  </div>
+</div>
 
   <!-- Right Pane Content -->
   <div class="right-pane">
