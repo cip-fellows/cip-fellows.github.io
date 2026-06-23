@@ -234,6 +234,9 @@ html[data-theme="dark"] h5,
 html[data-theme="dark"] h6 {
   color: #4177A1;
 }
+html[data-theme="dark"] .contact-label {
+    color: #4d769e;
+  }
 
 
 .header-bar h1 {
@@ -256,4 +259,13 @@ h2.post-subtitle {
   color: #4177A1;
   font-weight: bold;
   font-size: large;
+}
+
+.logo {
+  height: 32px; 
+  margin-right: 8px; 
+}
+
+html[data-theme="dark"] .logo {
+  content: url("/assets/img/cip_logo_dark.png");
 }
