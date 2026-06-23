@@ -56,6 +56,9 @@ horizontal: false
   html[data-theme="dark"] .homepage-container .toc-header-blank a {
     color: #4177A1 !important;
   }
+  html[data-theme="dark"] .bg-image-behind {
+    filter: invert(1);
+  }
 </style>
 
 <script>
