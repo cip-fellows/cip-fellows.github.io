@@ -44,7 +44,18 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/core-competencies/";
           },
-        },{id: "post-three-california-universities-commit-to-growing-a-community-of-cyberinfrastructure-professionals",
+        },{id: "post-2025-cip-fellows-cohort-selected",
+      
+        title: "2025 CIP-Fellows Cohort Selected",
+      
+      description: "",
+      section: "Posts",
+      handler: () => {
+        
+          window.location.href = "/blog/2025/2025-CIP-Fellows-Cohort-Selected/";
+        
+      },
+    },{id: "post-three-california-universities-commit-to-growing-a-community-of-cyberinfrastructure-professionals",
       
         title: "“Three California Universities Commit to Growing a Community of Cyberinfrastructure Professionals”",
       
