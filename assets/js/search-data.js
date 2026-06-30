@@ -141,11 +141,26 @@ ninja.data = [{
           description: "",
           section: "Outcomes",handler: () => {
               window.location.href = "/outcomes/obstructive-sleep-apnea/";
+            },},{id: "outcomes-easily-deployable-service-stack-for-research-and-education-on-nairr-kubernetes-clusters",
+          title: 'Easily Deployable Service Stack for Research and Education on NAIRR Kubernetes Clusters',
+          description: "",
+          section: "Outcomes",handler: () => {
+              window.location.href = "/outcomes/deployable-service-for-research-on-nairr-kubernetes/";
+            },},{id: "outcomes-lowering-barriers-to-ai-and-machine-learning-for-kinesiology-researchers",
+          title: 'Lowering Barriers to AI and Machine Learning for Kinesiology Researchers',
+          description: "",
+          section: "Outcomes",handler: () => {
+              window.location.href = "/outcomes/lowering-barriers-to-ai-for-kinesiology/";
             },},{id: "outcomes-democratizing-access-to-quantum-chemistry-via-a-python-interface-for-gpu-accelerated-open-source-package-quick",
           title: 'Democratizing access to Quantum Chemistry via a Python interface for GPU-accelerated open-source package...',
           description: "",
           section: "Outcomes",handler: () => {
               window.location.href = "/outcomes/quantum-chemistry-python-interface/";
+            },},{id: "outcomes-scalable-matlab-on-expanse-micro-guides-with-portable-best-practices",
+          title: 'Scalable MATLAB on Expanse - Micro-Guides with Portable Best Practices',
+          description: "",
+          section: "Outcomes",handler: () => {
+              window.location.href = "/outcomes/scalable-matlab-on-expanse/";
             },},{id: "projects-anjali-shinde",
           title: 'Anjali Shinde',
           description: "2025, SDSU",
