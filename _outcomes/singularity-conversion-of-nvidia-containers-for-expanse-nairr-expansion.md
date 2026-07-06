@@ -7,6 +7,9 @@ link: "https://github.com/vin011/NVIDIA-Singularity-Containers"
 format: "Github" 
 date: 2025-03-31 
 tags: 
+    - github
+    - AI-ML
+
 ---
 ## Proposal
 This project will create Singularity containers for SDSC’s Expanse NAIRR Expansion, using NVIDIA’s published AI and ML Docker containers as a starting point. These Singularity containers are specifically intended for Expanse NAIRR users to utilize and accelerate their AI projects and jobs on Expanse’s NVIDIA H100 GPU nodes.

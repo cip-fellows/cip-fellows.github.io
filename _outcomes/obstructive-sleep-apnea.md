@@ -7,6 +7,7 @@ link:
 format: 
 date: 2025-08-16
 tags: 
+    - AI-ML
 ---
 # 1. Introduction
 Obstructive sleep apnea (OSA) occurs due to improper functioning of the upper respiratory
