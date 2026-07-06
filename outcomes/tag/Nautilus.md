@@ -1,5 +1,5 @@
 ---
 layout: outcome-tag
-title: nautilus
-permalink: /outcomes/tag/nautilus/
+title: Nautilus
+permalink: /outcomes/tag/Nautilus/
 ---
