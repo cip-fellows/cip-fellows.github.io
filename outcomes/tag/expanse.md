@@ -1,5 +1,5 @@
 ---
 layout: outcome-tag
-title: github
-permalink: /outcomes/tag/github/
+title: expanse
+permalink: /outcomes/tag/expanse/
 ---
