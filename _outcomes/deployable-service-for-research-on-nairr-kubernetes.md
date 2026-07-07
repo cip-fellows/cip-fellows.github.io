@@ -6,6 +6,9 @@ summary: This project will develop a stack of commonly used services (JupyterHub
 link: "https://github.com/UCSD-SPS-IT/k8s-research-service-stack"
 format: "Github"
 date: 2026-02-01
+tags: 
+    - github
+    - kubernetes
 ---
 
 # Project Description:

@@ -4,6 +4,9 @@ title: "Scalable MATLAB on Expanse - Micro-Guides with Portable Best Practices"
 fellow: "Aram Valifar" 
 summary: This project supports NAIRR’s mission to democratize AI research resources by removing HPC barriers for researchers using MATLAB in AI/ML workflows.
 date: 2026-02-06
+tags:
+    - AI-ML
+    - research
 ---
 
 # NAIRR Pilot Alignment:
