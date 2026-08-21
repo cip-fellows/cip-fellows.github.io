@@ -3,7 +3,7 @@ layout: fellow
 title: Hadia Bayat
 institute: UC San Diego
 description: 2026, UCSD
-img: assets/img/HadiaBayat.jpg
+img: assets/img/default.jpg
 importance: 0
 category: "🎓 Cohort 2026"
 fellow-type: ""
