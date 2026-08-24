@@ -212,6 +212,11 @@ ninja.data = [{
           description: "",
           section: "Projects",handler: () => {
               window.location.href = "/projects/FernandoGarzon/";
+            },},{id: "projects-hadia-bayat",
+          title: 'Hadia Bayat',
+          description: "2026, UCSD",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/HadiaBayat/";
             },},{id: "projects-henry-li",
           title: 'Henry Li',
           description: "",
@@ -222,11 +227,31 @@ ninja.data = [{
           description: "Hovakim Grabski is a visiting scholar from Armenia and Researcher/SysAdmin at Abagyan Lab, UC San Diego and SDSC, with experience in Python programming, ICM programming language for molecular modeling, docking, screening, and infrastructure automation.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/HovakimGrabski/";
+            },},{id: "projects-iman-khadir",
+          title: 'Iman Khadir',
+          description: "2026, SDSU",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/ImanKhadir/";
+            },},{id: "projects-jared-brzenski",
+          title: 'Jared Brzenski',
+          description: "2026, UCSD",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/JaredBrzenski/";
+            },},{id: "projects-kira-dunn",
+          title: 'Kira Dunn',
+          description: "2026, UCSD",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/KiraDunn/";
             },},{id: "projects-kyle-krick",
           title: 'Kyle Krick',
           description: "",
           section: "Projects",handler: () => {
               window.location.href = "/projects/KyleKrick/";
+            },},{id: "projects-martin-kim",
+          title: 'Martin Kim',
+          description: "2026, CSUSB",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/MartinKim/";
             },},{id: "projects-matthew-mccoy",
           title: 'Matthew McCoy',
           description: "2025, UCSD",
@@ -242,6 +267,16 @@ ninja.data = [{
           description: "",
           section: "Projects",handler: () => {
               window.location.href = "/projects/PaulHoover/";
+            },},{id: "projects-stefan-kessler",
+          title: 'Stefan Kessler',
+          description: "",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/StefanKessler/";
+            },},{id: "projects-trevor-mugoya",
+          title: 'Trevor Mugoya',
+          description: "2026, SDSU",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/TrevorMugoya/";
             },},{id: "projects-victoria-nguyen",
           title: 'Victoria Nguyen',
           description: "",
@@ -257,6 +292,11 @@ ninja.data = [{
           description: "",
           section: "Projects",handler: () => {
               window.location.href = "/projects/YoungsuKim/";
+            },},{id: "projects-yutong-liu",
+          title: 'Yutong Liu',
+          description: "",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/YutongLiu/";
             },},{id: "projects-aarush-mehrotra",
           title: 'Aarush Mehrotra',
           description: "",
