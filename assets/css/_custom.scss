@@ -175,6 +175,55 @@ footer.fixed-bottom {
   color: #4177A1;
 }
 
+.cohort-filter {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  margin: 0 0 1.5rem;
+}
+
+.cohort-filter-button {
+  appearance: none;
+  border: 1px solid #4177A1;
+  border-radius: 0.25rem;
+  padding: 0.5rem 0.9rem;
+  background-color: transparent;
+  color: #172540;
+  cursor: pointer;
+  font: inherit;
+  font-weight: 600;
+  line-height: 1.2;
+  transition: background-color 0.2s ease, color 0.2s ease, border-color 0.2s ease;
+}
+
+.cohort-filter-button:hover {
+  background-color: #e8f0f5;
+  border-color: #172540;
+}
+
+.cohort-filter-button:focus-visible {
+  outline: 3px solid rgba(65, 119, 161, 0.35);
+  outline-offset: 2px;
+}
+
+.cohort-filter-button.active {
+  background-color: #4177A1;
+  color: #ffffff;
+}
+
+html[data-theme="dark"] .cohort-filter-button {
+  color: #ffffff;
+}
+
+html[data-theme="dark"] .cohort-filter-button:hover {
+  background-color: #2d506b;
+  border-color: #ffffff;
+}
+
+html[data-theme="dark"] .cohort-filter-button.active {
+  background-color: #4177A1;
+}
+
 .contact-list {
   display: grid;
   grid-template-columns: 6rem auto;    /* 6rem for the label, rest for the value */

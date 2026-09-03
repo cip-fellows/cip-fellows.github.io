@@ -13,11 +13,20 @@ horizontal: false
 
 <div class="projects">
 {% if site.enable_project_categories and page.display_categories %}
+  <div class="cohort-filter" role="group" aria-label="Filter fellows by cohort year">
+    <button type="button" class="cohort-filter-button active" data-cohort="all">All years</button>
+    <button type="button" class="cohort-filter-button" data-cohort="2026">2026</button>
+    <button type="button" class="cohort-filter-button" data-cohort="2025">2025</button>
+    <button type="button" class="cohort-filter-button" data-cohort="2024">2024</button>
+    <button type="button" class="cohort-filter-button" data-cohort="2023">2023</button>
+  </div>
   {% comment %}   Display categorized projects {% endcomment %}  
   {% for category in page.display_categories %}
-  <a id="{{ category }}" href=".#{{ category }}">
-    <h2 class="category">{{ category }}</h2>
-  </a>
+  {% assign cohort_year = category | split: ' ' | last %}
+  <section class="cohort-section" data-cohort-year="{{ cohort_year }}">
+    <a id="{{ category }}" href=".#{{ category }}">
+      <h2 class="category">{{ category }}</h2>
+    </a>
   {% assign categorized_projects = site.projects | where: "category", category %}
   {% assign sorted_projects = categorized_projects | sort: "importance" %}
   {% comment %}   Generate cards for each project {% endcomment %}  
@@ -36,6 +45,7 @@ horizontal: false
     {% endfor %}
   </div>
   {% endif %}
+  </section>
   {% endfor %}
 
 {% else %}
@@ -64,3 +74,26 @@ horizontal: false
   {% endif %}
 {% endif %}
 </div>
+
+<script>
+  (function () {
+    var buttons = document.querySelectorAll('.cohort-filter-button');
+    var sections = document.querySelectorAll('.cohort-section');
+
+    buttons.forEach(function (button) {
+      button.addEventListener('click', function () {
+        var selectedYear = button.getAttribute('data-cohort');
+
+        buttons.forEach(function (filterButton) {
+          filterButton.classList.toggle('active', filterButton === button);
+        });
+
+        sections.forEach(function (section) {
+          var showSection = selectedYear === 'all' ||
+            section.getAttribute('data-cohort-year') === selectedYear;
+          section.style.display = showSection ? '' : 'none';
+        });
+      });
+    });
+  }());
+</script>
