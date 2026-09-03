@@ -2,7 +2,8 @@
 layout: page
 ---
 <ul style="list-style: none; padding-left: 0;">
-  {% for o in site.outcomes %}
+  {% assign outcomes = site.outcomes | sort: "date" | reverse %}
+  {% for o in outcomes %}
     <li>
       <a href="{{ o.url }}" style="text-decoration: none; color: inherit;">
         <div class="fellow-outcome hover-card">
