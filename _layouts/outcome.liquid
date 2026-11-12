@@ -1,10 +1,18 @@
 ---
 layout: page
 ---
+<div class="cohort-filter" role="group" aria-label="Filter products by year">
+  <button type="button" class="cohort-filter-button active" data-product-year="all">All years</button>
+  <button type="button" class="cohort-filter-button" data-product-year="2026">2026</button>
+  <button type="button" class="cohort-filter-button" data-product-year="2025">2025</button>
+  <button type="button" class="cohort-filter-button" data-product-year="2024">2024</button>
+  <button type="button" class="cohort-filter-button" data-product-year="2023">2023</button>
+</div>
+
 <ul style="list-style: none; padding-left: 0;">
   {% assign outcomes = site.outcomes | sort: "date" | reverse %}
   {% for o in outcomes %}
-    <li>
+    <li class="product-item" data-product-year="{{ o.date | date: '%Y' }}">
       <a href="{{ o.url }}" style="text-decoration: none; color: inherit;">
         <div class="fellow-outcome hover-card">
           <h3 class="post-title">{{ o.title }}</h3>
@@ -28,3 +36,26 @@ layout: page
     </li>
   {% endfor %}
 </ul>
+
+<script>
+  (function () {
+    var buttons = document.querySelectorAll('.cohort-filter-button');
+    var products = document.querySelectorAll('.product-item');
+
+    buttons.forEach(function (button) {
+      button.addEventListener('click', function () {
+        var selectedYear = button.getAttribute('data-product-year');
+
+        buttons.forEach(function (filterButton) {
+          filterButton.classList.toggle('active', filterButton === button);
+        });
+
+        products.forEach(function (product) {
+          var showProduct = selectedYear === 'all' ||
+            product.getAttribute('data-product-year') === selectedYear;
+          product.style.display = showProduct ? '' : 'none';
+        });
+      });
+    });
+  }());
+</script>
